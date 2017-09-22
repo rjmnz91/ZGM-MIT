@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ZGM</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_main">Main</string>
+
+    <string-array name="PaymentDevices">
+        <item>WALKER BT</item>
+        <item>QPOS BT</item>
+    </string-array>
+
+    <string-array name="MerchantDesc">
+        <item>CONTADO</item>
+        <item>PROMO 3M</item>
+        <item>PROMO 6M</item>
+    </string-array>
+
+    <string-array name="MerchantValue">
+        <item>184541</item>
+        <item>157490</item>
+        <item>157491</item>
+    </string-array>
+
+</resources>

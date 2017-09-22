@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="Envío de correo"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Email"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:textSize="12sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_mail"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Enviar"
+            android:backgroundTint="#000000"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

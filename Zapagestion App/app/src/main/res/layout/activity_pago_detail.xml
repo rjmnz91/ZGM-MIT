@@ -1,0 +1,167 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/labelConnected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#8DC63F"
+            android:textStyle="bold"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:text="Monto $"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Ingresa el Monto"
+            android:textColor="#0266a9" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Selecciona Lector"
+            android:textStyle="bold"
+            android:textColor="#0266a9"/>
+
+        <Spinner
+            android:id="@+id/spn_merchant"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Propina"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:id="@+id/spn_propina"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/TextView00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Total: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/txt_reference_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Referencia"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_reference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:inputType="text"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Referencia"
+            android:textColor="#0266a9" />
+
+        <TextView
+            android:id="@+id/txtPlazo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Selecciona Plazo:"
+            android:textStyle="bold"
+            android:textColor="#0266a9"/>
+
+        <Spinner
+            android:id="@+id/spn_plazo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:entries="@array/MerchantDesc"
+            />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:backgroundTint="#000000"
+            android:text="Leer Tarjeta"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>
