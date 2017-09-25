@@ -1,0 +1,142 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage" CodeBehind="MasterPage.Master.cs" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Src="controles/UCNavegacion.ascx" TagName="navegacion" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="js/json2.js" type="text/javascript"></script>
+    <script src="js/jquery-1.2.6.js" type="text/javascript"></script>
+    <script src="js/jstorage.js" type="text/javascript"></script>
+    <script src="js/jquery.barcodelistener-1.1.js"></script>
+    <script src="js/jquery-ui-personalized-1.5.2.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery-1.2.6.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <%--Hay que hacerlo del siguiente modo ya que estos hacks no los reconoce 
+        IE Mobile por lo que no es válido poner ni "if IE" ni "if !IE". En ambos 
+        casos no recoge la hoja de estilo.  Además tampoco se puede reconocer si
+        nos encontramos en Firefox para aplicar las CSS por lo cual tendremos que
+        aplicar la hoja de estilos para navegadores WEB en 2 casos: para IE y otra 
+        para !IE, es decir, Firefox, Chrome, etc... auqnue se trate de la misma hoja--%>
+    <%--Estilos generales (IE Mobile, IE, Firefox)
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+    Estilos Firefox
+    <!--[if !IE]><!-->
+    <link rel="stylesheet" type="text/css" href="css/estilosWeb.css" />
+    <!--<![endif]-->--%>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+        <div class="row" runat="server" id="navegacion2">
+            <div class="col-lg-12 col-sm-12 col-md-12">
+                <nav class="navbar navbar-inverse">
+                    <table class="container">
+                        <tr>
+                            <td style="width: 10%">
+                                <table>
+                                    <tr>
+                                        <td style="text-align: left;">
+                                            <asp:Image runat="server" ImageUrl="img/contact.png" ImageAlign="AbsMiddle" Style="height: 35px; width: 30px;" AlternateText="Usuario" />
+                                        </td>
+                                        <td style="text-align: left;">
+                                            <asp:Label ID="lblUser" ForeColor="White" runat="server" Text="Usuario:" Font-Size="XX-Small"></asp:Label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="text-align:center">
+                                <asp:Image runat="server" ID="imgLogo" AlternateText="ninewest" ImageUrl="img/ninewest_s.png" />
+                            </td>
+                            <td style="width: 10%;">
+                                <asp:HyperLink ID="lblNumArt" runat="server" CssClass="div_itemcarrito" ForeColor="White" BackColor="Red" Style="position: absolute"></asp:HyperLink>
+                                <asp:ImageButton ImageUrl="~/img/menu-cart.png" ID="lnkCarrito" runat="server" CssClass="div_carrito" OnClick="lnkCarrito_Click" Width="35px" Height="30px" />
+                            </td>
+                            <td style="width: 10%;">
+                                <table>
+                                    <tr>
+                                        <td style="text-align: right">
+                                            <asp:ImageButton ImageUrl="~/img/logoff.png" ID="lnkLogout" runat="server" OnClick="lnkLogout_Click" Width="45px" Height="40px" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center">
+                                            <label style="font-size: x-small; color: white;" onclick="lnkLogout_Click">Logout</label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </nav>
+            </div>
+        </div>
+
+        <asp:Panel ID="PanelAviso" runat="server" Visible="false">
+            <marquee bgcolor="#FFFFFF" scrolldelay="0 " id="TextoMovil" style="width: 112%"> 
+             <h3 id="Mensaje"  style="color: black; font-family:Arial, Verdana;">Hay Nuevas Solicitudes Pendientes de Tramitar</h3>
+          </marquee>
+            &nbsp;<audio src="Sonidos/Alarma.wav" preload="auto" autoplay="true">
+
+                <script type="text/javascript">
+
+                    function doRedirect() { window.location.href = window.location.href; }
+
+                    var filename = "Sonidos/Alarma.wav";
+                    if (navigator.appName == "Microsoft IE Mobile")
+                        document.writeln('<BGSOUND SRC="' + filename + '">');
+                    else
+                        document.writeln('<EMBED SRC="' + filename + '" AUTOSTART=TRUE WIDTH=0 HEIGHT=0>');
+
+
+
+                    function populatescroller() {
+                        var windowwidth = iecompattest().clientWidth;
+                        document.getElementById("TextoMovil").innerHTML = themsg;
+                        document.getElementById("TextoMovil").style.width = windowwidth;
+                        document.getElementById("TextoMovil").scrollAmount = speed;
+                        document.getElementById("TextoMovil").scrollDelay = 20;
+                        document.getElementById("TextoMovil").loop = loops;
+                        document.getElementById("TextoMovil").onfinish = function () {
+                            document.getElementById("TextoMovil").style.visibility = "hidden";
+                        }
+                    }
+
+                    populatescroller();
+
+
+                </script>
+        </asp:Panel>
+
+
+        <div id="Contenedor" style="width: 100%; height: 100%" class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <br />
+    </form>
+            
+
+    <form id="sendMPOSPAy" method="post" action="sendMPOSPAy">
+        <input type="hidden" name="empresa" id="id_company" value="" />
+        <input type="hidden" name="sucursal" id="id_branch" value="" />
+        <input type="hidden" name="country" id="country" value="" />
+        <input type="hidden" name="xmlmpos" id="xmlmpos" value="" />
+        <%--<input type="button"  name="Confirmar Pago" style="display:BLOCK; width: 500px;" 
+         onclick="javascript:InicializaFormPOST();" />--%>
+    </form>
+</body>
+</html>

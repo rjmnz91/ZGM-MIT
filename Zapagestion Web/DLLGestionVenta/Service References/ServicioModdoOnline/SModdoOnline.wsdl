@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://ModdoGroup.org/WsOnline/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://ModdoGroup.org/WsOnline/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://ModdoGroup.org/WsOnline/">
+      <s:element name="PushPopUpSolicitudPedido">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlSolicitudPedido" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPassWord" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PushPopUpSolicitudPedidoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PushPopUpSolicitudPedidoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownSolicitudPresta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsSolicitud">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownSolicitudPrestaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownSolicitudPrestaResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsSolicitud">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PedidoConfirmadoPresta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlPedidoConfirmado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPassWord" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PedidoConfirmadoPrestaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PedidoConfirmadoPrestaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VentaConfirmadoPresta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlVentaConfirmada" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPassWord" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VentaConfirmadoPrestaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VentaConfirmadoPrestaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetUpVentas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsVentas">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strIdKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetUpVentasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetUpVentasResult" type="s:short" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownTicketDevolucion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsTicket">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownTicketDevolucionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownTicketDevolucionResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsTicket">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockTienda">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LstArticulo" type="tns:ArrayOfArticulo" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsStock">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfArticulo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Articulo" nillable="true" type="tns:Articulo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Articulo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdArticulo" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoAlfa" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UpdateStockTiendaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateStockTiendaResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsStock">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetupCargos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsCargos">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strIdKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetupCargosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetupCargosResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsCargos">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownCargoTienda">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsCargo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownCargoTiendaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownCargoTiendaResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsCargo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownHistorico">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsHistorico">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaInicio" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownHistoricoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownHistoricoResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsHistorico">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaInicio" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsVales">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateValesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateValesResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsVales">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownVales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsVales">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownValesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownValesResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsVales">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpEntradaPedidos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsEntradaPedidos">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpEntradaPedidosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpEntradaPedidosResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsEntradaPedidos">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpEntradaCargo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsEntradaCargos">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpEntradaCargoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpEntradaCargoResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsEntradaCargos">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpActualizarViajeros_DownCargosEmitidosAuto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tbCargo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtSalida">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpActualizarViajeros_DownCargosEmitidosAutoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpActualizarViajeros_DownCargosEmitidosAutoResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtSalida">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpSolicitudReparto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsSolicitudReparto">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpSolicitudRepartoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpSolicitudRepartoResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsSolicitudReparto">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownSolicitudRepartoAUTO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsSolRepartoIn">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsSolicitudReparto">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownSolicitudRepartoAUTOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownSolicitudRepartoAUTOResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsSolicitudReparto">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockTiendaPaginacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LstArticulo" type="tns:ArrayOfArticulo" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsStock">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="NumTotal" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="IniPagina" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="FinPagina" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateStockTiendaPaginacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateStockTiendaPaginacionResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsStock">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="NumTotal" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownPedidos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsPedidos">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ExisteLocal" type="s:short" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownPedidosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownPedidosResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsPedidos">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetUpDownClientes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsClientes">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strIdKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TipoOperacion" type="s:short" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetUpDownClientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetUpDownClientesResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsClientes">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendCorreo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCorreo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendCorreoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendCorreoResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="dsCorreo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownCorreoAUTO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsCorreoIn">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrIDKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsCorreoOut">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownCorreoAUTOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownCorreoAUTOResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsCorreoOut">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertPedido">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idSeguimiento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="numeroPedidoSAP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="numeroEntregaSAP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="codigoAlfa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="talla" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tienda" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cantidad" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="numeroPedimento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Aduana" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaPedimento" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertPedidoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertPedidoResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DownPreciosNulos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsPrecios">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="DsPrecioOut">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Paginacion" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DownPreciosNulosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DownPreciosNulosResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsPrecioOut">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Entidades_GENERIC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsGeneric">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="StrKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Entidad" type="tns:Entidades" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaSesion" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="DirFTP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTienda" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="InicioPag" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="FINPag" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="Entidades">
+        <s:restriction base="s:string">
+          <s:enumeration value="Tiendas" />
+          <s:enumeration value="Empleados" />
+          <s:enumeration value="KARDEX" />
+          <s:enumeration value="DESCARGAF7" />
+          <s:enumeration value="UPFACTURA" />
+          <s:enumeration value="REPARTOS" />
+          <s:enumeration value="GetNumCargo" />
+          <s:enumeration value="CargoTiendaSesion" />
+          <s:enumeration value="CARGOAUTAVE" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="Get_Entidades_GENERICResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Get_Entidades_GENERICResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="DsGeneric">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PushPopUpSolicitudPedidoSoapIn">
+    <wsdl:part name="parameters" element="tns:PushPopUpSolicitudPedido" />
+  </wsdl:message>
+  <wsdl:message name="PushPopUpSolicitudPedidoSoapOut">
+    <wsdl:part name="parameters" element="tns:PushPopUpSolicitudPedidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownSolicitudPrestaSoapIn">
+    <wsdl:part name="parameters" element="tns:DownSolicitudPresta" />
+  </wsdl:message>
+  <wsdl:message name="DownSolicitudPrestaSoapOut">
+    <wsdl:part name="parameters" element="tns:DownSolicitudPrestaResponse" />
+  </wsdl:message>
+  <wsdl:message name="PedidoConfirmadoPrestaSoapIn">
+    <wsdl:part name="parameters" element="tns:PedidoConfirmadoPresta" />
+  </wsdl:message>
+  <wsdl:message name="PedidoConfirmadoPrestaSoapOut">
+    <wsdl:part name="parameters" element="tns:PedidoConfirmadoPrestaResponse" />
+  </wsdl:message>
+  <wsdl:message name="VentaConfirmadoPrestaSoapIn">
+    <wsdl:part name="parameters" element="tns:VentaConfirmadoPresta" />
+  </wsdl:message>
+  <wsdl:message name="VentaConfirmadoPrestaSoapOut">
+    <wsdl:part name="parameters" element="tns:VentaConfirmadoPrestaResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetUpVentasSoapIn">
+    <wsdl:part name="parameters" element="tns:SetUpVentas" />
+  </wsdl:message>
+  <wsdl:message name="SetUpVentasSoapOut">
+    <wsdl:part name="parameters" element="tns:SetUpVentasResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownTicketDevolucionSoapIn">
+    <wsdl:part name="parameters" element="tns:DownTicketDevolucion" />
+  </wsdl:message>
+  <wsdl:message name="DownTicketDevolucionSoapOut">
+    <wsdl:part name="parameters" element="tns:DownTicketDevolucionResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockTiendaSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateStockTienda" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockTiendaSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateStockTiendaResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetupCargosSoapIn">
+    <wsdl:part name="parameters" element="tns:SetupCargos" />
+  </wsdl:message>
+  <wsdl:message name="SetupCargosSoapOut">
+    <wsdl:part name="parameters" element="tns:SetupCargosResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownCargoTiendaSoapIn">
+    <wsdl:part name="parameters" element="tns:DownCargoTienda" />
+  </wsdl:message>
+  <wsdl:message name="DownCargoTiendaSoapOut">
+    <wsdl:part name="parameters" element="tns:DownCargoTiendaResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownHistoricoSoapIn">
+    <wsdl:part name="parameters" element="tns:DownHistorico" />
+  </wsdl:message>
+  <wsdl:message name="DownHistoricoSoapOut">
+    <wsdl:part name="parameters" element="tns:DownHistoricoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateValesSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateVales" />
+  </wsdl:message>
+  <wsdl:message name="UpdateValesSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateValesResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownValesSoapIn">
+    <wsdl:part name="parameters" element="tns:DownVales" />
+  </wsdl:message>
+  <wsdl:message name="DownValesSoapOut">
+    <wsdl:part name="parameters" element="tns:DownValesResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpEntradaPedidosSoapIn">
+    <wsdl:part name="parameters" element="tns:UpEntradaPedidos" />
+  </wsdl:message>
+  <wsdl:message name="UpEntradaPedidosSoapOut">
+    <wsdl:part name="parameters" element="tns:UpEntradaPedidosResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpEntradaCargoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpEntradaCargo" />
+  </wsdl:message>
+  <wsdl:message name="UpEntradaCargoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpEntradaCargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpActualizarViajeros_DownCargosEmitidosAutoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpActualizarViajeros_DownCargosEmitidosAuto" />
+  </wsdl:message>
+  <wsdl:message name="UpActualizarViajeros_DownCargosEmitidosAutoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpActualizarViajeros_DownCargosEmitidosAutoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpSolicitudRepartoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpSolicitudReparto" />
+  </wsdl:message>
+  <wsdl:message name="UpSolicitudRepartoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpSolicitudRepartoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownSolicitudRepartoAUTOSoapIn">
+    <wsdl:part name="parameters" element="tns:DownSolicitudRepartoAUTO" />
+  </wsdl:message>
+  <wsdl:message name="DownSolicitudRepartoAUTOSoapOut">
+    <wsdl:part name="parameters" element="tns:DownSolicitudRepartoAUTOResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockTiendaPaginacionSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateStockTiendaPaginacion" />
+  </wsdl:message>
+  <wsdl:message name="UpdateStockTiendaPaginacionSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateStockTiendaPaginacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownPedidosSoapIn">
+    <wsdl:part name="parameters" element="tns:DownPedidos" />
+  </wsdl:message>
+  <wsdl:message name="DownPedidosSoapOut">
+    <wsdl:part name="parameters" element="tns:DownPedidosResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetUpDownClientesSoapIn">
+    <wsdl:part name="parameters" element="tns:SetUpDownClientes" />
+  </wsdl:message>
+  <wsdl:message name="SetUpDownClientesSoapOut">
+    <wsdl:part name="parameters" element="tns:SetUpDownClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendCorreoSoapIn">
+    <wsdl:part name="parameters" element="tns:SendCorreo" />
+  </wsdl:message>
+  <wsdl:message name="SendCorreoSoapOut">
+    <wsdl:part name="parameters" element="tns:SendCorreoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownCorreoAUTOSoapIn">
+    <wsdl:part name="parameters" element="tns:DownCorreoAUTO" />
+  </wsdl:message>
+  <wsdl:message name="DownCorreoAUTOSoapOut">
+    <wsdl:part name="parameters" element="tns:DownCorreoAUTOResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertPedidoSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertPedido" />
+  </wsdl:message>
+  <wsdl:message name="InsertPedidoSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertPedidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DownPreciosNulosSoapIn">
+    <wsdl:part name="parameters" element="tns:DownPreciosNulos" />
+  </wsdl:message>
+  <wsdl:message name="DownPreciosNulosSoapOut">
+    <wsdl:part name="parameters" element="tns:DownPreciosNulosResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_Entidades_GENERICSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Entidades_GENERIC" />
+  </wsdl:message>
+  <wsdl:message name="Get_Entidades_GENERICSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_Entidades_GENERICResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SModdoOnlineSoap">
+    <wsdl:operation name="PushPopUpSolicitudPedido">
+      <wsdl:input message="tns:PushPopUpSolicitudPedidoSoapIn" />
+      <wsdl:output message="tns:PushPopUpSolicitudPedidoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownSolicitudPresta">
+      <wsdl:input message="tns:DownSolicitudPrestaSoapIn" />
+      <wsdl:output message="tns:DownSolicitudPrestaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PedidoConfirmadoPresta">
+      <wsdl:input message="tns:PedidoConfirmadoPrestaSoapIn" />
+      <wsdl:output message="tns:PedidoConfirmadoPrestaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VentaConfirmadoPresta">
+      <wsdl:input message="tns:VentaConfirmadoPrestaSoapIn" />
+      <wsdl:output message="tns:VentaConfirmadoPrestaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetUpVentas">
+      <wsdl:input message="tns:SetUpVentasSoapIn" />
+      <wsdl:output message="tns:SetUpVentasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownTicketDevolucion">
+      <wsdl:input message="tns:DownTicketDevolucionSoapIn" />
+      <wsdl:output message="tns:DownTicketDevolucionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockTienda">
+      <wsdl:input message="tns:UpdateStockTiendaSoapIn" />
+      <wsdl:output message="tns:UpdateStockTiendaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetupCargos">
+      <wsdl:input message="tns:SetupCargosSoapIn" />
+      <wsdl:output message="tns:SetupCargosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownCargoTienda">
+      <wsdl:input message="tns:DownCargoTiendaSoapIn" />
+      <wsdl:output message="tns:DownCargoTiendaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownHistorico">
+      <wsdl:input message="tns:DownHistoricoSoapIn" />
+      <wsdl:output message="tns:DownHistoricoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVales">
+      <wsdl:input message="tns:UpdateValesSoapIn" />
+      <wsdl:output message="tns:UpdateValesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownVales">
+      <wsdl:input message="tns:DownValesSoapIn" />
+      <wsdl:output message="tns:DownValesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpEntradaPedidos">
+      <wsdl:input message="tns:UpEntradaPedidosSoapIn" />
+      <wsdl:output message="tns:UpEntradaPedidosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpEntradaCargo">
+      <wsdl:input message="tns:UpEntradaCargoSoapIn" />
+      <wsdl:output message="tns:UpEntradaCargoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpActualizarViajeros_DownCargosEmitidosAuto">
+      <wsdl:input message="tns:UpActualizarViajeros_DownCargosEmitidosAutoSoapIn" />
+      <wsdl:output message="tns:UpActualizarViajeros_DownCargosEmitidosAutoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpSolicitudReparto">
+      <wsdl:input message="tns:UpSolicitudRepartoSoapIn" />
+      <wsdl:output message="tns:UpSolicitudRepartoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownSolicitudRepartoAUTO">
+      <wsdl:input message="tns:DownSolicitudRepartoAUTOSoapIn" />
+      <wsdl:output message="tns:DownSolicitudRepartoAUTOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockTiendaPaginacion">
+      <wsdl:input message="tns:UpdateStockTiendaPaginacionSoapIn" />
+      <wsdl:output message="tns:UpdateStockTiendaPaginacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownPedidos">
+      <wsdl:input message="tns:DownPedidosSoapIn" />
+      <wsdl:output message="tns:DownPedidosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetUpDownClientes">
+      <wsdl:input message="tns:SetUpDownClientesSoapIn" />
+      <wsdl:output message="tns:SetUpDownClientesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendCorreo">
+      <wsdl:input message="tns:SendCorreoSoapIn" />
+      <wsdl:output message="tns:SendCorreoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownCorreoAUTO">
+      <wsdl:input message="tns:DownCorreoAUTOSoapIn" />
+      <wsdl:output message="tns:DownCorreoAUTOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertPedido">
+      <wsdl:input message="tns:InsertPedidoSoapIn" />
+      <wsdl:output message="tns:InsertPedidoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DownPreciosNulos">
+      <wsdl:input message="tns:DownPreciosNulosSoapIn" />
+      <wsdl:output message="tns:DownPreciosNulosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Entidades_GENERIC">
+      <wsdl:input message="tns:Get_Entidades_GENERICSoapIn" />
+      <wsdl:output message="tns:Get_Entidades_GENERICSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SModdoOnlineSoap" type="tns:SModdoOnlineSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PushPopUpSolicitudPedido">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/PushPopUpSolicitudPedido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownSolicitudPresta">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownSolicitudPresta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PedidoConfirmadoPresta">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/PedidoConfirmadoPresta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VentaConfirmadoPresta">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/VentaConfirmadoPresta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUpVentas">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/SetUpVentas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownTicketDevolucion">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownTicketDevolucion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockTienda">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/UpdateStockTienda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetupCargos">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/SetupCargos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownCargoTienda">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownCargoTienda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownHistorico">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownHistorico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVales">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/UpdateVales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownVales">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownVales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpEntradaPedidos">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/UpEntradaPedidos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpEntradaCargo">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/UpEntradaCargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpActualizarViajeros_DownCargosEmitidosAuto">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/UpActualizarViajeros_DownCargosEmitidosAuto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpSolicitudReparto">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/UpSolicitudReparto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownSolicitudRepartoAUTO">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownSolicitudRepartoAUTO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockTiendaPaginacion">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/UpdateStockTiendaPaginacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownPedidos">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownPedidos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUpDownClientes">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/SetUpDownClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendCorreo">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/SendCorreo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownCorreoAUTO">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownCorreoAUTO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPedido">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/InsertPedido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownPreciosNulos">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/DownPreciosNulos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Entidades_GENERIC">
+      <soap:operation soapAction="http://ModdoGroup.org/WsOnline/Get_Entidades_GENERIC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SModdoOnlineSoap12" type="tns:SModdoOnlineSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PushPopUpSolicitudPedido">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/PushPopUpSolicitudPedido" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownSolicitudPresta">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownSolicitudPresta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PedidoConfirmadoPresta">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/PedidoConfirmadoPresta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VentaConfirmadoPresta">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/VentaConfirmadoPresta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUpVentas">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/SetUpVentas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownTicketDevolucion">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownTicketDevolucion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockTienda">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/UpdateStockTienda" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetupCargos">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/SetupCargos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownCargoTienda">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownCargoTienda" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownHistorico">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownHistorico" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVales">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/UpdateVales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownVales">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownVales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpEntradaPedidos">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/UpEntradaPedidos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpEntradaCargo">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/UpEntradaCargo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpActualizarViajeros_DownCargosEmitidosAuto">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/UpActualizarViajeros_DownCargosEmitidosAuto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpSolicitudReparto">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/UpSolicitudReparto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownSolicitudRepartoAUTO">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownSolicitudRepartoAUTO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStockTiendaPaginacion">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/UpdateStockTiendaPaginacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownPedidos">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownPedidos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUpDownClientes">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/SetUpDownClientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendCorreo">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/SendCorreo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownCorreoAUTO">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownCorreoAUTO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertPedido">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/InsertPedido" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownPreciosNulos">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/DownPreciosNulos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Entidades_GENERIC">
+      <soap12:operation soapAction="http://ModdoGroup.org/WsOnline/Get_Entidades_GENERIC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SModdoOnline">
+    <wsdl:port name="SModdoOnlineSoap" binding="tns:SModdoOnlineSoap">
+      <soap:address location="http://localhost:50505/SModdoOnline.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SModdoOnlineSoap12" binding="tns:SModdoOnlineSoap12">
+      <soap12:address location="http://localhost:50505/SModdoOnline.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

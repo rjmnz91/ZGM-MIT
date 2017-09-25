@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Compilaciones\AVE" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Librerias/pl/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/de/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="bin/AVEGestorPromociones.dll" publishTime="04/12/2017 10:15:56" />
+    <file relUrl="App_GlobalResources/Resource.resx" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="img/Tabs/tab-right.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Librerias/es/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Scripts BD/Versiones/31-03-2014/AVE_SolicitudesAlmacenObtener.sql" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="bin/Librerias/System.Spatial.xml" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/Remove.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="ConversionMoneda.aspx" publishTime="04/11/2017 08:54:45" />
+    <file relUrl="Librerias/zh-CHS/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="img/ninewest_m.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="css/keyboardstyle.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="bin/cs/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/zh-Hant/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="bin/Librerias/Microsoft.Data.OData.xml" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="js/jquery-ui-personalized-1.5.2.min.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Scripts BD/Instalacion inicial/6. CREATE PROCEDURE AVE_AnadirCarrito.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="Librerias/HtmlAgilityPack.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="img/Tabs/tab-active-right.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="img/HERMES/btCarroRosa.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Librerias/Microsoft.WindowsAzure.Storage.xml" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/HERMES/btC9.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Scripts BD/Instalacion inicial/4. Create table AVE_CARRITO.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/ninewest.png" publishTime="04/11/2017 08:54:36" />
+    <file relUrl="Librerias/ar/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/zh-Hans/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Ticket.rdlc" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="css/redmond/jquery-ui-1.10.4.custom.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="bin/Librerias/Microsoft.Data.OData.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Scripts BD/Instalacion inicial/ScriptAVE2005.sql" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="Cargos.aspx" publishTime="04/11/2017 08:54:47" />
+    <file relUrl="bin/Librerias/Microsoft.WindowsAzure.Storage.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="css/redmond/images/ui-icons_217bc0_256x240.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="img/noImagen.jpg" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="img/traspasos.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Librerias/System.Spatial.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/AjaxMin.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/HERMES/btCarro.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="App_GlobalResources/Resource_original.resx" publishTime="04/11/2017 08:54:45" />
+    <file relUrl="Librerias/fr/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Solicitud.aspx" publishTime="04/11/2017 08:55:06" />
+    <file relUrl="js/vkeyboard.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="img/Tabs/tab-active-left.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/3OF9_NEW.TTF" publishTime="04/11/2017 08:54:36" />
+    <file relUrl="StockOtras.aspx" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="js/IE8.js" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="fBuscar.aspx" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="MasterPageHERMES.Master" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="SolicitudesAlmacenDetalle.aspx" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="Librerias/it/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="js/jquery-fieldselection.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="bin/DLLGestionVenta.pdb" publishTime="04/12/2017 10:15:57" />
+    <file relUrl="bin/Librerias/Microsoft.WindowsAzure.Configuration.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="Scripts BD/Instalacion inicial/14_RegistroTablaMaestaEstadoSolicitudes.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="AdmClienteNine.aspx" publishTime="04/11/2017 08:54:45" />
+    <file relUrl="Librerias/tr-TR/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="js/jquery-ui-1.10.4.custom.min.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Scripts BD/Instalacion inicial/12.ScriptCarrito.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="Sonidos/Alarma.wav" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="bin/ReportTest.rdlc" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="MasterPage.Master" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="bin/Librerias/System.Spatial.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="CarritoDetalleHERMES.aspx" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="css/estilosWeb.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="css/redmond/images/ui-icons_cd0a0a_256x240.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Librerias/AjaxControlToolkit.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="js/CarritoDetalle.js" publishTime="04/11/2017 10:04:06" />
+    <file relUrl="MasterPageNine.Master" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="css/redmond/images/animated-overlay.gif" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="img/info.png" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Librerias/hi/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="bin/Librerias/es/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="bin/HtmlAgilityPack.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="DetallesProducto.aspx" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="controles/UCModalConfirm.ascx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="bin/es/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/ja/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="bin/pt/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/zh-Hans/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="bin/Librerias/Microsoft.Data.Edm.xml" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/Tabs/tab-hover.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="img/ajax-loader.gif" publishTime="04/11/2017 11:12:36" />
+    <file relUrl="bin/hi/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="App_Browsers/AVE.browser" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Global.asax" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="bin/AVE.dll" publishTime="04/12/2017 10:16:01" />
+    <file relUrl="Librerias/Microsoft.Data.OData.xml" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/catalogo.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="css/redmond/jquery-ui-1.10.4.custom.min.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Librerias/de/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="bin/zh-CHS/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="controles/UCEleccionProducto.ascx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="bin/Microsoft.ReportViewer.Common.dll" publishTime="06/28/2011 01:35:08" />
+    <file relUrl="Scripts BD/Instalacion inicial/11.ScriptVenta.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="bin/log4net.xml" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="img/c9.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="App_GlobalResources/Resource.zh-CN.resx" publishTime="04/11/2017 08:54:45" />
+    <file relUrl="web.config" publishTime="04/11/2017 09:02:11" />
+    <file relUrl="controles/UCSolicitudAlmacen.ascx" publishTime="04/11/2017 08:54:40" />
+    <file relUrl="Scripts BD/Instalacion inicial/8. ALTER PROCEDURE AVE_Productotienecs.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="Librerias/it/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Inventarios.aspx" publishTime="04/11/2017 08:54:59" />
+    <file relUrl="bin/DLLGestionCliente9.pdb" publishTime="04/12/2017 10:15:56" />
+    <file relUrl="css/calendar-win2k-1.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Librerias/ko/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/he/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/es/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="bin/Microsoft.ApplicationBlocks.Data.dll" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="packages.config" publishTime="04/11/2017 08:54:59" />
+    <file relUrl="js/jquery-1.11.0.min.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Librerias/ko/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="img/HERMES/flechaRosa1.jpg" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="img/Tabs/tab.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/nl/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/ko/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/cs/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="img/logoff2.gif" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Scripts BD/Instalacion inicial/2. Modificar tienda.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="Librerias/cpIntegracionEMV.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Login.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="Configuraciones.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="CargosEntrada.aspx" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/solicitudes.png" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="NotaEmpleado.rdlc" publishTime="04/11/2017 08:54:59" />
+    <file relUrl="bin/ja/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/ko/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="js/calendar-setup.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Scripts BD/Versiones/31-03-2014/AVE_PedidosCrear.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="Librerias/ru/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/fr/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="StockEnTienda.aspx" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="css/redmond/images/ui-icons_469bdd_256x240.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="img/wedoshoe.png" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="img/HERMES/ninewest_s.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Librerias/ja/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Servicios/CarritoAVE_WS.svc" publishTime="04/11/2017 08:54:36" />
+    <file relUrl="Librerias/nl/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/ru/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/ja/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="controles/UCCLiente9.ascx" publishTime="04/11/2017 08:54:40" />
+    <file relUrl="InventarioDetalle.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="Librerias/zh-Hant/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="AVE_Piagui.Master" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="img/ninewest_s.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/DLLGestionVenta.dll" publishTime="04/12/2017 10:15:57" />
+    <file relUrl="Librerias/Microsoft.Data.OData.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="bin/fr/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="EleccionProducto.aspx" publishTime="04/11/2017 08:55:07" />
+    <file relUrl="img/HERMES/btBuscar.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="img/HERMES/FlechaRosa2.jpg" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/TicketC9.rdlc" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="Librerias/Microsoft.WindowsAzure.Storage.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="js/Carrito.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Scripts BD/Instalacion inicial/13.cAMBIOlOGIN.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/Tabs/tab-hover-right.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/Librerias/es/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="bin/de/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/HERMES/btOutlet.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="img/Tabs/tab-line.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/tr-TR/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/zh-CHT/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="js/localStorage.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Scripts BD/Instalacion inicial/7. ALTER PROCEDURE AVE_StockEnTiendaCSObtener.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/Ok.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="img/en.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Scripts BD/Instalacion inicial/5. ALTER PROCEDURE AVE_StockEnTiendaCSObtener.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="controles/UCNavegacionHERMES.ascx" publishTime="04/11/2017 08:54:40" />
+    <file relUrl="Scripts BD/Instalacion inicial/9. alter procedure AVE_UltimoPedidoPendiente.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/pedidos.png" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Librerias/Microsoft.Data.Edm.xml" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/Tabs/tab-active.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="js/overlib.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="bin/Librerias/es/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="img/HERMES/flechaRosa3.jpg" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="js/inicio.js" publishTime="04/11/2017 09:13:45" />
+    <file relUrl="Prueba.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="Buscar.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="bin/Microsoft.ReportViewer.WebForms.xml" publishTime="03/03/2010 20:11:32" />
+    <file relUrl="Scripts BD/Instalacion inicial/1. Estados solicitud.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="Librerias/zh-Hant/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="bin/zh-CHT/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/pt/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/Microsoft.Data.Edm.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="js/JScript.js" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="ImprimirTicket.aspx" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="js/json2.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Scripts BD/Versiones/05-05-2014/AVE_EnviaPOS.sql" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="Scripts BD/Instalacion inicial/ScriptAVE.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/HERMES/nineWest.jpg" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Scripts BD/Versiones/05-05-2014/AVE_GuardaDetalleCarrito.sql" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="RespuestaPago.aspx" publishTime="04/11/2017 08:54:47" />
+    <file relUrl="ConsultaCliente9.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="Scripts BD/Instalacion inicial/3. solicitud cambio de orden.sql" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="bin/AVEGestorPromociones.xml" publishTime="04/12/2017 10:15:56" />
+    <file relUrl="bin/Ticket.rdlc" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Librerias/es/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Librerias/ru/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="js/jquery-1.2.6.min.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="css/redmond/images/ui-icons_f9bd01_256x240.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="controles/UCNavegacion.ascx" publishTime="04/11/2017 08:54:40" />
+    <file relUrl="FinalizaCompraHERMES.aspx" publishTime="04/11/2017 08:54:45" />
+    <file relUrl="img/cn.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Foto.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="Librerias/fr/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="SolicitudesAlmacen.aspx" publishTime="04/11/2017 08:54:45" />
+    <file relUrl="img/es.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/he/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="LoginThinkRetail.aspx" publishTime="04/11/2017 08:54:45" />
+    <file relUrl="Scripts BD/Instalacion inicial/AVE_TicketsPendientesImprimir.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="bin/Librerias/Microsoft.Data.Edm.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="CarritoDetalle.aspx" publishTime="04/11/2017 11:54:12" />
+    <file relUrl="Librerias/System.Spatial.xml" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="Librerias/it/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="css/estilos.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Librerias/de/Microsoft.Data.Edm.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="FinalizaCompra.aspx" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="css/estilosHERMES.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="bin/Librerias/HtmlAgilityPack.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="js/calendar.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="bin/ko/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="Scripts BD/Versiones/31-03-2014/AVE_PEDIDOS.sql" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="bin/AjaxMin.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="PedidosEntrada.aspx" publishTime="04/11/2017 08:54:45" />
+    <file relUrl="Pedidos.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="PruebaGrid.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="Scripts BD/Instalacion inicial/AVE_StockEnTiendaObtener.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/buscar.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="RespuestaPagoHERMES.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="img/Tabs/tab-left.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="App_Themes/Tema/Tema.skin" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Librerias/Microsoft.ApplicationBlocks.Data.dll" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="img/lector.png" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Librerias/ja/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="controles/UCStockEnTienda.ascx" publishTime="04/11/2017 08:54:40" />
+    <file relUrl="img/calendar.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/Microsoft.ReportViewer.WebForms.dll" publishTime="06/28/2011 01:35:08" />
+    <file relUrl="img/Error.png" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Librerias/fr/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="Librerias/ReadMe.html" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="css/Carrito.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Librerias/de/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="js/CarritoDetalleHermes.js" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="Librerias/zh-Hans/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/carro.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="CargosDetalle.aspx" publishTime="04/11/2017 09:22:46" />
+    <file relUrl="js/login.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="Librerias/ru/Microsoft.Data.OData.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="bin/ru/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="controles/UCDetallesProducto.ascx" publishTime="04/11/2017 08:54:40" />
+    <file relUrl="Inicio.aspx" publishTime="04/11/2017 15:20:40" />
+    <file relUrl="RegistroTerminal.aspx" publishTime="04/11/2017 08:54:39" />
+    <file relUrl="bin/it/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="controles/UCBotoneraNine.ascx" publishTime="04/11/2017 08:54:40" />
+    <file relUrl="BuscarCliente.aspx" publishTime="04/11/2017 08:54:47" />
+    <file relUrl="Librerias/Microsoft.WindowsAzure.Configuration.dll" publishTime="04/11/2017 08:55:02" />
+    <file relUrl="Scripts BD/Instalacion inicial/ufnGetTicketTerminal.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="ReportTest.rdlc" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="3OF9_NEW.TTF" publishTime="04/11/2017 08:54:36" />
+    <file relUrl="Librerias/it/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/inventario.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/log4net.dll" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="PedidosDetalle.aspx" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/HERMES/btFavoritos.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="img/Tabs/tab-hover-left.gif" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="ConsultaCliente9Hermes.aspx" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="img/busqueda.png" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="bin/DLLGestionCliente9.dll" publishTime="04/12/2017 10:15:56" />
+    <file relUrl="Scripts BD/Instalacion inicial/10. alter procedure AVE_ArticuloDetalleObtener.sql" publishTime="04/11/2017 08:55:00" />
+    <file relUrl="bin/NotaEmpleado.rdlc" publishTime="04/11/2017 08:54:59" />
+    <file relUrl="bin/Librerias/es/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="js/calendar-es.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="js/jstorage.js" publishTime="04/11/2017 08:54:38" />
+    <file relUrl="OrdenInventarioDetalle.aspx" publishTime="04/11/2017 08:55:06" />
+    <file relUrl="css/redmond/images/ui-icons_2e83ff_256x240.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="bin/AVEGestorPromociones.pdb" publishTime="04/12/2017 10:15:56" />
+    <file relUrl="bin/Librerias/ReadMe.html" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="css/redmond/images/ui-icons_6da8d5_256x240.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="css/calendar-green.css" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="TicketC9.rdlc" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="bin/Librerias/Microsoft.WindowsAzure.Storage.xml" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="img/traspasoentrada.png" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/pl/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:03" />
+    <file relUrl="js/SolicitudesAlmacen.js" publishTime="04/11/2017 08:54:37" />
+    <file relUrl="bin/ar/AjaxControlToolkit.resources.dll" publishTime="04/11/2017 08:55:04" />
+    <file relUrl="css/redmond/images/ui-icons_d8e7f3_256x240.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="css/redmond/images/ui-bg_flat_55_fbec88_40x100.png" publishTime="04/11/2017 08:54:46" />
+    <file relUrl="Scripts BD/Versiones/05-08-2014/Scripts_version_05_08_2014.txt" publishTime="04/11/2017 08:55:01" />
+    <file relUrl="bin/AVE.pdb" publishTime="04/12/2017 10:16:00" />
+    <file relUrl="Librerias/es/System.Spatial.resources.dll" publishTime="04/11/2017 08:55:03" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,135 @@
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\bin\Debug\log4net.dll
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\bin\Debug\AVEGestorPromociones.xml
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\bin\Debug\log4net.xml
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\desarrollos_NET\ave\AVE_Piagui\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\log4net.dll
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\AVEGestorPromociones.xml
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\bin\Debug\log4net.xml
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+D:\REP_VBNET\AVE_Piagui\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\log4net.dll
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\AVEGestorPromociones.xml
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+E:\desarrollosNet\AveAlecxis\DLLGestionVenta\bin\Debug\log4net.xml
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\log4net.dll
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\AVEGestorPromociones.xml
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\bin\Debug\log4net.xml
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\REP_VBNET\AVE_ZapaMobile\Avezgm\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\bin\Debug\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\bin\Debug\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\bin\Debug\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\bin\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\bin\Debug\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\bin\Debug\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\bin\Debug\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\bin\Debug\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\bin\Debug\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\bin\Debug\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\obj\Debug\DLLGestionVenta.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\obj\Debug\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionVenta\obj\Debug\DLLGestionVenta.pdb

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sch="http://tempuri.org/" xmlns:tns="http://tempuri.org/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://tempuri.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="ConsultaBeneficios">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ConsultaBeneficiosResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ConsultaBeneficiosResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SolicitaRedencion">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SolicitaRedencionResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="SolicitaRedencionResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="EnviaTicket">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="EnviaTicketResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="EnviaTicketResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ConfirmaOperacion">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ConfirmaOperacionResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ConfirmaOperacionResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Checkpending">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="CheckpendingResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="CheckpendingResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SolicitudCambioTarjeta">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SolicitudCambioTarjetaResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="SolicitudCambioTarjetaResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ConfirmacionCambioTarjeta">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ConfirmacionCambioTarjetaResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ConfirmacionCambioTarjetaResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ActualizaSocio">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ActualizaSocioResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ActualizaSocioResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="AltaSocio">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="StrDatos" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="AltaSocioResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="AltaSocioResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ConfirmacionCambioTarjetaResponse">
+    <wsdl:part name="ConfirmacionCambioTarjetaResponse" element="tns:ConfirmacionCambioTarjetaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmaOperacionResponse">
+    <wsdl:part name="ConfirmaOperacionResponse" element="tns:ConfirmaOperacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="AltaSocioResponse">
+    <wsdl:part name="AltaSocioResponse" element="tns:AltaSocioResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaBeneficiosResponse">
+    <wsdl:part name="ConsultaBeneficiosResponse" element="tns:ConsultaBeneficiosResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckpendingResponse">
+    <wsdl:part name="CheckpendingResponse" element="tns:CheckpendingResponse" />
+  </wsdl:message>
+  <wsdl:message name="SolicitaRedencionResponse">
+    <wsdl:part name="SolicitaRedencionResponse" element="tns:SolicitaRedencionResponse" />
+  </wsdl:message>
+  <wsdl:message name="SolicitudCambioTarjetaResponse">
+    <wsdl:part name="SolicitudCambioTarjetaResponse" element="tns:SolicitudCambioTarjetaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EnviaTicketResponse">
+    <wsdl:part name="EnviaTicketResponse" element="tns:EnviaTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="ActualizaSocioResponse">
+    <wsdl:part name="ActualizaSocioResponse" element="tns:ActualizaSocioResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LoadTicket">
+    <wsdl:operation name="SolicitaRedencion">
+      <wsdl:output name="SolicitaRedencionResponse" message="tns:SolicitaRedencionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmacionCambioTarjeta">
+      <wsdl:output name="ConfirmacionCambioTarjetaResponse" message="tns:ConfirmacionCambioTarjetaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizaSocio">
+      <wsdl:output name="ActualizaSocioResponse" message="tns:ActualizaSocioResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaBeneficios">
+      <wsdl:output name="ConsultaBeneficiosResponse" message="tns:ConsultaBeneficiosResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SolicitudCambioTarjeta">
+      <wsdl:output name="SolicitudCambioTarjetaResponse" message="tns:SolicitudCambioTarjetaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviaTicket">
+      <wsdl:output name="EnviaTicketResponse" message="tns:EnviaTicketResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaSocio">
+      <wsdl:output name="AltaSocioResponse" message="tns:AltaSocioResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmaOperacion">
+      <wsdl:output name="ConfirmaOperacionResponse" message="tns:ConfirmaOperacionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="Checkpending">
+      <wsdl:output name="CheckpendingResponse" message="tns:CheckpendingResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LoadTicketSoap11" type="tns:LoadTicket">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SolicitaRedencion">
+      <soap:operation soapAction="" />
+      <wsdl:output name="SolicitaRedencionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmacionCambioTarjeta">
+      <soap:operation soapAction="" />
+      <wsdl:output name="ConfirmacionCambioTarjetaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizaSocio">
+      <soap:operation soapAction="" />
+      <wsdl:output name="ActualizaSocioResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaBeneficios">
+      <soap:operation soapAction="" />
+      <wsdl:output name="ConsultaBeneficiosResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitudCambioTarjeta">
+      <soap:operation soapAction="" />
+      <wsdl:output name="SolicitudCambioTarjetaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviaTicket">
+      <soap:operation soapAction="" />
+      <wsdl:output name="EnviaTicketResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaSocio">
+      <soap:operation soapAction="" />
+      <wsdl:output name="AltaSocioResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmaOperacion">
+      <soap:operation soapAction="" />
+      <wsdl:output name="ConfirmaOperacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Checkpending">
+      <soap:operation soapAction="" />
+      <wsdl:output name="CheckpendingResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LoadTicketService">
+    <wsdl:port name="LoadTicketSoap11" binding="tns:LoadTicketSoap11">
+      <soap:address location="http://200.110.137.180:80/fnet3web/interfaces" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

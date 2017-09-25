@@ -1,0 +1,18 @@
+﻿19/03/2014
+
+•	Nuevo enlace en Inicio.aspx para cliente 9
+•	Nueva pagina de consulta cliente 9
+•	Ocultado boton borrar carrito al tener todos los pagos necesarios para finalizar.
+
+24/03/2014
+
+Incidencias:
+•	Permite "regresar" el estatus de "vendido" a "Pendiente" no debe permitirlo. 
+•	El combo de "Estado" en "datos de entrega" aparece vacio.
+•	Después de borrar carrito recuerda el nombre del cliente.
+•	El botón de borrar carrito se solapa.
+•	El nivel de socio se muestra como "true" o "false" en lugar de shoelover o básico.
+
+Funcionalidades:
+•	En la tabla de tallas, eliminada la sumatoria si es que solamente se tiene 1 talla o si solo la tiene 1 tienda.
+•	Agregada Referencia (código alfa) en el carrito debajo del color. 

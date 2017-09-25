@@ -1,0 +1,554 @@
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\3OF9_NEW.TTF
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\es\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\es\System.Spatial.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\HtmlAgilityPack.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.Edm.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.Edm.xml
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.OData.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.OData.xml
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\ReadMe.html
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\System.Spatial.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Librerias\System.Spatial.xml
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\ReportTest.rdlc
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Ticket.rdlc
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\TicketC9.rdlc
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\NotaEmpleado.rdlc
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\AVE.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\AVE.pdb
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\AjaxControlToolkit.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\AjaxMin.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\DLLGestionVenta.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\log4net.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Microsoft.ReportViewer.Common.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\Microsoft.ReportViewer.WebForms.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\AVEGestorPromociones.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\HtmlAgilityPack.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\DLLGestionVenta.pdb
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\log4net.xml
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\AVEGestorPromociones.pdb
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\AVEGestorPromociones.xml
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\ar\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\cs\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\de\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\es\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\fr\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\he\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\hi\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\it\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\ja\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\ko\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\nl\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\pl\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\pt\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\ru\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\bin\DLLGestionVenta.XmlSerializers.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\obj\Release\AVE.csprojResolveAssemblyReference.cache
+C:\desarrollos_NET\ave\AVE_Piagui\Site\obj\Release\RdlCompile.cache
+C:\desarrollos_NET\ave\AVE_Piagui\Site\obj\Release\RdlCompile.compiled
+C:\desarrollos_NET\ave\AVE_Piagui\Site\obj\Release\AVE.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\obj\Release\AVE.pdb
+C:\desarrollos_NET\ave\AVE_Piagui\Site\obj\Release\Interop.cpIntegracionEMV.dll
+C:\desarrollos_NET\ave\AVE_Piagui\Site\obj\Release\AVE.csproj.ResolveComReference.cache
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\3OF9_NEW.TTF
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\es\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\es\System.Spatial.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\HtmlAgilityPack.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.Edm.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.Edm.xml
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.OData.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.OData.xml
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\ReadMe.html
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\System.Spatial.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Librerias\System.Spatial.xml
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\ReportTest.rdlc
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Ticket.rdlc
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\TicketC9.rdlc
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\NotaEmpleado.rdlc
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\AVE.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\AVE.pdb
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\AjaxControlToolkit.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\AjaxMin.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\DLLGestionVenta.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\log4net.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Microsoft.ReportViewer.Common.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\Microsoft.ReportViewer.WebForms.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\AVEGestorPromociones.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\HtmlAgilityPack.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\DLLGestionVenta.pdb
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\log4net.xml
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\AVEGestorPromociones.pdb
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\AVEGestorPromociones.xml
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\ar\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\cs\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\de\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\es\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\fr\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\he\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\hi\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\it\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\ja\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\ko\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\nl\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\pl\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\pt\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\ru\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\bin\DLLGestionVenta.XmlSerializers.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\obj\Release\AVE.csprojResolveAssemblyReference.cache
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\obj\Release\Interop.cpIntegracionEMV.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\obj\Release\AVE.csproj.ResolveComReference.cache
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\obj\Release\RdlCompile.cache
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\obj\Release\RdlCompile.compiled
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\obj\Release\AVE.dll
+C:\desarrollos_NET\Subversion\ave\AVE_Piagui\Site\obj\Release\AVE.pdb
+D:\REP_VBNET\AVE_Piagui\Site\obj\Release\AVE.csprojResolveAssemblyReference.cache
+D:\REP_VBNET\AVE_Piagui\Site\obj\Release\AVE.csproj.ResolveComReference.cache
+D:\REP_VBNET\AVE_Piagui\Site\obj\Release\RdlCompile.cache
+D:\REP_VBNET\AVE_Piagui\Site\obj\Release\RdlCompile.compiled
+D:\REP_VBNET\AVE_Piagui\Site\obj\Release\AVE.dll
+D:\REP_VBNET\AVE_Piagui\Site\obj\Release\AVE.pdb
+D:\REP_VBNET\AVE_Piagui\Site\bin\3OF9_NEW.TTF
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\es\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\es\System.Spatial.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\HtmlAgilityPack.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.Edm.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.Edm.xml
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.OData.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\Microsoft.Data.OData.xml
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\ReadMe.html
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\System.Spatial.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Librerias\System.Spatial.xml
+D:\REP_VBNET\AVE_Piagui\Site\bin\ReportTest.rdlc
+D:\REP_VBNET\AVE_Piagui\Site\bin\Ticket.rdlc
+D:\REP_VBNET\AVE_Piagui\Site\bin\TicketC9.rdlc
+D:\REP_VBNET\AVE_Piagui\Site\bin\NotaEmpleado.rdlc
+D:\REP_VBNET\AVE_Piagui\Site\bin\AVE.dll.config
+D:\REP_VBNET\AVE_Piagui\Site\bin\AVE.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\AVE.pdb
+D:\REP_VBNET\AVE_Piagui\Site\bin\AjaxControlToolkit.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\AjaxMin.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\DLLGestionVenta.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\log4net.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Microsoft.ApplicationBlocks.Data.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Microsoft.ReportViewer.Common.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\Microsoft.ReportViewer.WebForms.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\AVEGestorPromociones.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\DLLGestionCliente9.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\HtmlAgilityPack.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\DLLGestionVenta.pdb
+D:\REP_VBNET\AVE_Piagui\Site\bin\log4net.xml
+D:\REP_VBNET\AVE_Piagui\Site\bin\AVEGestorPromociones.pdb
+D:\REP_VBNET\AVE_Piagui\Site\bin\AVEGestorPromociones.xml
+D:\REP_VBNET\AVE_Piagui\Site\bin\DLLGestionCliente9.pdb
+D:\REP_VBNET\AVE_Piagui\Site\bin\ar\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\cs\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\de\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\es\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\fr\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\he\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\hi\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\it\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\ja\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\ko\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\nl\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\pl\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\pt\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\ru\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\REP_VBNET\AVE_Piagui\Site\bin\DLLGestionVenta.XmlSerializers.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\3OF9_NEW.TTF
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\es\System.Spatial.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\Microsoft.Data.Edm.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\Microsoft.Data.Edm.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\Microsoft.Data.OData.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\Microsoft.Data.OData.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\ReadMe.html
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\System.Spatial.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Librerias\System.Spatial.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\ReportTest.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Ticket.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\TicketC9.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\NotaEmpleado.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\AVE.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\AjaxControlToolkit.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\AjaxMin.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\log4net.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\bin\DLLGestionVenta.XmlSerializers.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\obj\Release\AVE.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\obj\Release\AVE.csproj.ResolveComReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\obj\Release\RdlCompile.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\obj\Release\RdlCompile.compiled
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\obj\Release\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\ZGM\obj\Release\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\3OF9_NEW.TTF
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\es\System.Spatial.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\Microsoft.Data.Edm.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\Microsoft.Data.Edm.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\Microsoft.Data.OData.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\Microsoft.Data.OData.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\ReadMe.html
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\System.Spatial.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Librerias\System.Spatial.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\ReportTest.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Ticket.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\TicketC9.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\NotaEmpleado.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\AVE.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\AjaxControlToolkit.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\AjaxMin.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\log4net.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\bin\DLLGestionVenta.XmlSerializers.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\obj\Release\AVE.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\obj\Release\AVE.csproj.ResolveComReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\obj\Release\RdlCompile.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\obj\Release\RdlCompile.compiled
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\obj\Release\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\ZGM\obj\Release\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\3OF9_NEW.TTF
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\es\System.Spatial.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\Microsoft.Data.Edm.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\Microsoft.Data.Edm.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\Microsoft.Data.OData.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\Microsoft.Data.OData.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\ReadMe.html
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\System.Spatial.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Librerias\System.Spatial.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\ReportTest.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Ticket.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\TicketC9.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\NotaEmpleado.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\AVE.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\AjaxControlToolkit.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\AjaxMin.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\log4net.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\bin\DLLGestionVenta.XmlSerializers.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\obj\Release\AVE.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\obj\Release\AVE.csproj.ResolveComReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\obj\Release\RdlCompile.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\obj\Release\RdlCompile.compiled
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\obj\Release\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\ZGM\obj\Release\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\3OF9_NEW.TTF
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\es\System.Spatial.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\Microsoft.Data.Edm.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\Microsoft.Data.Edm.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\Microsoft.Data.OData.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\Microsoft.Data.OData.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\ReadMe.html
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\System.Spatial.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Librerias\System.Spatial.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\ReportTest.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Ticket.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\TicketC9.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\NotaEmpleado.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\AVE.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\AjaxControlToolkit.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\AjaxMin.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\log4net.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\bin\DLLGestionVenta.XmlSerializers.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\obj\Release\AVE.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\obj\Release\AVE.csproj.ResolveComReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\obj\Release\RdlCompile.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\obj\Release\RdlCompile.compiled
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\obj\Release\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\ZGM\obj\Release\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\3OF9_NEW.TTF
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\es\System.Spatial.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\Microsoft.Data.Edm.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\Microsoft.Data.Edm.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\Microsoft.Data.OData.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\Microsoft.Data.OData.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\ReadMe.html
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\System.Spatial.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Librerias\System.Spatial.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\ReportTest.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Ticket.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\TicketC9.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\NotaEmpleado.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\AVE.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\AjaxControlToolkit.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\AjaxMin.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\log4net.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\bin\DLLGestionVenta.XmlSerializers.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\obj\Release\AVE.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\obj\Release\AVE.csproj.ResolveComReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\obj\Release\RdlCompile.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\obj\Release\RdlCompile.compiled
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\obj\Release\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\ZGM\obj\Release\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\3OF9_NEW.TTF
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\es\Microsoft.Data.OData.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\es\System.Spatial.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\Microsoft.Data.Edm.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\Microsoft.Data.Edm.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\Microsoft.Data.OData.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\Microsoft.Data.OData.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\ReadMe.html
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\System.Spatial.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Librerias\System.Spatial.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\ReportTest.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Ticket.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\TicketC9.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\NotaEmpleado.rdlc
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\AVE.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\AVE.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\AjaxControlToolkit.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\AjaxMin.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\DLLGestionVenta.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\log4net.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\HtmlAgilityPack.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\DLLGestionVenta.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\bin\DLLGestionVenta.XmlSerializers.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\obj\Release\AVE.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\obj\Release\AVE.csproj.ResolveComReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\obj\Release\RdlCompile.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\obj\Release\RdlCompile.compiled
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\obj\Release\AVE.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\ZGM\obj\Release\AVE.pdb

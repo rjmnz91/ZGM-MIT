@@ -1,0 +1,5 @@
+
+<asp:GridView runat="server" SkinId="gridviewSkin" CssClass="Grid">
+    <HeaderStyle CssClass="GridHeader" />
+    <SelectedRowStyle CssClass="GridFilaSeleccionada"  />
+</asp:GridView>

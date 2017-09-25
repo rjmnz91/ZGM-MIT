@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage" CodeBehind="MasterPage.Master.cs" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Src="controles/UCNavegacion.ascx" TagName="navegacion" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--Hay que hacerlo del siguiente modo ya que estos hacks no los reconoce 
+        IE Mobile por lo que no es válido poner ni "if IE" ni "if !IE". En ambos 
+        casos no recoge la hoja de estilo.  Además tampoco se puede reconocer si
+        nos encontramos en Firefox para aplicar las CSS por lo cual tendremos que
+        aplicar la hoja de estilos para navegadores WEB en 2 casos: para IE y otra 
+        para !IE, es decir, Firefox, Chrome, etc... auqnue se trate de la misma hoja--%>
+    <%--Estilos generales (IE Mobile, IE, Firefox)--%>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+    <%--Estilos Firefox--%>
+    <!--[if !IE]><!-->
+    <link rel="stylesheet" type="text/css" href="css/estilosWeb.css" />
+    <!--<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <uc1:navegacion ID="navegacion2" runat="server" />
+    <asp:Panel ID="PanelAviso" runat="server" Visible="false">
+        <marquee bgcolor="#FFFFFF" scrolldelay="0 " id="TextoMovil" style="width: 112%"> 
+             <h3 id="Mensaje"  style="color: black; font-family:Arial, Verdana;">Hay Nuevas Solicitudes Pendientes de Tramitar</h3>
+          </marquee>
+        &nbsp;<audio src="Sonidos/Alarma.wav" preload="auto" autoplay="true">  
+          
+         <SCRIPT TYPE="text/javascript">
+
+             function doRedirect() { window.location.href = window.location.href; }
+
+             var filename = "Sonidos/Alarma.wav";
+             if (navigator.appName == "Microsoft IE Mobile")
+                 document.writeln('<BGSOUND SRC="' + filename + '">');
+             else
+                 document.writeln('<EMBED SRC="' + filename + '" AUTOSTART=TRUE WIDTH=0 HEIGHT=0>');
+
+
+
+             function populatescroller() {
+                 var windowwidth = iecompattest().clientWidth;
+                 document.getElementById("TextoMovil").innerHTML = themsg;
+                 document.getElementById("TextoMovil").style.width = windowwidth;
+                 document.getElementById("TextoMovil").scrollAmount = speed;
+                 document.getElementById("TextoMovil").scrollDelay = 20;
+                 document.getElementById("TextoMovil").loop = loops;
+                 document.getElementById("TextoMovil").onfinish = function () {
+                     document.getElementById("TextoMovil").style.visibility = "hidden";
+                 }
+             }
+
+             populatescroller();
+           
+          
+        </SCRIPT>
+    </asp:Panel>
+    <div id="Contenedor" style="width: 100%; height: 100%">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <form id="sendMPOSPAy" method="post" action="sendMPOSPAy">
+    <input type="hidden" name="empresa" id="id_company" value="" />
+    <input type="hidden" name="sucursal" id="id_branch" value="" />
+    <input type="hidden" name="country" id="country" value="" />
+    <input type="hidden" name="xmlmpos" id="xmlmpos" value="" />
+    <%--<input type="button"  name="Confirmar Pago" style="display:BLOCK; width: 500px;" 
+         onclick="javascript:InicializaFormPOST();" />--%>
+    </form>
+</body>
+</html>

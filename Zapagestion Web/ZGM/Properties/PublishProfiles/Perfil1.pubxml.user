@@ -1,0 +1,976 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2017-06-23T16:10:09.5977219-05:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\ZGM_Movil</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="3OF9_NEW.TTF">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="AdmClienteNine.aspx">
+      <publishTime>06/23/2017 16:10:05</publishTime>
+    </File>
+    <File Include="App_Browsers/AVE.browser">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Resource.resx">
+      <publishTime>08/28/2017 13:44:17</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Resource.zh-CN.resx">
+      <publishTime>06/23/2017 16:10:05</publishTime>
+    </File>
+    <File Include="App_GlobalResources/Resource_original.resx">
+      <publishTime>06/23/2017 16:10:05</publishTime>
+    </File>
+    <File Include="App_Themes/Tema/Tema.skin">
+      <publishTime>06/23/2017 16:10:16</publishTime>
+    </File>
+    <File Include="AVE_Piagui.Master">
+      <publishTime>06/23/2017 16:11:47</publishTime>
+    </File>
+    <File Include="bin/3OF9_NEW.TTF">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/AVE.dll">
+      <publishTime>09/22/2017 11:42:05</publishTime>
+    </File>
+    <File Include="bin/AVEGestorPromociones.dll">
+      <publishTime>08/15/2017 11:36:19</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/DLLGestionCliente9.dll">
+      <publishTime>08/15/2017 11:36:18</publishTime>
+    </File>
+    <File Include="bin/DLLGestionVenta.dll">
+      <publishTime>09/22/2017 11:30:27</publishTime>
+    </File>
+    <File Include="bin/DLLGestionVenta.XmlSerializers.dll">
+      <publishTime>09/22/2017 11:30:28</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="bin/Librerias/es/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Librerias/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Librerias/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Librerias/es/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Librerias/HtmlAgilityPack.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Librerias/Microsoft.Data.Edm.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/Librerias/Microsoft.Data.Edm.xml">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="bin/Librerias/Microsoft.Data.OData.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="bin/Librerias/Microsoft.Data.OData.xml">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Librerias/Microsoft.WindowsAzure.Configuration.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="bin/Librerias/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="bin/Librerias/Microsoft.WindowsAzure.Storage.xml">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Librerias/ReadMe.html">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/Librerias/System.Spatial.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Librerias/System.Spatial.xml">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>06/23/2017 16:08:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationBlocks.Data.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>02/20/2011 03:40:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.dll">
+      <publishTime>02/20/2011 03:40:08</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/NotaEmpleado.rdlc">
+      <publishTime>06/23/2017 16:11:38</publishTime>
+    </File>
+    <File Include="bin/pl/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/ReportTest.rdlc">
+      <publishTime>06/23/2017 16:10:16</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/Ticket.rdlc">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="bin/TicketC9.rdlc">
+      <publishTime>06/23/2017 16:11:47</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Buscar.aspx">
+      <publishTime>06/23/2017 16:08:44</publishTime>
+    </File>
+    <File Include="BuscarCliente.aspx">
+      <publishTime>06/23/2017 16:10:16</publishTime>
+    </File>
+    <File Include="Cargos.aspx">
+      <publishTime>06/23/2017 16:10:16</publishTime>
+    </File>
+    <File Include="CargosDetalle.aspx">
+      <publishTime>06/23/2017 16:10:05</publishTime>
+    </File>
+    <File Include="CargosEntrada.aspx">
+      <publishTime>06/23/2017 16:11:42</publishTime>
+    </File>
+    <File Include="CarritoDetalle.aspx">
+      <publishTime>09/21/2017 13:57:17</publishTime>
+    </File>
+    <File Include="CarritoDetalleHERMES.aspx">
+      <publishTime>06/23/2017 16:10:12</publishTime>
+    </File>
+    <File Include="Configuraciones.aspx">
+      <publishTime>06/23/2017 16:08:30</publishTime>
+    </File>
+    <File Include="ConsultaCliente9.aspx">
+      <publishTime>06/23/2017 16:08:44</publishTime>
+    </File>
+    <File Include="ConsultaCliente9Hermes.aspx">
+      <publishTime>06/23/2017 16:11:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/01/2017 11:01:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="Content/local.css">
+      <publishTime>07/21/2017 09:53:58</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>07/12/2017 12:13:44</publishTime>
+    </File>
+    <File Include="controles/UCBotoneraNine.ascx">
+      <publishTime>06/23/2017 16:08:34</publishTime>
+    </File>
+    <File Include="controles/UCCLiente9.ascx">
+      <publishTime>06/23/2017 16:08:45</publishTime>
+    </File>
+    <File Include="controles/UCDetallesProducto.ascx">
+      <publishTime>08/31/2017 18:37:47</publishTime>
+    </File>
+    <File Include="controles/UCEleccionProducto.ascx">
+      <publishTime>09/05/2017 19:22:05</publishTime>
+    </File>
+    <File Include="controles/UCModalConfirm.ascx">
+      <publishTime>06/23/2017 16:08:47</publishTime>
+    </File>
+    <File Include="controles/UCNavegacion.ascx">
+      <publishTime>06/23/2017 16:08:43</publishTime>
+    </File>
+    <File Include="controles/UCNavegacionHERMES.ascx">
+      <publishTime>06/23/2017 16:08:34</publishTime>
+    </File>
+    <File Include="controles/UCSolicitudAlmacen.ascx">
+      <publishTime>06/23/2017 16:08:45</publishTime>
+    </File>
+    <File Include="controles/UCStockEnTienda.ascx">
+      <publishTime>09/20/2017 11:06:19</publishTime>
+    </File>
+    <File Include="ConversionMoneda.aspx">
+      <publishTime>06/23/2017 16:10:05</publishTime>
+    </File>
+    <File Include="css/calendar-green.css">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/calendar-win2k-1.css">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/Carrito.css">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/estilos.css">
+      <publishTime>08/29/2017 17:31:48</publishTime>
+    </File>
+    <File Include="css/estilosHERMES.css">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/estilosWeb.css">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/keyboardstyle.css">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/animated-overlay.gif">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-bg_flat_55_fbec88_40x100.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-icons_217bc0_256x240.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-icons_469bdd_256x240.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-icons_6da8d5_256x240.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-icons_d8e7f3_256x240.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/images/ui-icons_f9bd01_256x240.png">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/jquery-ui-1.10.4.custom.css">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/redmond/jquery-ui-1.10.4.custom.min.css">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="css/sidebar-style.css">
+      <publishTime>09/01/2017 10:21:58</publishTime>
+    </File>
+    <File Include="css/simple-sidebar.css">
+      <publishTime>08/25/2017 16:09:29</publishTime>
+    </File>
+    <File Include="css/sticky-footer.css">
+      <publishTime>08/18/2017 19:23:07</publishTime>
+    </File>
+    <File Include="DetallesProducto.aspx">
+      <publishTime>06/23/2017 16:11:38</publishTime>
+    </File>
+    <File Include="EleccionProducto.aspx">
+      <publishTime>09/14/2017 12:35:24</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>09/21/2017 17:19:28</publishTime>
+    </File>
+    <File Include="fBuscar.aspx">
+      <publishTime>06/23/2017 16:11:47</publishTime>
+    </File>
+    <File Include="FinalizaCompra.aspx">
+      <publishTime>08/04/2017 18:33:09</publishTime>
+    </File>
+    <File Include="FinalizaCompraHERMES.aspx">
+      <publishTime>06/23/2017 16:10:05</publishTime>
+    </File>
+    <File Include="Foto.aspx">
+      <publishTime>06/23/2017 16:08:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/23/2017 16:11:38</publishTime>
+    </File>
+    <File Include="img/1600.png">
+      <publishTime>08/25/2017 16:13:35</publishTime>
+    </File>
+    <File Include="img/ajax-loader.gif">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/back-arrow-hi.png">
+      <publishTime>08/31/2017 13:04:29</publishTime>
+    </File>
+    <File Include="img/buscar.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/busqueda.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/c9.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/calendar.png">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/carro.png">
+      <publishTime>08/03/2017 14:42:54</publishTime>
+    </File>
+    <File Include="img/catalogo.png">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/cn.png">
+      <publishTime>06/23/2017 16:08:15</publishTime>
+    </File>
+    <File Include="img/contact.png">
+      <publishTime>08/03/2017 17:47:33</publishTime>
+    </File>
+    <File Include="img/en.png">
+      <publishTime>06/23/2017 16:08:13</publishTime>
+    </File>
+    <File Include="img/Error.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/es.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/HERMES/btBuscar.png">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/HERMES/btC9.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/HERMES/btCarro.png">
+      <publishTime>06/23/2017 16:08:15</publishTime>
+    </File>
+    <File Include="img/HERMES/btCarroRosa.png">
+      <publishTime>06/23/2017 16:08:15</publishTime>
+    </File>
+    <File Include="img/HERMES/btFavoritos.png">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/HERMES/btOutlet.png">
+      <publishTime>06/23/2017 16:08:15</publishTime>
+    </File>
+    <File Include="img/HERMES/flechaRosa1.jpg">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/HERMES/FlechaRosa2.jpg">
+      <publishTime>06/23/2017 16:08:15</publishTime>
+    </File>
+    <File Include="img/HERMES/flechaRosa3.jpg">
+      <publishTime>06/23/2017 16:08:15</publishTime>
+    </File>
+    <File Include="img/HERMES/nineWest.jpg">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/HERMES/ninewest_s.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/info.png">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/inventario.png">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/lector.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/logoff.png">
+      <publishTime>09/04/2017 16:22:24</publishTime>
+    </File>
+    <File Include="img/logoff2.gif">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/menu-cart.png">
+      <publishTime>08/17/2017 14:21:50</publishTime>
+    </File>
+    <File Include="img/ninewest.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/ninewest_m.png">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/ninewest_s.png">
+      <publishTime>08/17/2017 14:34:59</publishTime>
+    </File>
+    <File Include="img/noImagen.jpg">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/Ok.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/pedidos.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/Remove.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/solicitudes.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-active-left.gif">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-active-right.gif">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-active.gif">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-hover-left.gif">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-hover-right.gif">
+      <publishTime>06/23/2017 16:08:13</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-hover.gif">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-left.gif">
+      <publishTime>06/23/2017 16:08:13</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-line.gif">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/Tabs/tab-right.gif">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/Tabs/tab.gif">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/terminal.png">
+      <publishTime>08/28/2017 16:14:42</publishTime>
+    </File>
+    <File Include="img/traspasoentrada.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="img/traspasos.png">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="img/wedoshoe.png">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="ImprimirTicket.aspx">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="Inicio.aspx">
+      <publishTime>09/18/2017 16:20:41</publishTime>
+    </File>
+    <File Include="InventarioDetalle.aspx">
+      <publishTime>06/23/2017 16:08:30</publishTime>
+    </File>
+    <File Include="Inventarios.aspx">
+      <publishTime>06/23/2017 16:11:38</publishTime>
+    </File>
+    <File Include="js/calendar-es.js">
+      <publishTime>06/23/2017 16:08:31</publishTime>
+    </File>
+    <File Include="js/calendar-setup.js">
+      <publishTime>06/23/2017 16:08:30</publishTime>
+    </File>
+    <File Include="js/calendar.js">
+      <publishTime>06/23/2017 16:08:29</publishTime>
+    </File>
+    <File Include="js/Carrito.js">
+      <publishTime>09/05/2017 16:22:15</publishTime>
+    </File>
+    <File Include="js/CarritoDetalle.js">
+      <publishTime>09/07/2017 11:17:07</publishTime>
+    </File>
+    <File Include="js/CarritoDetalleHermes.js">
+      <publishTime>06/23/2017 16:08:15</publishTime>
+    </File>
+    <File Include="js/IE8.js">
+      <publishTime>06/23/2017 16:08:31</publishTime>
+    </File>
+    <File Include="js/inicio.js">
+      <publishTime>06/23/2017 16:08:30</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.0.min.js">
+      <publishTime>06/23/2017 16:08:32</publishTime>
+    </File>
+    <File Include="js/jquery-1.2.6.min.js">
+      <publishTime>06/23/2017 16:08:30</publishTime>
+    </File>
+    <File Include="js/jquery-3.2.1.js">
+      <publishTime>08/17/2017 14:40:23</publishTime>
+    </File>
+    <File Include="js/jquery-fieldselection.js">
+      <publishTime>06/23/2017 16:08:29</publishTime>
+    </File>
+    <File Include="js/jquery-ui-1.10.4.custom.min.js">
+      <publishTime>06/23/2017 16:08:29</publishTime>
+    </File>
+    <File Include="js/jquery-ui-personalized-1.5.2.min.js">
+      <publishTime>06/23/2017 16:08:31</publishTime>
+    </File>
+    <File Include="js/jquery.barcodelistener-1.1.js">
+      <publishTime>08/17/2017 17:51:33</publishTime>
+    </File>
+    <File Include="js/JScript.js">
+      <publishTime>06/23/2017 16:08:30</publishTime>
+    </File>
+    <File Include="js/json2.js">
+      <publishTime>06/23/2017 16:08:16</publishTime>
+    </File>
+    <File Include="js/jstorage.js">
+      <publishTime>06/23/2017 16:08:29</publishTime>
+    </File>
+    <File Include="js/localStorage.js">
+      <publishTime>06/23/2017 16:08:32</publishTime>
+    </File>
+    <File Include="js/login.js">
+      <publishTime>08/31/2017 10:22:20</publishTime>
+    </File>
+    <File Include="js/overlib.js">
+      <publishTime>06/23/2017 16:08:15</publishTime>
+    </File>
+    <File Include="js/SolicitudesAlmacen.js">
+      <publishTime>06/23/2017 16:08:29</publishTime>
+    </File>
+    <File Include="js/vkeyboard.js">
+      <publishTime>06/23/2017 16:08:29</publishTime>
+    </File>
+    <File Include="Librerias/AjaxControlToolkit.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/AjaxMin.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/cpIntegracionEMV.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/de/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/de/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/es/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/es/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/fr/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/he/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/HtmlAgilityPack.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/it/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Librerias/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Librerias/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Librerias/it/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Librerias/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/ja/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/ko/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/Microsoft.ApplicationBlocks.Data.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/Microsoft.Data.Edm.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/Microsoft.Data.Edm.xml">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Librerias/Microsoft.Data.OData.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Librerias/Microsoft.Data.OData.xml">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/Microsoft.WindowsAzure.Configuration.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Librerias/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>06/23/2017 16:12:05</publishTime>
+    </File>
+    <File Include="Librerias/Microsoft.WindowsAzure.Storage.xml">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/pl/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/ReadMe.html">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/ru/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/System.Spatial.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/System.Spatial.xml">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:07</publishTime>
+    </File>
+    <File Include="Librerias/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>06/23/2017 16:12:06</publishTime>
+    </File>
+    <File Include="Librerias/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Librerias/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>08/31/2017 15:07:39</publishTime>
+    </File>
+    <File Include="LoginThinkRetail.aspx">
+      <publishTime>06/23/2017 16:10:05</publishTime>
+    </File>
+    <File Include="MasterPage.Master">
+      <publishTime>08/29/2017 17:36:54</publishTime>
+    </File>
+    <File Include="MasterPageHermes.Master">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="MasterPageNine.Master">
+      <publishTime>06/23/2017 16:11:42</publishTime>
+    </File>
+    <File Include="NotaEmpleado.rdlc">
+      <publishTime>06/23/2017 16:11:38</publishTime>
+    </File>
+    <File Include="OrdenInventarioDetalle.aspx">
+      <publishTime>06/23/2017 16:12:08</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/23/2017 16:11:38</publishTime>
+    </File>
+    <File Include="Pedidos.aspx">
+      <publishTime>06/23/2017 16:08:30</publishTime>
+    </File>
+    <File Include="PedidosDetalle.aspx">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="PedidosEntrada.aspx">
+      <publishTime>06/23/2017 16:10:05</publishTime>
+    </File>
+    <File Include="Prueba.aspx">
+      <publishTime>09/01/2017 12:11:13</publishTime>
+    </File>
+    <File Include="PruebaGrid.aspx">
+      <publishTime>06/23/2017 16:08:35</publishTime>
+    </File>
+    <File Include="RegistroTerminal.aspx">
+      <publishTime>06/23/2017 16:08:34</publishTime>
+    </File>
+    <File Include="ReportTest.rdlc">
+      <publishTime>06/23/2017 16:10:16</publishTime>
+    </File>
+    <File Include="RespuestaPago.aspx">
+      <publishTime>06/23/2017 16:10:16</publishTime>
+    </File>
+    <File Include="RespuestaPagoHERMES.aspx">
+      <publishTime>06/23/2017 16:08:35</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/1. Estados solicitud.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/10. alter procedure AVE_ArticuloDetalleObtener.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/11.ScriptVenta.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/12.ScriptCarrito.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/13.cAMBIOlOGIN.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/14_RegistroTablaMaestaEstadoSolicitudes.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/2. Modificar tienda.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/3. solicitud cambio de orden.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/4. Create table AVE_CARRITO.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/5. ALTER PROCEDURE AVE_StockEnTiendaCSObtener.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/6. CREATE PROCEDURE AVE_AnadirCarrito.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/7. ALTER PROCEDURE AVE_StockEnTiendaCSObtener.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/8. ALTER PROCEDURE AVE_Productotienecs.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/9. alter procedure AVE_UltimoPedidoPendiente.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/AVE_StockEnTiendaObtener.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/AVE_TicketsPendientesImprimir.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/ScriptAVE.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/ScriptAVE2005.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Instalacion inicial/ufnGetTicketTerminal.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Versiones/05-05-2014/AVE_EnviaPOS.sql">
+      <publishTime>06/23/2017 16:11:47</publishTime>
+    </File>
+    <File Include="Scripts BD/Versiones/05-05-2014/AVE_GuardaDetalleCarrito.sql">
+      <publishTime>06/23/2017 16:11:47</publishTime>
+    </File>
+    <File Include="Scripts BD/Versiones/05-08-2014/Scripts_version_05_08_2014.txt">
+      <publishTime>06/23/2017 16:11:47</publishTime>
+    </File>
+    <File Include="Scripts BD/Versiones/31-03-2014/AVE_PEDIDOS.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Versiones/31-03-2014/AVE_PedidosCrear.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Scripts BD/Versiones/31-03-2014/AVE_SolicitudesAlmacenObtener.sql">
+      <publishTime>06/23/2017 16:11:43</publishTime>
+    </File>
+    <File Include="Servicios/CarritoAVE_WS.svc">
+      <publishTime>06/23/2017 16:08:14</publishTime>
+    </File>
+    <File Include="Settings.aspx">
+      <publishTime>08/31/2017 11:50:46</publishTime>
+    </File>
+    <File Include="side/C6AILKT.json">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/carbon.js">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/classie.js">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/component.css">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/default.css">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/demoad.js">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/demoadpacks.css">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/ga.js">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/modernizr.js">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="side/quant.js">
+      <publishTime>08/25/2017 16:17:29</publishTime>
+    </File>
+    <File Include="Solicitud.aspx">
+      <publishTime>09/14/2017 09:20:26</publishTime>
+    </File>
+    <File Include="SolicitudesAlmacen.aspx">
+      <publishTime>09/14/2017 12:19:36</publishTime>
+    </File>
+    <File Include="SolicitudesAlmacenDetalle.aspx">
+      <publishTime>09/14/2017 12:16:54</publishTime>
+    </File>
+    <File Include="Sonidos/Alarma.wav">
+      <publishTime>06/23/2017 16:11:42</publishTime>
+    </File>
+    <File Include="StockEnTienda.aspx">
+      <publishTime>09/14/2017 12:24:37</publishTime>
+    </File>
+    <File Include="StockOtras.aspx">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="Ticket.rdlc">
+      <publishTime>06/23/2017 16:10:11</publishTime>
+    </File>
+    <File Include="TicketC9.rdlc">
+      <publishTime>06/23/2017 16:11:47</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>08/24/2017 20:07:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

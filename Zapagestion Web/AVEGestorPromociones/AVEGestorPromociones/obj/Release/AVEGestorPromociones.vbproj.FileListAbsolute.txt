@@ -1,0 +1,52 @@
+C:\desarrollos_NET\ave\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.dll
+C:\desarrollos_NET\ave\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.pdb
+C:\desarrollos_NET\ave\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.xml
+C:\desarrollos_NET\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.Resources.resources
+C:\desarrollos_NET\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbproj.GenerateResource.Cache
+C:\desarrollos_NET\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.dll
+C:\desarrollos_NET\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.xml
+C:\desarrollos_NET\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.pdb
+C:\desarrollos_NET\Subversion\ave\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.dll
+C:\desarrollos_NET\Subversion\ave\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.pdb
+C:\desarrollos_NET\Subversion\ave\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.xml
+C:\desarrollos_NET\Subversion\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.Resources.resources
+C:\desarrollos_NET\Subversion\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbproj.GenerateResource.Cache
+C:\desarrollos_NET\Subversion\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.dll
+C:\desarrollos_NET\Subversion\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.xml
+C:\desarrollos_NET\Subversion\ave\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.Resources.resources
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbproj.GenerateResource.Cache
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.Resources.resources
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbproj.GenerateResource.Cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.Resources.resources
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbproj.GenerateResource.Cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.Resources.resources
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbproj.GenerateResource.Cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.pdb

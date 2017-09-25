@@ -1,0 +1,1894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="MC_Piagui_DataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>cd244042-1b65-4b26-88a7-699bb7f90ea4</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DsReport">
+      <Fields>
+        <Field Name="linea_1">
+          <DataField>linea_1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_2">
+          <DataField>linea_2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_3">
+          <DataField>linea_3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_4">
+          <DataField>linea_4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_5">
+          <DataField>linea_5</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_6">
+          <DataField>linea_6</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_7">
+          <DataField>linea_7</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_8">
+          <DataField>linea_8</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_9">
+          <DataField>linea_9</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_10">
+          <DataField>linea_10</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_11">
+          <DataField>linea_11</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_12">
+          <DataField>linea_12</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_13">
+          <DataField>linea_13</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_14">
+          <DataField>linea_14</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_15">
+          <DataField>linea_15</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_16">
+          <DataField>linea_16</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_17">
+          <DataField>linea_17</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_18">
+          <DataField>linea_18</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_19">
+          <DataField>linea_19</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_20">
+          <DataField>linea_20</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_21">
+          <DataField>linea_21</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_22">
+          <DataField>linea_22</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_23">
+          <DataField>linea_23</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_24">
+          <DataField>linea_24</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_25">
+          <DataField>linea_25</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="linea_26">
+          <DataField>linea_26</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>MC_Piagui_DataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>MC_Piagui_DataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Documents and Settings\XPDevMachine\Mis documentos\Visual Studio 2010\Projects\WebApplication1\WebApplication1\WebApplication1\MC_Piagui_DataSet.xsd</rd:SchemaPath>
+        <rd:TableName>VW_AVE_TICKET_CABECERA</rd:TableName>
+        <rd:TableAdapterFillMethod>FillDataTable</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>VW_AVE_TICKET_CABECERATableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="DsLineas">
+      <Fields>
+        <Field Name="IdPosicion">
+          <DataField>IdPosicion</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Id_auto_detalles">
+          <DataField>Id_auto_detalles</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Linea_Titulo_izq">
+          <DataField>Linea_Titulo_izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Linea_Titulo_der">
+          <DataField>Linea_Titulo_der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaDetalle1">
+          <DataField>LineaDetalle1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaDetalle2_Izq">
+          <DataField>LineaDetalle2_Izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaDetalle2_Der">
+          <DataField>LineaDetalle2_Der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaTotalDetalle_Izq">
+          <DataField>LineaTotalDetalle_Izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaTotalDetalle_Der">
+          <DataField>LineaTotalDetalle_Der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaTotalDetalleTexto">
+          <DataField>LineaTotalDetalleTexto</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaTotalDetalleIVA_Izq">
+          <DataField>LineaTotalDetalleIVA_Izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaTotalDetalleIVA_Der">
+          <DataField>LineaTotalDetalleIVA_Der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaTotalDetalleNumArt_Izq">
+          <DataField>LineaTotalDetalleNumArt_Izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaTotalDetalleNumArt_Der">
+          <DataField>LineaTotalDetalleNumArt_Der</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="LineaFPago1">
+          <DataField>LineaFPago1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaFPago2_Izq">
+          <DataField>LineaFPago2_Izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaFPago2_Der">
+          <DataField>LineaFPago2_Der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaFPago3">
+          <DataField>LineaFPago3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaFPago4_Izq">
+          <DataField>LineaFPago4_Izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaFPago4_Der">
+          <DataField>LineaFPago4_Der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaFirmaEmpleado">
+          <DataField>LineaFirmaEmpleado</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9">
+          <DataField>LineaC9</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Ptos1">
+          <DataField>LineaC9Ptos1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Ptos2_izq">
+          <DataField>LineaC9Ptos2_izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Ptos2_der">
+          <DataField>LineaC9Ptos2_der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Par1">
+          <DataField>LineaC9Par1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Par2_izq">
+          <DataField>LineaC9Par2_izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Par2_der">
+          <DataField>LineaC9Par2_der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Bolsa1">
+          <DataField>LineaC9Bolsa1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Bolsa2_izq">
+          <DataField>LineaC9Bolsa2_izq</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9Bolsa2_der">
+          <DataField>LineaC9Bolsa2_der</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9PromoCumple">
+          <DataField>LineaC9PromoCumple</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9PromoAniversario">
+          <DataField>LineaC9PromoAniversario</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LineaC9PromoDia9">
+          <DataField>LineaC9PromoDia9</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>MC_Piagui_DataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>MC_Piagui_DataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\mjimenez\Desktop\WebApplication1\WebApplication1\MC_Piagui_DataSet.xsd</rd:SchemaPath>
+        <rd:TableName>PR_VIEW_TICKET_MJIMENEZ</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>PR_VIEW_TICKET_MJIMENEZTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Textbox Name="LineaDetalle2_Izq">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!LineaDetalle2_Izq.Value, "DsLineas")</Value>
+                <Style>
+                  <FontFamily>Microsoft Sans Serif</FontFamily>
+                  <FontSize>6.5pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>LineaDetalle2_Izq</rd:DefaultName>
+        <Top>0.6cm</Top>
+        <Left>0.3175cm</Left>
+        <Height>0.49417cm</Height>
+        <Width>4.55529cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="LineaDetalle2_Der">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!LineaDetalle2_Der.Value, "DsLineas")</Value>
+                <Style>
+                  <FontFamily>Microsoft Sans Serif</FontFamily>
+                  <FontSize>6.5pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>LineaDetalle2_Der</rd:DefaultName>
+        <Top>0.56473cm</Top>
+        <Left>5.16783cm</Left>
+        <Height>0.49417cm</Height>
+        <Width>2.82704cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="LineaDetalle1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!LineaDetalle1.Value, "DsLineas")</Value>
+                <Style>
+                  <FontFamily>Microsoft Sans Serif</FontFamily>
+                  <FontSize>6.5pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>LineaDetalle1</rd:DefaultName>
+        <Left>0.2995cm</Left>
+        <Height>0.49417cm</Height>
+        <Width>7.69537cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>1.27167cm</Height>
+    <Style>
+      <Border>
+        <Style>None</Style>
+      </Border>
+    </Style>
+  </Body>
+  <Width>8.36824cm</Width>
+  <Page>
+    <PageHeader>
+      <Height>14.2449cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="linea_2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_2.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_2</rd:DefaultName>
+          <Top>3.31695cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.6cm</Height>
+          <Width>7.65934cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_3">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_3.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_3</rd:DefaultName>
+          <Top>3.91695cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.6cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_1.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_1</rd:DefaultName>
+          <Top>2.42563cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.6cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_4">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_4.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_4</rd:DefaultName>
+          <Top>4.55223cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.6cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>3</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_5">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_5.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_5</rd:DefaultName>
+          <Top>5.18751cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.6cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>4</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_6">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_6.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_6</rd:DefaultName>
+          <Top>5.7875cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.6cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>5</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_7">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_7.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_7</rd:DefaultName>
+          <Top>6.56389cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>6</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_8">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_8.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_8</rd:DefaultName>
+          <Top>7.12861cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>7</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_9">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_9.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_9</rd:DefaultName>
+          <Top>7.71625cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>8</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_10">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_10.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_10</rd:DefaultName>
+          <Top>8.28097cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>9</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_11">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_11.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_11</rd:DefaultName>
+          <Top>8.8457cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>10</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_12">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_12.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_12</rd:DefaultName>
+          <Top>9.41041cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>11</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_13">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_13.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>7pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_12</rd:DefaultName>
+          <Top>10.37148cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>3.78724cm</Width>
+          <ZIndex>12</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_14">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_14.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>7pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <TextDecoration>None</TextDecoration>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_12</rd:DefaultName>
+          <Top>10.37148cm</Top>
+          <Left>4.29916cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>3.69571cm</Width>
+          <ZIndex>13</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_15">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_15.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>7pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_12</rd:DefaultName>
+          <Top>10.97148cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>4.95141cm</Width>
+          <ZIndex>14</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_16">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_16.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>7pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_12</rd:DefaultName>
+          <Top>11.00675cm</Top>
+          <Left>5.54603cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>2.44885cm</Width>
+          <ZIndex>15</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_17">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_17.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>7pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_12</rd:DefaultName>
+          <Top>11.60675cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>4.95141cm</Width>
+          <ZIndex>16</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_18">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_18.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>7pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_12</rd:DefaultName>
+          <Top>11.60675cm</Top>
+          <Left>5.54603cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>2.44884cm</Width>
+          <ZIndex>17</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="linea_19">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!linea_19.Value, "DsReport")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>linea_12</rd:DefaultName>
+          <Top>12.2773cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>18</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Line Name="Line1">
+          <Top>13.01841cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>19</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Textbox Name="Linea_Titulo_izq">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!Linea_Titulo_izq.Value, "DsLineas").ToString()</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Linea_Titulo_izq</rd:DefaultName>
+          <Top>13.15952cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>4.51926cm</Width>
+          <ZIndex>20</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Linea_Titulo_der">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!Linea_Titulo_der.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Linea_Titulo_der</rd:DefaultName>
+          <Top>13.15952cm</Top>
+          <Left>5.20382cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>2.79105cm</Width>
+          <ZIndex>21</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Line Name="Line2">
+          <Top>13.83008cm</Top>
+          <Left>0.33553cm</Left>
+          <Height>0cm</Height>
+          <Width>7.65934cm</Width>
+          <ZIndex>22</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Image Name="Image1">
+          <Source>Embedded</Source>
+          <Value>ninewest_m</Value>
+          <Sizing>FitProportional</Sizing>
+          <Top>0.21195cm</Top>
+          <Left>2.1082cm</Left>
+          <Height>2.03729cm</Height>
+          <Width>4.02167cm</Width>
+          <ZIndex>23</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <PageFooter>
+      <Height>12.76942cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Line Name="Line3">
+          <Top>0cm</Top>
+          <Left>0.29947cm</Left>
+          <Height>0cm</Height>
+          <Width>7.6954cm</Width>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Textbox Name="LineaTotalDetalle_Izq">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaTotalDetalle_Izq.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaTotalDetalle_Izq</rd:DefaultName>
+          <Top>0.17638cm</Top>
+          <Left>0.31752cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>4.55528cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaTotalDetalle_Der">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaTotalDetalle_Der.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaTotalDetalle_Der</rd:DefaultName>
+          <Top>0.17638cm</Top>
+          <Left>5.20383cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>2.79107cm</Width>
+          <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Line Name="Line4">
+          <Top>0.84694cm</Top>
+          <Left>0.29947cm</Left>
+          <Height>0cm</Height>
+          <Width>7.69543cm</Width>
+          <ZIndex>3</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Textbox Name="LineaTotalDetalleTexto">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaTotalDetalleTexto.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaTotalDetalleTexto</rd:DefaultName>
+          <Top>1.02333cm</Top>
+          <Left>0.31752cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>7.67738cm</Width>
+          <ZIndex>4</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaTotalDetalleIVA_Izq">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaTotalDetalleIVA_Izq.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaTotalDetalleIVA_Izq</rd:DefaultName>
+          <Top>1.55278cm</Top>
+          <Left>0.2995cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>4.57329cm</Width>
+          <ZIndex>5</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaTotalDetalleIVA_Der">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaTotalDetalleIVA_Der.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaTotalDetalleIVA_Der</rd:DefaultName>
+          <Top>1.55278cm</Top>
+          <Left>5.20383cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>2.79105cm</Width>
+          <ZIndex>6</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaTotalDetalleNumArt_Izq">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaTotalDetalleNumArt_Izq.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaTotalDetalleNumArt_Izq</rd:DefaultName>
+          <Top>2.1175cm</Top>
+          <Left>0.2995cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>4.57329cm</Width>
+          <ZIndex>7</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaTotalDetalleNumArt_Der">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaTotalDetalleNumArt_Der.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaTotalDetalleNumArt_Der</rd:DefaultName>
+          <Top>2.08223cm</Top>
+          <Left>5.20382cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>2.79108cm</Width>
+          <ZIndex>8</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Line Name="Line5">
+          <Top>2.71751cm</Top>
+          <Left>0.30905cm</Left>
+          <Height>0cm</Height>
+          <Width>7.68588cm</Width>
+          <ZIndex>9</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Textbox Name="LineaFPago1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaFPago1.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaFPago1</rd:DefaultName>
+          <Top>2.82334cm</Top>
+          <Left>0.30905cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>7.68587cm</Width>
+          <ZIndex>10</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaFPago2_Izq">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaFPago2_Izq.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaFPago2_Izq</rd:DefaultName>
+          <Top>3.38807cm</Top>
+          <Left>0.2995cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>4.5733cm</Width>
+          <ZIndex>11</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaFPago2_Der">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaFPago2_Der.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaFPago2_Der</rd:DefaultName>
+          <Top>3.38807cm</Top>
+          <Left>5.20383cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>2.79107cm</Width>
+          <ZIndex>12</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaFPago3">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaFPago3.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaFPago3</rd:DefaultName>
+          <Top>4.02335cm</Top>
+          <Left>0.2995cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>2.20896cm</Width>
+          <ZIndex>13</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaFPago4_Izq">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaFPago4_Izq.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaFPago4_Izq</rd:DefaultName>
+          <Top>4.69391cm</Top>
+          <Left>0.2995cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>4.56376cm</Width>
+          <ZIndex>14</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="LineaFPago4_Der">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!LineaFPago4_Der.Value, "DsLineas")</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>LineaFPago4_Der</rd:DefaultName>
+          <Top>4.69391cm</Top>
+          <Left>5.16783cm</Left>
+          <Height>0.49417cm</Height>
+          <Width>2.77307cm</Width>
+          <ZIndex>15</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Line Name="Line6">
+          <Top>5.36447cm</Top>
+          <Left>0.29948cm</Left>
+          <Height>0cm</Height>
+          <Width>7.67742cm</Width>
+          <ZIndex>16</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Textbox Name="Textbox1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Firma Empleado</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>5.54086cm</Top>
+          <Left>0.30906cm</Left>
+          <Height>0.6cm</Height>
+          <Width>7.68587cm</Width>
+          <ZIndex>17</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Firma</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Center</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>7.93693cm</Top>
+          <Left>0.30906cm</Left>
+          <Height>0.46771cm</Height>
+          <Width>7.68587cm</Width>
+          <ZIndex>18</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox3">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Observaciones</Value>
+                  <Style>
+                    <FontFamily>Microsoft Sans Serif</FontFamily>
+                    <FontSize>6.5pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>8.90252cm</Top>
+          <Left>0.30906cm</Left>
+          <Height>0.46771cm</Height>
+          <Width>7.68587cm</Width>
+          <ZIndex>19</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Line Name="Line9">
+          <Top>7.76054cm</Top>
+          <Left>0.30906cm</Left>
+          <Height>0cm</Height>
+          <Width>7.68587cm</Width>
+          <ZIndex>20</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Line Name="Line10">
+          <Top>10.22117cm</Top>
+          <Left>0.30906cm</Left>
+          <Height>0cm</Height>
+          <Width>7.68587cm</Width>
+          <ZIndex>21</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Line Name="Line11">
+          <Top>11.14721cm</Top>
+          <Left>0.30906cm</Left>
+          <Height>0cm</Height>
+          <Width>7.68587cm</Width>
+          <ZIndex>22</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+        <Line Name="Line12">
+          <Top>12.12617cm</Top>
+          <Left>0.30906cm</Left>
+          <Height>0cm</Height>
+          <Width>7.68587cm</Width>
+          <ZIndex>23</ZIndex>
+          <Style>
+            <Border>
+              <Style>Solid</Style>
+            </Border>
+          </Style>
+        </Line>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <PageHeight>28.99999cm</PageHeight>
+    <PageWidth>8.00001cm</PageWidth>
+    <InteractiveHeight>28.99999cm</InteractiveHeight>
+    <InteractiveWidth>8.00001cm</InteractiveWidth>
+    <LeftMargin>0cm</LeftMargin>
+    <RightMargin>0cm</RightMargin>
+    <TopMargin>0cm</TopMargin>
+    <BottomMargin>0cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style>
+      <Border>
+        <Color>White</Color>
+        <Style>None</Style>
+      </Border>
+    </Style>
+  </Page>
+  <EmbeddedImages>
+    <EmbeddedImage Name="ninewest_s">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="ninewest_m">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportID>2306379c-a126-4258-bb9b-3dd437c6b2e1</rd:ReportID>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+</Report>

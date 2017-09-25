@@ -1,0 +1,1 @@
+﻿<Devolucion><DetalleDevolucion><Divisa>1</Divisa><idReserva>100000296</idReserva><referencia>X007595000342</referencia><Unds>1</Unds><PVPS>170.66</PVPS><PVP>206.50</PVP><IVA>35.84</IVA><Descuento>88.50</Descuento></DetalleDevolucion></Devolucion>

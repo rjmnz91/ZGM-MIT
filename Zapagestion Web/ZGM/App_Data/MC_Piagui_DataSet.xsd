@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MC_Piagui_DataSet" targetNamespace="http://tempuri.org/MC_Piagui_DataSet.xsd" xmlns:mstns="http://tempuri.org/MC_Piagui_DataSet.xsd" xmlns="http://tempuri.org/MC_Piagui_DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="MC_TDAConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MC_TDAConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.MC_TDAConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VW_AVE_TICKET_CABECERATableAdapter" GeneratorDataComponentClassName="VW_AVE_TICKET_CABECERATableAdapter" Name="VW_AVE_TICKET_CABECERA" UserDataComponentName="VW_AVE_TICKET_CABECERATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="BDMARIO.dbo.VW_AVE_TICKET_CABECERA" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillDataTable" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="FillDataTable" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="FillDataTable">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     *
+FROM         VW_AVE_TICKET_CABECERA</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="linea_1" DataSetColumn="linea_1" />
+              <Mapping SourceColumn="linea_2" DataSetColumn="linea_2" />
+              <Mapping SourceColumn="linea_3" DataSetColumn="linea_3" />
+              <Mapping SourceColumn="linea_4" DataSetColumn="linea_4" />
+              <Mapping SourceColumn="linea_5" DataSetColumn="linea_5" />
+              <Mapping SourceColumn="linea_6" DataSetColumn="linea_6" />
+              <Mapping SourceColumn="linea_7" DataSetColumn="linea_7" />
+              <Mapping SourceColumn="linea_8" DataSetColumn="linea_8" />
+              <Mapping SourceColumn="linea_9" DataSetColumn="linea_9" />
+              <Mapping SourceColumn="linea_10" DataSetColumn="linea_10" />
+              <Mapping SourceColumn="linea_11" DataSetColumn="linea_11" />
+              <Mapping SourceColumn="linea_12" DataSetColumn="linea_12" />
+              <Mapping SourceColumn="linea_14" DataSetColumn="linea_14" />
+              <Mapping SourceColumn="linea_15" DataSetColumn="linea_15" />
+              <Mapping SourceColumn="linea_16" DataSetColumn="linea_16" />
+              <Mapping SourceColumn="linea_17" DataSetColumn="linea_17" />
+              <Mapping SourceColumn="linea_18" DataSetColumn="linea_18" />
+              <Mapping SourceColumn="linea_19" DataSetColumn="linea_19" />
+              <Mapping SourceColumn="linea_13" DataSetColumn="linea_13" />
+              <Mapping SourceColumn="linea_20" DataSetColumn="linea_20" />
+              <Mapping SourceColumn="linea_21" DataSetColumn="linea_21" />
+              <Mapping SourceColumn="linea_22" DataSetColumn="linea_22" />
+              <Mapping SourceColumn="linea_23" DataSetColumn="linea_23" />
+              <Mapping SourceColumn="linea_24" DataSetColumn="linea_24" />
+              <Mapping SourceColumn="linea_25" DataSetColumn="linea_25" />
+              <Mapping SourceColumn="linea_26" DataSetColumn="linea_26" />
+              <Mapping SourceColumn="Id_Ticket" DataSetColumn="Id_Ticket" />
+              <Mapping SourceColumn="Linea27" DataSetColumn="Linea27" />
+              <Mapping SourceColumn="linea28" DataSetColumn="linea28" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PR_VIEW_TICKET_MODELOTableAdapter" GeneratorDataComponentClassName="PR_VIEW_TICKET_MODELOTableAdapter" Name="PR_VIEW_TICKET_MODELO" UserDataComponentName="PR_VIEW_TICKET_MODELOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="MC_Piagui.dbo.PR_VIEW_TICKET_MJIMENEZ" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM PR_VIEW_TICKET_MJIMENEZ</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdPosicion" DataSetColumn="IdPosicion" />
+              <Mapping SourceColumn="Id_auto_detalles" DataSetColumn="Id_auto_detalles" />
+              <Mapping SourceColumn="Linea_Titulo_izq" DataSetColumn="Linea_Titulo_izq" />
+              <Mapping SourceColumn="Linea_Titulo_der" DataSetColumn="Linea_Titulo_der" />
+              <Mapping SourceColumn="LineaDetalle1" DataSetColumn="LineaDetalle1" />
+              <Mapping SourceColumn="LineaDetalle2_Izq" DataSetColumn="LineaDetalle2_Izq" />
+              <Mapping SourceColumn="LineaDetalle2_Der" DataSetColumn="LineaDetalle2_Der" />
+              <Mapping SourceColumn="LineaTotalDetalle_Izq" DataSetColumn="LineaTotalDetalle_Izq" />
+              <Mapping SourceColumn="LineaTotalDetalle_Der" DataSetColumn="LineaTotalDetalle_Der" />
+              <Mapping SourceColumn="LineaTotalDetalleTexto" DataSetColumn="LineaTotalDetalleTexto" />
+              <Mapping SourceColumn="LineaTotalDetalleIVA_Izq" DataSetColumn="LineaTotalDetalleIVA_Izq" />
+              <Mapping SourceColumn="LineaTotalDetalleIVA_Der" DataSetColumn="LineaTotalDetalleIVA_Der" />
+              <Mapping SourceColumn="LineaTotalDetalleNumArt_Izq" DataSetColumn="LineaTotalDetalleNumArt_Izq" />
+              <Mapping SourceColumn="LineaTotalDetalleNumArt_Der" DataSetColumn="LineaTotalDetalleNumArt_Der" />
+              <Mapping SourceColumn="LineaFPago1" DataSetColumn="LineaFPago1" />
+              <Mapping SourceColumn="LineaFPago2_Izq" DataSetColumn="LineaFPago2_Izq" />
+              <Mapping SourceColumn="LineaFPago2_Der" DataSetColumn="LineaFPago2_Der" />
+              <Mapping SourceColumn="LineaFPago3" DataSetColumn="LineaFPago3" />
+              <Mapping SourceColumn="LineaFPago4_Izq" DataSetColumn="LineaFPago4_Izq" />
+              <Mapping SourceColumn="LineaFPago4_Der" DataSetColumn="LineaFPago4_Der" />
+              <Mapping SourceColumn="LineaFirmaEmpleado" DataSetColumn="LineaFirmaEmpleado" />
+              <Mapping SourceColumn="LineaC9" DataSetColumn="LineaC9" />
+              <Mapping SourceColumn="LineaC9Ptos1" DataSetColumn="LineaC9Ptos1" />
+              <Mapping SourceColumn="LineaC9Ptos2_izq" DataSetColumn="LineaC9Ptos2_izq" />
+              <Mapping SourceColumn="LineaC9Ptos2_der" DataSetColumn="LineaC9Ptos2_der" />
+              <Mapping SourceColumn="LineaC9Par1" DataSetColumn="LineaC9Par1" />
+              <Mapping SourceColumn="LineaC9Par2_izq" DataSetColumn="LineaC9Par2_izq" />
+              <Mapping SourceColumn="LineaC9Par2_der" DataSetColumn="LineaC9Par2_der" />
+              <Mapping SourceColumn="LineaC9Bolsa1" DataSetColumn="LineaC9Bolsa1" />
+              <Mapping SourceColumn="LineaC9Bolsa2_izq" DataSetColumn="LineaC9Bolsa2_izq" />
+              <Mapping SourceColumn="LineaC9Bolsa2_der" DataSetColumn="LineaC9Bolsa2_der" />
+              <Mapping SourceColumn="LineaC9PromoCumple" DataSetColumn="LineaC9PromoCumple" />
+              <Mapping SourceColumn="LineaC9PromoAniversario" DataSetColumn="LineaC9PromoAniversario" />
+              <Mapping SourceColumn="LineaC9PromoDia9" DataSetColumn="LineaC9PromoDia9" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AVE_dameDetalleCarritoTableAdapter" GeneratorDataComponentClassName="AVE_dameDetalleCarritoTableAdapter" Name="AVE_dameDetalleCarrito" UserDataComponentName="AVE_dameDetalleCarritoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="BDMARIO.dbo.AVE_dameDetalleCarrito" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.AVE_dameDetalleCarrito</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdCarrito" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_carrito_detalle" DataSetColumn="id_carrito_detalle" />
+              <Mapping SourceColumn="id_Carrito" DataSetColumn="id_Carrito" />
+              <Mapping SourceColumn="idArticulo" DataSetColumn="idArticulo" />
+              <Mapping SourceColumn="Id_cabecero_detalle" DataSetColumn="Id_cabecero_detalle" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="PVPORI" DataSetColumn="PVPORI" />
+              <Mapping SourceColumn="PVPACT" DataSetColumn="PVPACT" />
+              <Mapping SourceColumn="DTOArticulo" DataSetColumn="DTOArticulo" />
+              <Mapping SourceColumn="IdPromocion" DataSetColumn="IdPromocion" />
+              <Mapping SourceColumn="IdPedido" DataSetColumn="IdPedido" />
+              <Mapping SourceColumn="Nombre_Talla" DataSetColumn="Nombre_Talla" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="Color" DataSetColumn="Color" />
+              <Mapping SourceColumn="ModeloProveedor" DataSetColumn="ModeloProveedor" />
+              <Mapping SourceColumn="IdTemporada" DataSetColumn="IdTemporada" />
+              <Mapping SourceColumn="IdProveedor" DataSetColumn="IdProveedor" />
+              <Mapping SourceColumn="IdTienda" DataSetColumn="IdTienda" />
+              <Mapping SourceColumn="DtoPromo" DataSetColumn="DtoPromo" />
+              <Mapping SourceColumn="promocion" DataSetColumn="promocion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AVE_CARRITOTableAdapter" GeneratorDataComponentClassName="AVE_CARRITOTableAdapter" Name="AVE_CARRITO" UserDataComponentName="AVE_CARRITOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="BDMARIO.dbo.AVE_CARRITO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [AVE_CARRITO] WHERE (([IdCarrito] = @Original_IdCarrito))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IdCarrito" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IdCarrito" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [AVE_CARRITO] ([FechaCreacion], [id_Cliente], [Usuario], [Maquina], [Fecha_Modificacion], [TarjetaCliente], [EstadoCarrito]) VALUES (@FechaCreacion, @id_Cliente, @Usuario, @Maquina, @Fecha_Modificacion, @TarjetaCliente, @EstadoCarrito)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@FechaCreacion" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="FechaCreacion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_Cliente" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Cliente" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Usuario" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Usuario" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Maquina" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Maquina" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Fecha_Modificacion" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Fecha_Modificacion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@TarjetaCliente" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TarjetaCliente" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@EstadoCarrito" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="EstadoCarrito" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT IdCarrito, (SELECT Tienda FROM CONFIGURACIONES_TPV) AS Tienda, FechaCreacion, id_Cliente, Usuario, Maquina, Fecha_Modificacion, TarjetaCliente, EstadoCarrito, 0 AS Total FROM AVE_CARRITO </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [AVE_CARRITO] SET [FechaCreacion] = @FechaCreacion, [id_Cliente] = @id_Cliente, [Usuario] = @Usuario, [Maquina] = @Maquina, [Fecha_Modificacion] = @Fecha_Modificacion, [TarjetaCliente] = @TarjetaCliente, [EstadoCarrito] = @EstadoCarrito WHERE (([IdCarrito] = @Original_IdCarrito))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@FechaCreacion" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="FechaCreacion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_Cliente" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Cliente" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Usuario" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Usuario" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Maquina" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Maquina" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Fecha_Modificacion" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Fecha_Modificacion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@TarjetaCliente" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TarjetaCliente" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@EstadoCarrito" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="EstadoCarrito" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IdCarrito" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IdCarrito" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdCarrito" DataSetColumn="IdCarrito" />
+              <Mapping SourceColumn="Tienda" DataSetColumn="Tienda" />
+              <Mapping SourceColumn="FechaCreacion" DataSetColumn="FechaCreacion" />
+              <Mapping SourceColumn="id_Cliente" DataSetColumn="id_Cliente" />
+              <Mapping SourceColumn="Usuario" DataSetColumn="Usuario" />
+              <Mapping SourceColumn="Maquina" DataSetColumn="Maquina" />
+              <Mapping SourceColumn="Fecha_Modificacion" DataSetColumn="Fecha_Modificacion" />
+              <Mapping SourceColumn="TarjetaCliente" DataSetColumn="TarjetaCliente" />
+              <Mapping SourceColumn="EstadoCarrito" DataSetColumn="EstadoCarrito" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="BDMARIO.dbo.AVE_CARRITO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillByIdCarrito" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByIdCarrito" GeneratorSourceName="FillByIdCarrito" GetMethodModifier="Public" GetMethodName="GetDataByIdCarrito" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByIdCarrito" UserSourceName="FillByIdCarrito">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT EstadoCarrito, FechaCreacion, Fecha_Modificacion, IdCarrito, Maquina, TarjetaCliente, (SELECT Tienda FROM CONFIGURACIONES_TPV) AS Tienda, Usuario, id_Cliente FROM AVE_CARRITO WHERE (IdCarrito = @idCarrito)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idCarrito" ColumnName="IdCarrito" DataSourceName="BDMARIO.dbo.AVE_CARRITO" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idCarrito" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="IdCarrito" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AVE_CARRITO_LINEASTableAdapter" GeneratorDataComponentClassName="AVE_CARRITO_LINEASTableAdapter" Name="AVE_CARRITO_LINEAS" UserDataComponentName="AVE_CARRITO_LINEASTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT [id_Carrito_Detalle],ar.[idArticulo],[Id_cabecero_detalle],[Cantidad],[PVPORI] 
+,[PVPACT],[DTOArticulo],AVE_CARRITO_LINEA.[idPromocion],[idPedido],PrecioCostoReal,isnull(TipoArticulo,'') as TipoCorte, isnull(promocion,'') as Promocion FROM [AVE_CARRITO_LINEA] 
+inner join Articulos Ar on AVE_CARRITO_LINEA.idArticulo=Ar.idArticulo 
+Left Join tbpr_promociones t on  AVE_CARRITO_LINEA.idPromocion=t.idPromocion 
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_Carrito_Detalle" DataSetColumn="id_Carrito_Detalle" />
+              <Mapping SourceColumn="idArticulo" DataSetColumn="idArticulo" />
+              <Mapping SourceColumn="Id_cabecero_detalle" DataSetColumn="Id_cabecero_detalle" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="PVPORI" DataSetColumn="PVPORI" />
+              <Mapping SourceColumn="PVPACT" DataSetColumn="PVPACT" />
+              <Mapping SourceColumn="DTOArticulo" DataSetColumn="DTOArticulo" />
+              <Mapping SourceColumn="idPromocion" DataSetColumn="idPromocion" />
+              <Mapping SourceColumn="idPedido" DataSetColumn="idPedido" />
+              <Mapping SourceColumn="PrecioCostoReal" DataSetColumn="PrecioCostoReal" />
+              <Mapping SourceColumn="TipoCorte" DataSetColumn="TipoCorte" />
+              <Mapping SourceColumn="Promocion" DataSetColumn="Promocion" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByIdCarrito" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByIdCarrito" GeneratorSourceName="FillByIdCarrito" GetMethodModifier="Public" GetMethodName="GetDataByIdCarrito" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByIdCarrito" UserSourceName="FillByIdCarrito">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT [id_Carrito_Detalle],ar.[idArticulo],[Id_cabecero_detalle],[Cantidad],[PVPORI] 
+,[PVPACT],[DTOArticulo],AVE_CARRITO_LINEA.[idPromocion],[idPedido],PrecioCostoReal,isnull(TipoArticulo,'') as TipoCorte, isnull(promocion,'') as Promocion FROM [AVE_CARRITO_LINEA] 
+inner join Articulos Ar on AVE_CARRITO_LINEA.idArticulo=Ar.idArticulo 
+Left Join tbpr_promociones t on  AVE_CARRITO_LINEA.idPromocion=t.idPromocion 
+where AVE_CARRITO_LINEA.id_Carrito_Detalle = @IdCarrito</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="IdCarrito" ColumnName="id_Carrito_Detalle" DataSourceName="BDMARIO.dbo.AVE_CARRITO_LINEA" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdCarrito" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="id_Carrito_Detalle" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AVE_CARRITO_PAGOSTableAdapter" GeneratorDataComponentClassName="AVE_CARRITO_PAGOSTableAdapter" Name="AVE_CARRITO_PAGOS" UserDataComponentName="AVE_CARRITO_PAGOSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="BDMARIO.dbo.AVE_CARRITO_PAGOS" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [AVE_CARRITO_PAGOS] WHERE (([IdCarritoPago] = @Original_IdCarritoPago))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IdCarritoPago" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IdCarritoPago" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT [IdCarritoPago],[TipoPago],[TipoPagoDetalle],[NumTarjeta],[Importe] 
+FROM [AVE_CARRITO_PAGOS]  
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [AVE_CARRITO_PAGOS] SET [TipoPago] = @TipoPago, [TipoPagoDetalle] = @TipoPagoDetalle, [NumTarjeta] = @NumTarjeta, [Importe] = @Importe WHERE (([IdCarritoPago] = @Original_IdCarritoPago))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@TipoPago" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TipoPago" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@TipoPagoDetalle" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TipoPagoDetalle" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@NumTarjeta" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="NumTarjeta" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Importe" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Importe" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_IdCarritoPago" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="IdCarritoPago" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdCarritoPago" DataSetColumn="IdCarritoPago" />
+              <Mapping SourceColumn="TipoPago" DataSetColumn="TipoPago" />
+              <Mapping SourceColumn="TipoPagoDetalle" DataSetColumn="TipoPagoDetalle" />
+              <Mapping SourceColumn="NumTarjeta" DataSetColumn="NumTarjeta" />
+              <Mapping SourceColumn="Importe" DataSetColumn="Importe" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="BDMARIO.dbo.AVE_CARRITO_PAGOS" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillByIdCarrito" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByIdCarrito" GeneratorSourceName="FillByIdCarrito" GetMethodModifier="Public" GetMethodName="GetDataByIdCarrito" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByIdCarrito" UserSourceName="FillByIdCarrito">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT IdCarritoPago, Importe, NumTarjeta, TipoPago, TipoPagoDetalle FROM AVE_CARRITO_PAGOS WHERE (IdCarrito = @idCarrito) AND (PagadoOK = 1)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="idCarrito" ColumnName="IdCarrito" DataSourceName="BDMARIO.dbo.AVE_CARRITO_PAGOS" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idCarrito" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="IdCarrito" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AVE_CARRITO_LINEA_PROMOTableAdapter" GeneratorDataComponentClassName="AVE_CARRITO_LINEA_PROMOTableAdapter" Name="AVE_CARRITO_LINEA_PROMO" UserDataComponentName="AVE_CARRITO_LINEA_PROMOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="BDMARIO.dbo.AVE_CARRITO_LINEA_PROMO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [AVE_CARRITO_LINEA_PROMO] WHERE (([id_carrito_Promocion] = @Original_id_carrito_Promocion))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id_carrito_Promocion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_carrito_Promocion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [AVE_CARRITO_LINEA_PROMO] ([id_linea_Carrito], [idPromo], [DtoPromo], [DescriPromo], [DescriAmpliaPromo]) VALUES (@id_linea_Carrito, @idPromo, @DtoPromo, @DescriPromo, @DescriAmpliaPromo)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_linea_Carrito" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_linea_Carrito" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@idPromo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="idPromo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@DtoPromo" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="DtoPromo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@DescriPromo" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DescriPromo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@DescriAmpliaPromo" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DescriAmpliaPromo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT AVE_CARRITO_LINEA_PROMO.*   FROM AVE_CARRITO_LINEA_PROMO </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [AVE_CARRITO_LINEA_PROMO] SET [id_linea_Carrito] = @id_linea_Carrito, [idPromo] = @idPromo, [DtoPromo] = @DtoPromo, [DescriPromo] = @DescriPromo, [DescriAmpliaPromo] = @DescriAmpliaPromo WHERE (([id_carrito_Promocion] = @Original_id_carrito_Promocion))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_linea_Carrito" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_linea_Carrito" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@idPromo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="idPromo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@DtoPromo" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="DtoPromo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@DescriPromo" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DescriPromo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@DescriAmpliaPromo" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="DescriAmpliaPromo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id_carrito_Promocion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_carrito_Promocion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_carrito_Promocion" DataSetColumn="id_carrito_Promocion" />
+              <Mapping SourceColumn="id_linea_Carrito" DataSetColumn="id_linea_Carrito" />
+              <Mapping SourceColumn="idPromo" DataSetColumn="idPromo" />
+              <Mapping SourceColumn="DtoPromo" DataSetColumn="DtoPromo" />
+              <Mapping SourceColumn="DescriPromo" DataSetColumn="DescriPromo" />
+              <Mapping SourceColumn="DescriAmpliaPromo" DataSetColumn="DescriAmpliaPromo" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="MC_TDAConnectionString (Web.config)" DbObjectName="BDMARIO.dbo.AVE_CARRITO_LINEA_PROMO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillByIdCarrito" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataByIdCarrito" GeneratorSourceName="FillByIdCarrito" GetMethodModifier="Public" GetMethodName="GetDataByIdCarrito" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataByIdCarrito" UserSourceName="FillByIdCarrito">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT AVE_CARRITO_LINEA_PROMO.*   FROM AVE_CARRITO_LINEA_PROMO
+INNER JOIN AVE_CARRITO_LINEA
+ON dbo.AVE_CARRITO_LINEA.id_Carrito_Detalle = dbo.AVE_CARRITO_LINEA_PROMO.id_linea_Carrito 
+WHERE  AVE_CARRITO_LINEA.id_Carrito = @IdCarrito </CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="IdCarrito" ColumnName="id_Carrito" DataSourceName="BDMARIO.dbo.AVE_CARRITO_LINEA" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@IdCarrito" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="id_Carrito" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MC_Piagui_DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MC_Piagui_DataSet" msprop:Generator_UserDSName="MC_Piagui_DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VW_AVE_TICKET_CABECERA" msprop:Generator_TableClassName="VW_AVE_TICKET_CABECERADataTable" msprop:Generator_TableVarName="tableVW_AVE_TICKET_CABECERA" msprop:Generator_TablePropName="VW_AVE_TICKET_CABECERA" msprop:Generator_RowDeletingName="VW_AVE_TICKET_CABECERARowDeleting" msprop:Generator_RowChangingName="VW_AVE_TICKET_CABECERARowChanging" msprop:Generator_RowEvHandlerName="VW_AVE_TICKET_CABECERARowChangeEventHandler" msprop:Generator_RowDeletedName="VW_AVE_TICKET_CABECERARowDeleted" msprop:Generator_UserTableName="VW_AVE_TICKET_CABECERA" msprop:Generator_RowChangedName="VW_AVE_TICKET_CABECERARowChanged" msprop:Generator_RowEvArgName="VW_AVE_TICKET_CABECERARowChangeEvent" msprop:Generator_RowClassName="VW_AVE_TICKET_CABECERARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="linea_1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_1" msprop:Generator_ColumnPropNameInRow="linea_1" msprop:Generator_ColumnPropNameInTable="linea_1Column" msprop:Generator_UserColumnName="linea_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="251" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_2" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_2" msprop:Generator_ColumnPropNameInRow="linea_2" msprop:Generator_ColumnPropNameInTable="linea_2Column" msprop:Generator_UserColumnName="linea_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_3" msprop:Generator_ColumnVarNameInTable="columnlinea_3" msprop:Generator_ColumnPropNameInRow="linea_3" msprop:Generator_ColumnPropNameInTable="linea_3Column" msprop:Generator_UserColumnName="linea_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_4" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_4" msprop:Generator_ColumnPropNameInRow="linea_4" msprop:Generator_ColumnPropNameInTable="linea_4Column" msprop:Generator_UserColumnName="linea_4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="481" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_5" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_5" msprop:Generator_ColumnPropNameInRow="linea_5" msprop:Generator_ColumnPropNameInTable="linea_5Column" msprop:Generator_UserColumnName="linea_5" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="23" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_6" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_6" msprop:Generator_ColumnPropNameInRow="linea_6" msprop:Generator_ColumnPropNameInTable="linea_6Column" msprop:Generator_UserColumnName="linea_6" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="55" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_7" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_7" msprop:Generator_ColumnPropNameInRow="linea_7" msprop:Generator_ColumnPropNameInTable="linea_7Column" msprop:Generator_UserColumnName="linea_7" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="19" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_8" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_8" msprop:Generator_ColumnPropNameInRow="linea_8" msprop:Generator_ColumnPropNameInTable="linea_8Column" msprop:Generator_UserColumnName="linea_8" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="210" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_9" msprop:Generator_ColumnVarNameInTable="columnlinea_9" msprop:Generator_ColumnPropNameInRow="linea_9" msprop:Generator_ColumnPropNameInTable="linea_9Column" msprop:Generator_UserColumnName="linea_9" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_10" msprop:Generator_ColumnVarNameInTable="columnlinea_10" msprop:Generator_ColumnPropNameInRow="linea_10" msprop:Generator_ColumnPropNameInTable="linea_10Column" msprop:Generator_UserColumnName="linea_10" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_11" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_11" msprop:Generator_ColumnPropNameInRow="linea_11" msprop:Generator_ColumnPropNameInTable="linea_11Column" msprop:Generator_UserColumnName="linea_11" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="227" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_12" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_12" msprop:Generator_ColumnPropNameInRow="linea_12" msprop:Generator_ColumnPropNameInTable="linea_12Column" msprop:Generator_UserColumnName="linea_12" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="55" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_13" msprop:Generator_ColumnVarNameInTable="columnlinea_13" msprop:Generator_ColumnPropNameInRow="linea_13" msprop:Generator_ColumnPropNameInTable="linea_13Column" msprop:Generator_UserColumnName="linea_13" type="xs:string" minOccurs="0" />
+              <xs:element name="linea_14" msprop:Generator_ColumnVarNameInTable="columnlinea_14" msprop:Generator_ColumnPropNameInRow="linea_14" msprop:Generator_ColumnPropNameInTable="linea_14Column" msprop:Generator_UserColumnName="linea_14" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_15" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_15" msprop:Generator_ColumnPropNameInRow="linea_15" msprop:Generator_ColumnPropNameInTable="linea_15Column" msprop:Generator_UserColumnName="linea_15" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="59" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_16" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_16" msprop:Generator_ColumnPropNameInRow="linea_16" msprop:Generator_ColumnPropNameInTable="linea_16Column" msprop:Generator_UserColumnName="linea_16" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="27" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_17" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_17" msprop:Generator_ColumnPropNameInRow="linea_17" msprop:Generator_ColumnPropNameInTable="linea_17Column" msprop:Generator_UserColumnName="linea_17" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_18" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_18" msprop:Generator_ColumnPropNameInRow="linea_18" msprop:Generator_ColumnPropNameInTable="linea_18Column" msprop:Generator_UserColumnName="linea_18" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_19" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_19" msprop:Generator_ColumnPropNameInRow="linea_19" msprop:Generator_ColumnPropNameInTable="linea_19Column" msprop:Generator_UserColumnName="linea_19" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_20" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_20" msprop:Generator_ColumnPropNameInRow="linea_20" msprop:Generator_ColumnPropNameInTable="linea_20Column" msprop:Generator_UserColumnName="linea_20" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="23" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_21" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_21" msprop:Generator_ColumnPropNameInRow="linea_21" msprop:Generator_ColumnPropNameInTable="linea_21Column" msprop:Generator_UserColumnName="linea_21" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="440" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_22" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_22" msprop:Generator_ColumnPropNameInRow="linea_22" msprop:Generator_ColumnPropNameInTable="linea_22Column" msprop:Generator_UserColumnName="linea_22" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_23" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_23" msprop:Generator_ColumnPropNameInRow="linea_23" msprop:Generator_ColumnPropNameInTable="linea_23Column" msprop:Generator_UserColumnName="linea_23" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_24" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_24" msprop:Generator_ColumnPropNameInRow="linea_24" msprop:Generator_ColumnPropNameInTable="linea_24Column" msprop:Generator_UserColumnName="linea_24" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="31" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_25" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_25" msprop:Generator_ColumnPropNameInRow="linea_25" msprop:Generator_ColumnPropNameInTable="linea_25Column" msprop:Generator_UserColumnName="linea_25" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea_26" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea_26" msprop:Generator_ColumnPropNameInRow="linea_26" msprop:Generator_ColumnPropNameInTable="linea_26Column" msprop:Generator_UserColumnName="linea_26" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Ticket" msprop:Generator_ColumnVarNameInTable="columnId_Ticket" msprop:Generator_ColumnPropNameInRow="Id_Ticket" msprop:Generator_ColumnPropNameInTable="Id_TicketColumn" msprop:Generator_UserColumnName="Id_Ticket">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Linea27" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLinea27" msprop:Generator_ColumnPropNameInRow="Linea27" msprop:Generator_ColumnPropNameInTable="Linea27Column" msprop:Generator_UserColumnName="Linea27" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="203" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="linea28" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnlinea28" msprop:Generator_ColumnPropNameInRow="linea28" msprop:Generator_ColumnPropNameInTable="linea28Column" msprop:Generator_UserColumnName="linea28" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PR_VIEW_TICKET_MODELO" msprop:Generator_TableClassName="PR_VIEW_TICKET_MODELODataTable" msprop:Generator_TableVarName="tablePR_VIEW_TICKET_MODELO" msprop:Generator_RowChangedName="PR_VIEW_TICKET_MODELORowChanged" msprop:Generator_TablePropName="PR_VIEW_TICKET_MODELO" msprop:Generator_RowDeletingName="PR_VIEW_TICKET_MODELORowDeleting" msprop:Generator_RowChangingName="PR_VIEW_TICKET_MODELORowChanging" msprop:Generator_RowEvHandlerName="PR_VIEW_TICKET_MODELORowChangeEventHandler" msprop:Generator_RowDeletedName="PR_VIEW_TICKET_MODELORowDeleted" msprop:Generator_RowClassName="PR_VIEW_TICKET_MODELORow" msprop:Generator_UserTableName="PR_VIEW_TICKET_MODELO" msprop:Generator_RowEvArgName="PR_VIEW_TICKET_MODELORowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPosicion" msprop:Generator_ColumnVarNameInTable="columnIdPosicion" msprop:Generator_ColumnPropNameInRow="IdPosicion" msprop:Generator_ColumnPropNameInTable="IdPosicionColumn" msprop:Generator_UserColumnName="IdPosicion" type="xs:int" minOccurs="0" />
+              <xs:element name="Id_auto_detalles" msprop:Generator_ColumnVarNameInTable="columnId_auto_detalles" msprop:Generator_ColumnPropNameInRow="Id_auto_detalles" msprop:Generator_ColumnPropNameInTable="Id_auto_detallesColumn" msprop:Generator_UserColumnName="Id_auto_detalles" type="xs:int" />
+              <xs:element name="Linea_Titulo_izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLinea_Titulo_izq" msprop:Generator_ColumnPropNameInRow="Linea_Titulo_izq" msprop:Generator_ColumnPropNameInTable="Linea_Titulo_izqColumn" msprop:Generator_UserColumnName="Linea_Titulo_izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Linea_Titulo_der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLinea_Titulo_der" msprop:Generator_ColumnPropNameInRow="Linea_Titulo_der" msprop:Generator_ColumnPropNameInTable="Linea_Titulo_derColumn" msprop:Generator_UserColumnName="Linea_Titulo_der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaDetalle1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaDetalle1" msprop:Generator_ColumnPropNameInRow="LineaDetalle1" msprop:Generator_ColumnPropNameInTable="LineaDetalle1Column" msprop:Generator_UserColumnName="LineaDetalle1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="116" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaDetalle2_Izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaDetalle2_Izq" msprop:Generator_ColumnPropNameInRow="LineaDetalle2_Izq" msprop:Generator_ColumnPropNameInTable="LineaDetalle2_IzqColumn" msprop:Generator_UserColumnName="LineaDetalle2_Izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1045" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaDetalle2_Der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaDetalle2_Der" msprop:Generator_ColumnPropNameInRow="LineaDetalle2_Der" msprop:Generator_ColumnPropNameInTable="LineaDetalle2_DerColumn" msprop:Generator_UserColumnName="LineaDetalle2_Der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaTotalDetalle_Izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaTotalDetalle_Izq" msprop:Generator_ColumnPropNameInRow="LineaTotalDetalle_Izq" msprop:Generator_ColumnPropNameInTable="LineaTotalDetalle_IzqColumn" msprop:Generator_UserColumnName="LineaTotalDetalle_Izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="62" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaTotalDetalle_Der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaTotalDetalle_Der" msprop:Generator_ColumnPropNameInRow="LineaTotalDetalle_Der" msprop:Generator_ColumnPropNameInTable="LineaTotalDetalle_DerColumn" msprop:Generator_UserColumnName="LineaTotalDetalle_Der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="77" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaTotalDetalleTexto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaTotalDetalleTexto" msprop:Generator_ColumnPropNameInRow="LineaTotalDetalleTexto" msprop:Generator_ColumnPropNameInTable="LineaTotalDetalleTextoColumn" msprop:Generator_UserColumnName="LineaTotalDetalleTexto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaTotalDetalleIVA_Izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaTotalDetalleIVA_Izq" msprop:Generator_ColumnPropNameInRow="LineaTotalDetalleIVA_Izq" msprop:Generator_ColumnPropNameInTable="LineaTotalDetalleIVA_IzqColumn" msprop:Generator_UserColumnName="LineaTotalDetalleIVA_Izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaTotalDetalleIVA_Der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaTotalDetalleIVA_Der" msprop:Generator_ColumnPropNameInRow="LineaTotalDetalleIVA_Der" msprop:Generator_ColumnPropNameInTable="LineaTotalDetalleIVA_DerColumn" msprop:Generator_UserColumnName="LineaTotalDetalleIVA_Der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaTotalDetalleNumArt_Izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaTotalDetalleNumArt_Izq" msprop:Generator_ColumnPropNameInRow="LineaTotalDetalleNumArt_Izq" msprop:Generator_ColumnPropNameInTable="LineaTotalDetalleNumArt_IzqColumn" msprop:Generator_UserColumnName="LineaTotalDetalleNumArt_Izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaTotalDetalleNumArt_Der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaTotalDetalleNumArt_Der" msprop:Generator_ColumnPropNameInRow="LineaTotalDetalleNumArt_Der" msprop:Generator_ColumnPropNameInTable="LineaTotalDetalleNumArt_DerColumn" msprop:Generator_UserColumnName="LineaTotalDetalleNumArt_Der" type="xs:int" minOccurs="0" />
+              <xs:element name="LineaFPago1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaFPago1" msprop:Generator_ColumnPropNameInRow="LineaFPago1" msprop:Generator_ColumnPropNameInTable="LineaFPago1Column" msprop:Generator_UserColumnName="LineaFPago1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaFPago2_Izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaFPago2_Izq" msprop:Generator_ColumnPropNameInRow="LineaFPago2_Izq" msprop:Generator_ColumnPropNameInTable="LineaFPago2_IzqColumn" msprop:Generator_UserColumnName="LineaFPago2_Izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaFPago2_Der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaFPago2_Der" msprop:Generator_ColumnPropNameInRow="LineaFPago2_Der" msprop:Generator_ColumnPropNameInTable="LineaFPago2_DerColumn" msprop:Generator_UserColumnName="LineaFPago2_Der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaFPago3" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaFPago3" msprop:Generator_ColumnPropNameInRow="LineaFPago3" msprop:Generator_ColumnPropNameInTable="LineaFPago3Column" msprop:Generator_UserColumnName="LineaFPago3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaFPago4_Izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaFPago4_Izq" msprop:Generator_ColumnPropNameInRow="LineaFPago4_Izq" msprop:Generator_ColumnPropNameInTable="LineaFPago4_IzqColumn" msprop:Generator_UserColumnName="LineaFPago4_Izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaFPago4_Der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaFPago4_Der" msprop:Generator_ColumnPropNameInRow="LineaFPago4_Der" msprop:Generator_ColumnPropNameInTable="LineaFPago4_DerColumn" msprop:Generator_UserColumnName="LineaFPago4_Der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaFirmaEmpleado" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaFirmaEmpleado" msprop:Generator_ColumnPropNameInRow="LineaFirmaEmpleado" msprop:Generator_ColumnPropNameInTable="LineaFirmaEmpleadoColumn" msprop:Generator_UserColumnName="LineaFirmaEmpleado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="364" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9" msprop:Generator_ColumnPropNameInRow="LineaC9" msprop:Generator_ColumnPropNameInTable="LineaC9Column" msprop:Generator_UserColumnName="LineaC9" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Ptos1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Ptos1" msprop:Generator_ColumnPropNameInRow="LineaC9Ptos1" msprop:Generator_ColumnPropNameInTable="LineaC9Ptos1Column" msprop:Generator_UserColumnName="LineaC9Ptos1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Ptos2_izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Ptos2_izq" msprop:Generator_ColumnPropNameInRow="LineaC9Ptos2_izq" msprop:Generator_ColumnPropNameInTable="LineaC9Ptos2_izqColumn" msprop:Generator_UserColumnName="LineaC9Ptos2_izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="72" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Ptos2_der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Ptos2_der" msprop:Generator_ColumnPropNameInRow="LineaC9Ptos2_der" msprop:Generator_ColumnPropNameInTable="LineaC9Ptos2_derColumn" msprop:Generator_UserColumnName="LineaC9Ptos2_der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="43" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Par1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Par1" msprop:Generator_ColumnPropNameInRow="LineaC9Par1" msprop:Generator_ColumnPropNameInTable="LineaC9Par1Column" msprop:Generator_UserColumnName="LineaC9Par1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Par2_izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Par2_izq" msprop:Generator_ColumnPropNameInRow="LineaC9Par2_izq" msprop:Generator_ColumnPropNameInTable="LineaC9Par2_izqColumn" msprop:Generator_UserColumnName="LineaC9Par2_izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="55" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Par2_der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Par2_der" msprop:Generator_ColumnPropNameInRow="LineaC9Par2_der" msprop:Generator_ColumnPropNameInTable="LineaC9Par2_derColumn" msprop:Generator_UserColumnName="LineaC9Par2_der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Bolsa1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Bolsa1" msprop:Generator_ColumnPropNameInRow="LineaC9Bolsa1" msprop:Generator_ColumnPropNameInTable="LineaC9Bolsa1Column" msprop:Generator_UserColumnName="LineaC9Bolsa1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Bolsa2_izq" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Bolsa2_izq" msprop:Generator_ColumnPropNameInRow="LineaC9Bolsa2_izq" msprop:Generator_ColumnPropNameInTable="LineaC9Bolsa2_izqColumn" msprop:Generator_UserColumnName="LineaC9Bolsa2_izq" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="57" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9Bolsa2_der" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9Bolsa2_der" msprop:Generator_ColumnPropNameInRow="LineaC9Bolsa2_der" msprop:Generator_ColumnPropNameInTable="LineaC9Bolsa2_derColumn" msprop:Generator_UserColumnName="LineaC9Bolsa2_der" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9PromoCumple" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9PromoCumple" msprop:Generator_ColumnPropNameInRow="LineaC9PromoCumple" msprop:Generator_ColumnPropNameInTable="LineaC9PromoCumpleColumn" msprop:Generator_UserColumnName="LineaC9PromoCumple" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="157" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9PromoAniversario" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9PromoAniversario" msprop:Generator_ColumnPropNameInRow="LineaC9PromoAniversario" msprop:Generator_ColumnPropNameInTable="LineaC9PromoAniversarioColumn" msprop:Generator_UserColumnName="LineaC9PromoAniversario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="161" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineaC9PromoDia9" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnLineaC9PromoDia9" msprop:Generator_ColumnPropNameInRow="LineaC9PromoDia9" msprop:Generator_ColumnPropNameInTable="LineaC9PromoDia9Column" msprop:Generator_UserColumnName="LineaC9PromoDia9" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="92" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AVE_dameDetalleCarrito" msprop:Generator_TableClassName="AVE_dameDetalleCarritoDataTable" msprop:Generator_TableVarName="tableAVE_dameDetalleCarrito" msprop:Generator_TablePropName="AVE_dameDetalleCarrito" msprop:Generator_RowDeletingName="AVE_dameDetalleCarritoRowDeleting" msprop:Generator_RowChangingName="AVE_dameDetalleCarritoRowChanging" msprop:Generator_RowEvHandlerName="AVE_dameDetalleCarritoRowChangeEventHandler" msprop:Generator_RowDeletedName="AVE_dameDetalleCarritoRowDeleted" msprop:Generator_UserTableName="AVE_dameDetalleCarrito" msprop:Generator_RowChangedName="AVE_dameDetalleCarritoRowChanged" msprop:Generator_RowEvArgName="AVE_dameDetalleCarritoRowChangeEvent" msprop:Generator_RowClassName="AVE_dameDetalleCarritoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_carrito_detalle" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid_carrito_detalle" msprop:Generator_ColumnPropNameInRow="id_carrito_detalle" msprop:Generator_ColumnPropNameInTable="id_carrito_detalleColumn" msprop:Generator_UserColumnName="id_carrito_detalle" type="xs:int" />
+              <xs:element name="id_Carrito" msprop:Generator_ColumnVarNameInTable="columnid_Carrito" msprop:Generator_ColumnPropNameInRow="id_Carrito" msprop:Generator_ColumnPropNameInTable="id_CarritoColumn" msprop:Generator_UserColumnName="id_Carrito" type="xs:int" minOccurs="0" />
+              <xs:element name="idArticulo" msprop:Generator_ColumnVarNameInTable="columnidArticulo" msprop:Generator_ColumnPropNameInRow="idArticulo" msprop:Generator_ColumnPropNameInTable="idArticuloColumn" msprop:Generator_UserColumnName="idArticulo" type="xs:int" minOccurs="0" />
+              <xs:element name="Id_cabecero_detalle" msprop:Generator_ColumnVarNameInTable="columnId_cabecero_detalle" msprop:Generator_ColumnPropNameInRow="Id_cabecero_detalle" msprop:Generator_ColumnPropNameInTable="Id_cabecero_detalleColumn" msprop:Generator_UserColumnName="Id_cabecero_detalle" type="xs:int" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="PVPORI" msprop:Generator_ColumnVarNameInTable="columnPVPORI" msprop:Generator_ColumnPropNameInRow="PVPORI" msprop:Generator_ColumnPropNameInTable="PVPORIColumn" msprop:Generator_UserColumnName="PVPORI" type="xs:double" minOccurs="0" />
+              <xs:element name="PVPACT" msprop:Generator_ColumnVarNameInTable="columnPVPACT" msprop:Generator_ColumnPropNameInRow="PVPACT" msprop:Generator_ColumnPropNameInTable="PVPACTColumn" msprop:Generator_UserColumnName="PVPACT" type="xs:double" minOccurs="0" />
+              <xs:element name="DTOArticulo" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDTOArticulo" msprop:Generator_ColumnPropNameInRow="DTOArticulo" msprop:Generator_ColumnPropNameInTable="DTOArticuloColumn" msprop:Generator_UserColumnName="DTOArticulo" type="xs:double" minOccurs="0" />
+              <xs:element name="IdPromocion" msprop:Generator_ColumnVarNameInTable="columnIdPromocion" msprop:Generator_ColumnPropNameInRow="IdPromocion" msprop:Generator_ColumnPropNameInTable="IdPromocionColumn" msprop:Generator_UserColumnName="IdPromocion" type="xs:int" minOccurs="0" />
+              <xs:element name="IdPedido" msprop:Generator_ColumnVarNameInTable="columnIdPedido" msprop:Generator_ColumnPropNameInRow="IdPedido" msprop:Generator_ColumnPropNameInTable="IdPedidoColumn" msprop:Generator_UserColumnName="IdPedido" type="xs:int" minOccurs="0" />
+              <xs:element name="Nombre_Talla" msprop:Generator_ColumnVarNameInTable="columnNombre_Talla" msprop:Generator_ColumnPropNameInRow="Nombre_Talla" msprop:Generator_ColumnPropNameInTable="Nombre_TallaColumn" msprop:Generator_UserColumnName="Nombre_Talla" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Color" msprop:Generator_ColumnVarNameInTable="columnColor" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_UserColumnName="Color">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ModeloProveedor" msprop:Generator_ColumnVarNameInTable="columnModeloProveedor" msprop:Generator_ColumnPropNameInRow="ModeloProveedor" msprop:Generator_ColumnPropNameInTable="ModeloProveedorColumn" msprop:Generator_UserColumnName="ModeloProveedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdTemporada" msprop:Generator_ColumnVarNameInTable="columnIdTemporada" msprop:Generator_ColumnPropNameInRow="IdTemporada" msprop:Generator_ColumnPropNameInTable="IdTemporadaColumn" msprop:Generator_UserColumnName="IdTemporada" type="xs:int" />
+              <xs:element name="IdProveedor" msprop:Generator_ColumnVarNameInTable="columnIdProveedor" msprop:Generator_ColumnPropNameInRow="IdProveedor" msprop:Generator_ColumnPropNameInTable="IdProveedorColumn" msprop:Generator_UserColumnName="IdProveedor" type="xs:int" />
+              <xs:element name="IdTienda" msprop:Generator_ColumnVarNameInTable="columnIdTienda" msprop:Generator_ColumnPropNameInRow="IdTienda" msprop:Generator_ColumnPropNameInTable="IdTiendaColumn" msprop:Generator_UserColumnName="IdTienda" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DtoPromo" msprop:Generator_ColumnVarNameInTable="columnDtoPromo" msprop:Generator_ColumnPropNameInRow="DtoPromo" msprop:Generator_ColumnPropNameInTable="DtoPromoColumn" msprop:Generator_UserColumnName="DtoPromo" type="xs:double" minOccurs="0" />
+              <xs:element name="promocion" msprop:Generator_ColumnVarNameInTable="columnpromocion" msprop:Generator_ColumnPropNameInRow="promocion" msprop:Generator_ColumnPropNameInTable="promocionColumn" msprop:Generator_UserColumnName="promocion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AVE_CARRITO" msprop:Generator_TableClassName="AVE_CARRITODataTable" msprop:Generator_TableVarName="tableAVE_CARRITO" msprop:Generator_TablePropName="AVE_CARRITO" msprop:Generator_RowDeletingName="AVE_CARRITORowDeleting" msprop:Generator_RowChangingName="AVE_CARRITORowChanging" msprop:Generator_RowEvHandlerName="AVE_CARRITORowChangeEventHandler" msprop:Generator_RowDeletedName="AVE_CARRITORowDeleted" msprop:Generator_UserTableName="AVE_CARRITO" msprop:Generator_RowChangedName="AVE_CARRITORowChanged" msprop:Generator_RowEvArgName="AVE_CARRITORowChangeEvent" msprop:Generator_RowClassName="AVE_CARRITORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCarrito" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdCarrito" msprop:Generator_ColumnPropNameInRow="IdCarrito" msprop:Generator_ColumnPropNameInTable="IdCarritoColumn" msprop:Generator_UserColumnName="IdCarrito" type="xs:int" />
+              <xs:element name="Tienda" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTienda" msprop:Generator_ColumnPropNameInRow="Tienda" msprop:Generator_ColumnPropNameInTable="TiendaColumn" msprop:Generator_UserColumnName="Tienda" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaCreacion" msprop:Generator_ColumnVarNameInTable="columnFechaCreacion" msprop:Generator_ColumnPropNameInRow="FechaCreacion" msprop:Generator_ColumnPropNameInTable="FechaCreacionColumn" msprop:Generator_UserColumnName="FechaCreacion" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="id_Cliente" msprop:Generator_ColumnVarNameInTable="columnid_Cliente" msprop:Generator_ColumnPropNameInRow="id_Cliente" msprop:Generator_ColumnPropNameInTable="id_ClienteColumn" msprop:Generator_UserColumnName="id_Cliente" type="xs:int" minOccurs="0" />
+              <xs:element name="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" msprop:Generator_UserColumnName="Usuario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Maquina" msprop:Generator_ColumnVarNameInTable="columnMaquina" msprop:Generator_ColumnPropNameInRow="Maquina" msprop:Generator_ColumnPropNameInTable="MaquinaColumn" msprop:Generator_UserColumnName="Maquina" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha_Modificacion" msprop:Generator_ColumnVarNameInTable="columnFecha_Modificacion" msprop:Generator_ColumnPropNameInRow="Fecha_Modificacion" msprop:Generator_ColumnPropNameInTable="Fecha_ModificacionColumn" msprop:Generator_UserColumnName="Fecha_Modificacion" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TarjetaCliente" msprop:Generator_ColumnVarNameInTable="columnTarjetaCliente" msprop:Generator_ColumnPropNameInRow="TarjetaCliente" msprop:Generator_ColumnPropNameInTable="TarjetaClienteColumn" msprop:Generator_UserColumnName="TarjetaCliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EstadoCarrito" msprop:Generator_ColumnVarNameInTable="columnEstadoCarrito" msprop:Generator_ColumnPropNameInRow="EstadoCarrito" msprop:Generator_ColumnPropNameInTable="EstadoCarritoColumn" msprop:Generator_UserColumnName="EstadoCarrito" type="xs:int" minOccurs="0" />
+              <xs:element name="Total" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AVE_CARRITO_LINEAS" msprop:Generator_TableClassName="AVE_CARRITO_LINEASDataTable" msprop:Generator_TableVarName="tableAVE_CARRITO_LINEAS" msprop:Generator_TablePropName="AVE_CARRITO_LINEAS" msprop:Generator_RowDeletingName="AVE_CARRITO_LINEASRowDeleting" msprop:Generator_RowChangingName="AVE_CARRITO_LINEASRowChanging" msprop:Generator_RowEvHandlerName="AVE_CARRITO_LINEASRowChangeEventHandler" msprop:Generator_RowDeletedName="AVE_CARRITO_LINEASRowDeleted" msprop:Generator_UserTableName="AVE_CARRITO_LINEAS" msprop:Generator_RowChangedName="AVE_CARRITO_LINEASRowChanged" msprop:Generator_RowEvArgName="AVE_CARRITO_LINEASRowChangeEvent" msprop:Generator_RowClassName="AVE_CARRITO_LINEASRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_Carrito_Detalle" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid_Carrito_Detalle" msprop:Generator_ColumnPropNameInRow="id_Carrito_Detalle" msprop:Generator_ColumnPropNameInTable="id_Carrito_DetalleColumn" msprop:Generator_UserColumnName="id_Carrito_Detalle" type="xs:int" />
+              <xs:element name="idArticulo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnidArticulo" msprop:Generator_ColumnPropNameInRow="idArticulo" msprop:Generator_ColumnPropNameInTable="idArticuloColumn" msprop:Generator_UserColumnName="idArticulo" type="xs:int" />
+              <xs:element name="Id_cabecero_detalle" msprop:Generator_ColumnVarNameInTable="columnId_cabecero_detalle" msprop:Generator_ColumnPropNameInRow="Id_cabecero_detalle" msprop:Generator_ColumnPropNameInTable="Id_cabecero_detalleColumn" msprop:Generator_UserColumnName="Id_cabecero_detalle" type="xs:int" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="PVPORI" msprop:Generator_ColumnVarNameInTable="columnPVPORI" msprop:Generator_ColumnPropNameInRow="PVPORI" msprop:Generator_ColumnPropNameInTable="PVPORIColumn" msprop:Generator_UserColumnName="PVPORI" type="xs:double" minOccurs="0" />
+              <xs:element name="PVPACT" msprop:Generator_ColumnVarNameInTable="columnPVPACT" msprop:Generator_ColumnPropNameInRow="PVPACT" msprop:Generator_ColumnPropNameInTable="PVPACTColumn" msprop:Generator_UserColumnName="PVPACT" type="xs:double" minOccurs="0" />
+              <xs:element name="DTOArticulo" msprop:Generator_ColumnVarNameInTable="columnDTOArticulo" msprop:Generator_ColumnPropNameInRow="DTOArticulo" msprop:Generator_ColumnPropNameInTable="DTOArticuloColumn" msprop:Generator_UserColumnName="DTOArticulo" type="xs:double" minOccurs="0" />
+              <xs:element name="idPromocion" msprop:Generator_ColumnVarNameInTable="columnidPromocion" msprop:Generator_ColumnPropNameInRow="idPromocion" msprop:Generator_ColumnPropNameInTable="idPromocionColumn" msprop:Generator_UserColumnName="idPromocion" type="xs:int" minOccurs="0" />
+              <xs:element name="idPedido" msprop:Generator_ColumnVarNameInTable="columnidPedido" msprop:Generator_ColumnPropNameInRow="idPedido" msprop:Generator_ColumnPropNameInTable="idPedidoColumn" msprop:Generator_UserColumnName="idPedido" type="xs:int" minOccurs="0" />
+              <xs:element name="PrecioCostoReal" msprop:Generator_ColumnVarNameInTable="columnPrecioCostoReal" msprop:Generator_ColumnPropNameInRow="PrecioCostoReal" msprop:Generator_ColumnPropNameInTable="PrecioCostoRealColumn" msprop:Generator_UserColumnName="PrecioCostoReal" type="xs:double" minOccurs="0" />
+              <xs:element name="TipoCorte" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTipoCorte" msprop:Generator_ColumnPropNameInRow="TipoCorte" msprop:Generator_ColumnPropNameInTable="TipoCorteColumn" msprop:Generator_UserColumnName="TipoCorte" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Promocion" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPromocion" msprop:Generator_ColumnPropNameInRow="Promocion" msprop:Generator_ColumnPropNameInTable="PromocionColumn" msprop:Generator_UserColumnName="Promocion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AVE_CARRITO_PAGOS" msprop:Generator_TableClassName="AVE_CARRITO_PAGOSDataTable" msprop:Generator_TableVarName="tableAVE_CARRITO_PAGOS" msprop:Generator_TablePropName="AVE_CARRITO_PAGOS" msprop:Generator_RowDeletingName="AVE_CARRITO_PAGOSRowDeleting" msprop:Generator_RowChangingName="AVE_CARRITO_PAGOSRowChanging" msprop:Generator_RowEvHandlerName="AVE_CARRITO_PAGOSRowChangeEventHandler" msprop:Generator_RowDeletedName="AVE_CARRITO_PAGOSRowDeleted" msprop:Generator_UserTableName="AVE_CARRITO_PAGOS" msprop:Generator_RowChangedName="AVE_CARRITO_PAGOSRowChanged" msprop:Generator_RowEvArgName="AVE_CARRITO_PAGOSRowChangeEvent" msprop:Generator_RowClassName="AVE_CARRITO_PAGOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCarritoPago" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdCarritoPago" msprop:Generator_ColumnPropNameInRow="IdCarritoPago" msprop:Generator_ColumnPropNameInTable="IdCarritoPagoColumn" msprop:Generator_UserColumnName="IdCarritoPago" type="xs:int" />
+              <xs:element name="TipoPago" msprop:Generator_ColumnVarNameInTable="columnTipoPago" msprop:Generator_ColumnPropNameInRow="TipoPago" msprop:Generator_ColumnPropNameInTable="TipoPagoColumn" msprop:Generator_UserColumnName="TipoPago" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoPagoDetalle" msprop:Generator_ColumnVarNameInTable="columnTipoPagoDetalle" msprop:Generator_ColumnPropNameInRow="TipoPagoDetalle" msprop:Generator_ColumnPropNameInTable="TipoPagoDetalleColumn" msprop:Generator_UserColumnName="TipoPagoDetalle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumTarjeta" msprop:Generator_ColumnVarNameInTable="columnNumTarjeta" msprop:Generator_ColumnPropNameInRow="NumTarjeta" msprop:Generator_ColumnPropNameInTable="NumTarjetaColumn" msprop:Generator_UserColumnName="NumTarjeta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Importe" msprop:Generator_ColumnVarNameInTable="columnImporte" msprop:Generator_ColumnPropNameInRow="Importe" msprop:Generator_ColumnPropNameInTable="ImporteColumn" msprop:Generator_UserColumnName="Importe" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AVE_CARRITO_LINEA_PROMO" msprop:Generator_TableClassName="AVE_CARRITO_LINEA_PROMODataTable" msprop:Generator_TableVarName="tableAVE_CARRITO_LINEA_PROMO" msprop:Generator_TablePropName="AVE_CARRITO_LINEA_PROMO" msprop:Generator_RowDeletingName="AVE_CARRITO_LINEA_PROMORowDeleting" msprop:Generator_RowChangingName="AVE_CARRITO_LINEA_PROMORowChanging" msprop:Generator_RowEvHandlerName="AVE_CARRITO_LINEA_PROMORowChangeEventHandler" msprop:Generator_RowDeletedName="AVE_CARRITO_LINEA_PROMORowDeleted" msprop:Generator_UserTableName="AVE_CARRITO_LINEA_PROMO" msprop:Generator_RowChangedName="AVE_CARRITO_LINEA_PROMORowChanged" msprop:Generator_RowEvArgName="AVE_CARRITO_LINEA_PROMORowChangeEvent" msprop:Generator_RowClassName="AVE_CARRITO_LINEA_PROMORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_carrito_Promocion" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid_carrito_Promocion" msprop:Generator_ColumnPropNameInRow="id_carrito_Promocion" msprop:Generator_ColumnPropNameInTable="id_carrito_PromocionColumn" msprop:Generator_UserColumnName="id_carrito_Promocion" type="xs:int" />
+              <xs:element name="id_linea_Carrito" msprop:Generator_ColumnVarNameInTable="columnid_linea_Carrito" msprop:Generator_ColumnPropNameInRow="id_linea_Carrito" msprop:Generator_ColumnPropNameInTable="id_linea_CarritoColumn" msprop:Generator_UserColumnName="id_linea_Carrito" type="xs:int" minOccurs="0" />
+              <xs:element name="idPromo" msprop:Generator_ColumnVarNameInTable="columnidPromo" msprop:Generator_ColumnPropNameInRow="idPromo" msprop:Generator_ColumnPropNameInTable="idPromoColumn" msprop:Generator_UserColumnName="idPromo" type="xs:int" minOccurs="0" />
+              <xs:element name="DtoPromo" msprop:Generator_ColumnVarNameInTable="columnDtoPromo" msprop:Generator_ColumnPropNameInRow="DtoPromo" msprop:Generator_ColumnPropNameInTable="DtoPromoColumn" msprop:Generator_UserColumnName="DtoPromo" type="xs:double" minOccurs="0" />
+              <xs:element name="DescriPromo" msprop:Generator_ColumnVarNameInTable="columnDescriPromo" msprop:Generator_ColumnPropNameInRow="DescriPromo" msprop:Generator_ColumnPropNameInTable="DescriPromoColumn" msprop:Generator_UserColumnName="DescriPromo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="300" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescriAmpliaPromo" msprop:Generator_ColumnVarNameInTable="columnDescriAmpliaPromo" msprop:Generator_ColumnPropNameInRow="DescriAmpliaPromo" msprop:Generator_ColumnPropNameInTable="DescriAmpliaPromoColumn" msprop:Generator_UserColumnName="DescriAmpliaPromo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PR_VIEW_TICKET_MODELO" />
+      <xs:field xpath="mstns:Id_auto_detalles" />
+    </xs:unique>
+    <xs:unique name="AVE_dameDetalleCarrito_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AVE_dameDetalleCarrito" />
+      <xs:field xpath="mstns:id_carrito_detalle" />
+    </xs:unique>
+    <xs:unique name="AVE_CARRITO_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AVE_CARRITO" />
+      <xs:field xpath="mstns:IdCarrito" />
+    </xs:unique>
+    <xs:unique name="AVE_CARRITO_PAGOS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AVE_CARRITO_PAGOS" />
+      <xs:field xpath="mstns:IdCarritoPago" />
+    </xs:unique>
+    <xs:unique name="AVE_CARRITO_LINEA_PROMO_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AVE_CARRITO_LINEA_PROMO" />
+      <xs:field xpath="mstns:id_carrito_Promocion" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

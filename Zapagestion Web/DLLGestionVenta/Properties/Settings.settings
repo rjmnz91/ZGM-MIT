@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DLLGestionVenta.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DLLGestionVenta_AlmacenCentralPiaguiServiceReference_wsAlmacenCentral" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://mypiagui.com:800/wsAlmacenCentral.asmx</Value>
+    </Setting>
+    <Setting Name="DLLGestionVenta_ThinkRetailServiceWeb_wsThinkRetail" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://mypiagui.com:1090/wsThingRetail.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

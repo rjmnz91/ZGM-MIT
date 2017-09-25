@@ -1,0 +1,476 @@
+﻿body 
+{
+    font-family:Verdana, Arial; 
+    font-size:12px;
+    height:100%;
+    width:100%;
+    
+}
+
+form
+{
+	 margin-top:1px;
+}
+
+.Grid{
+    font-family:Verdana, Arial; 
+    font-size:12px;
+    border:solid thin black;
+}
+
+.GridFilaSeleccionada {
+    background-color:#ddd;
+
+}
+
+.GridHeader{
+    background-color:#cff;
+    font-weight:bold;
+}
+
+.GridItem{
+    padding: 0 2px 0 2px;
+    margin:0px;
+    white-space:nowrap;
+    }
+    
+.GridItemTallaBuscada{
+     background-color: Lime;  
+    }
+
+a { 
+    cursor:pointer; 
+    text-decoration:none;
+    color: Blue;
+}
+.Grid a{
+    display:block;
+}
+
+.textRight
+{
+     text-align:right;
+}
+
+.textCenter
+{
+     text-align:center;
+}
+
+.boton
+{
+    font-size:16px;
+    padding:4px;
+}
+.boton2
+{
+    font-size:12px;
+    padding:1px;
+}
+
+.boton3
+{
+    font-size:9px;
+    width:37px;
+    padding:5px 1px;
+}
+.boton4
+{
+    font-size:14px;
+    padding:4px;
+    width:70px;
+}
+
+.botonNavegacion
+{
+    font-size:14px;
+    padding:2px 0px ;
+}
+.botonNavegacion1
+{
+    font-size:14px;
+    padding:2px 2px ;
+}
+.barraNavegacion{
+    background-color:#4F81BD;
+}
+.botontabs
+{
+    background-color :transparent ;
+    border-Bottom-color: Black;   
+    border-Top-color: Black;   
+    border-left-color: Black ;
+    border-right-color: Black;
+    font-size:10px;
+    padding:2px 2px ;
+}
+
+
+.combo
+{
+    font-size:16px;
+    padding:4px;
+    width:100%;
+}
+
+
+
+.txtLogin
+{
+    font-size:16px;
+    width:115px;
+}
+
+.GridConversion{
+    font-family:Verdana, Arial; 
+    font-size:18px;
+    margin-left:10px;     
+}
+
+.txtBuscar
+{
+    font-size:15px;
+    width:110px;
+}
+.txtAniadir
+{
+    font-size:14px;
+    width:200px !important;
+}
+
+.txtBuscar2
+{
+    font-size:15px;
+    width:90px;
+}
+
+.textoAzul
+{
+    color:Blue;    
+}
+
+.ddlEstandar
+{
+    font-size:16px;
+    width:115px;}
+
+.cabFondoAzul
+{
+    background-color:#4F81BD;
+}
+
+.tablaTallas
+{
+
+    width:auto;
+    text-align:center;
+}
+
+.celdaCantidad
+{
+    height:12px;
+    border:solid 1px #000000;
+    text-align:center;
+    font-weight:bold;
+    background-color:#D8D8D8;
+}
+
+.celdaCantidadIntro
+{
+    height:12px;
+    border:solid 1px #000000;
+    text-align:center;
+    font-weight:bold;
+}
+
+.celdaCantidadIntroTxt
+{
+    font-size:10px;
+    width:18px;
+    height:16px;
+    border:none;
+    text-align:center;
+    /*IMPORTANTE: PADDING INTRODUCIDO PARA CENTRAR CORRECTAMENTE EL TEXTO*/
+    padding-left:4px;
+    font-weight:bold;
+}
+
+.celdaCantidadDif
+{
+    height:12px;
+    border:solid 1px #000000;
+    text-align:center;
+    font-weight:bold;
+    background-color:#D8D8D8;
+}
+
+.celdaTalla
+{
+    height:12px;
+    border:solid 1px #000000;
+    text-align:center;
+    background-color:#CCFFFF;
+    font-weight:bold;
+    padding:0px 1px;
+}
+
+.mensajeRequerido
+{
+	font-size:30px;
+}
+
+.mensajeRequerido2
+{
+	font-size:15px;
+}
+
+input 
+{
+	font-size:16px;
+}
+.negrita
+{
+	font-weight:bold;
+	text-align:center;
+	vertical-align: middle;
+	
+}
+
+.TallaSelecionada
+{
+	
+	border:solid 1px Maroon;
+	color:Maroon;
+	background-color: #FFFFC0;
+	cursor:pointer;
+	font-weight:bold;
+	text-align:center;
+	vertical-align: middle;
+	
+	
+}
+
+.botonT
+{
+    font-size:X-large;
+    padding:4px;
+    height:60px;
+    width:50px;
+}
+
+.body1 
+{
+    font-family:Verdana, Arial; 
+    font-size:12px;
+    height:100%;
+    width:100%;
+    
+}
+
+.EspacioCelda
+{ padding: 12px 0px 0px 0px;}
+
+/*cliente 9*/
+#cliente9{
+	margin:auto;
+	text-align:left;
+	width:600px;
+	float:left; 
+	}
+.tit_cliente9{
+	width:90%;
+	height:20px;
+	border:2px solid #000;
+	background:#CCCCCC;
+	font-weight:bold;
+	margin-top:30px;
+	margin-bottom:10px;
+	padding:3px;
+	font-size:15px;
+	
+	}
+.tipodato{
+	font-weight:bold;
+	float:left;
+	text-align:right;
+	line-height:25px;
+	}
+.datos{
+	float:left;
+	text-align:left;
+	line-height:25px;
+	margin-left:10px;
+	}
+.datos input{
+	border:1px solid #000;
+	height:21px;
+	font-size:15px;
+	
+	}
+.beneficios{
+	float:right;
+	
+	}
+.tablabeneficios{
+	border:2px solid #333;
+	
+	
+	}
+.tablafina{
+	border:1px solid #333;
+	
+	
+	}
+.tab_linea{
+	border-bottom:2px solid #333;
+	
+	}
+.tab_linea_fina{
+	border-bottom:1px solid #333;
+	
+	}
+.tab_linea_fina_dcha{
+	border-bottom:1px solid #333;
+	border-right:1px solid #333;
+	
+	}
+.tab_linea_dcha{
+	border-right:1px solid #333;
+	
+	
+	}
+
+.RellenoCarrito{ margin-left:15px}
+
+.RellenoCarrito1{ margin-left:55px}
+
+.table1{width:100%;}
+
+.RellenoCarrito2 
+{
+    margin-left:30%;
+    margin-right:30%;
+    width: 40%;
+    }
+.Ocultarcontrol
+{
+  margin-left:15px;
+  display:none;    
+}
+
+.VisibleControl
+{
+  margin-left:15px;
+ display:block;    
+}  
+
+.visi1
+{
+  display:inline-block;   
+}
+.ocul1
+{
+  display:none!important;  
+  
+}   
+
+                
+/* West nine */
+.fondoRosa { background-color: #EC2E8E; color: White; }
+.fondoNegro { background-color: #000000; color: Black;}
+.centered
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+ .div_carrito
+        {
+            margin-top: 5px;
+            position: absolute;
+            z-index: 100;
+           
+        }
+.div_itemcarrito
+ {
+     margin-top: 2px;
+     position: relative;
+     z-index: 101;
+     height: 8px;
+     left:12px;
+     width: 10px;
+     
+     -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -khtml-border-radius: 18px;
+    -border-radius: 18px;
+    padding: 1px 5px;
+ }
+
+#ButC9{text-align:center;}
+.BotoneraC9
+{
+    display: inline-block;
+    
+    vertical-align: middle;
+ 
+    height: 50px;
+    padding: 1% 2%;
+
+}
+.BotoneraC9 input{ margin-left:5px;}
+.botonC9Sel
+{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #81767C;
+    color: White;
+    border-color: #272626;
+    font-weight: bold;
+    
+    width:2000px;
+}
+.botonC9
+{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #B2A8AD;
+    color: White;
+    border-color: #272626;
+    font-weight: bold;
+    
+    width:2000px;
+}
+.OptionsC9
+{
+    display: inline-block;
+    
+    vertical-align: middle;
+ 
+    height: 20px;
+    padding: 1% 2% 3% 25%;
+}
+
+.EnDisDatos div input[type=text]
+{
+    
+   background-color: #B2A8AD;
+   
+}
+
+ui-dialog-osx {
+    -moz-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    border-radius: 0 0 8px 8px; border-width: 0 8px 8px 8px;
+}
+
+.EnDisDatos div span{font-weight:bold;}
+.EnDatos div span{font-weight:bold;}
+.datTJT span{font-weight:bold;}
+.Panel div span{font-weight:bold;}
+button.ui-datepicker-current { display: none; }

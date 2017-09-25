@@ -1,0 +1,57 @@
+D:\REP_VBNET\AVE_Piagui\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll.config
+D:\REP_VBNET\AVE_Piagui\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll
+D:\REP_VBNET\AVE_Piagui\DLLGestionCliente9\bin\Release\DLLGestionCliente9.pdb
+D:\REP_VBNET\AVE_Piagui\DLLGestionCliente9\bin\Release\log4net.dll
+D:\REP_VBNET\AVE_Piagui\DLLGestionCliente9\bin\Release\log4net.xml
+D:\REP_VBNET\AVE_Piagui\DLLGestionCliente9\obj\Release\DLLGestionCliente9.csprojResolveAssemblyReference.cache
+D:\REP_VBNET\AVE_Piagui\DLLGestionCliente9\obj\Release\DLLGestionCliente9.dll
+D:\REP_VBNET\AVE_Piagui\DLLGestionCliente9\obj\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionCliente9\bin\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionCliente9\bin\Release\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionCliente9\obj\Release\DLLGestionCliente9.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionCliente9\obj\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\ThinkRetail\ZGM\ZGM v1.1\DLLGestionCliente9\obj\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionCliente9\bin\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionCliente9\bin\Release\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionCliente9\obj\Release\DLLGestionCliente9.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionCliente9\obj\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v1.1 - copia\ZGM v1.1_Release\DLLGestionCliente9\obj\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionCliente9\bin\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionCliente9\bin\Release\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionCliente9\obj\Release\DLLGestionCliente9.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionCliente9\obj\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.2\DLLGestionCliente9\obj\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionCliente9\bin\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionCliente9\bin\Release\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionCliente9\obj\Release\DLLGestionCliente9.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionCliente9\obj\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3\DLLGestionCliente9\obj\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionCliente9\bin\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionCliente9\bin\Release\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionCliente9\obj\Release\DLLGestionCliente9.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionCliente9\obj\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.3 - copia\DLLGestionCliente9\obj\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionCliente9\bin\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionCliente9\bin\Release\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionCliente9\obj\Release\DLLGestionCliente9.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionCliente9\obj\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.5\DLLGestionCliente9\obj\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll.config
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionCliente9\bin\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionCliente9\bin\Release\DLLGestionCliente9.pdb
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionCliente9\bin\Release\log4net.xml
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionCliente9\obj\Release\DLLGestionCliente9.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionCliente9\obj\Release\DLLGestionCliente9.dll
+C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\DLLGestionCliente9\obj\Release\DLLGestionCliente9.pdb
