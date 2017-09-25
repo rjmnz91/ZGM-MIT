@@ -69,17 +69,22 @@ namespace AVE
             if (uri.Contains('?'))
             {
                 String[] value = uri.Split('?');
-                txtBuscar.Text = value[1];
-                if (chkToggleButton.Checked)
+                if (!value[1].Contains("send"))
                 {
-                    if (!pnlDatos.Visible)
+                    txtBuscar.Text = value[1];
+                    if (chkToggleButton.Checked)
                     {
-                        añadirCarrito();
-                        chkToggleButton.Checked = true;
+                        if (!pnlDatos.Visible)
+                        {
+                            añadirCarrito();
+                            chkToggleButton.Checked = true;
+                        }
                     }
+                    else
+                        cargar();
                 }
                 else
-                    cargar();
+                    ;
             }
             else
                 ;
@@ -411,7 +416,7 @@ namespace AVE
 
         protected void BtnScanner_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect(Constantes.Paginas.Inicio + "&sendScanReader");
+            Response.Redirect(Constantes.Paginas.Inicio + "?sendScanReader");
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)

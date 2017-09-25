@@ -623,14 +623,14 @@
                                 <asp:Label ID="Email" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label><br />
                                 <asp:Label ID="Shoelover" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
                             </div>
-                            <div runat="server" visible="false" id="Divfinalizar" style="border-style: solid; padding: 2px; border-width: 1px">
+                            <div runat="server" visible="false" id="Divfinalizar" style="border-style: solid; padding: 2px; border-width: 1px; width:45%">
 
-                                <button type="button" class="btn btn-success" style="width: 55%"
+                                <button type="button" class="btn btn-success" style="width:100%"
                                     onclick="this.disabled='disabled';document.getElementById('<%= btn.ClientID %>').click();">
                                     Finalizar Venta</button>
                                 <asp:Button ID="btn" runat="server" CssClass="btn btn-info" OnClick="ButFinalizarVenta_Click" Style="display: none;" />
                                 <!--input id="Button1" type="button" style="width:100%" disabled  value="Cancelar" onclick="return ValidarCancelPago()"   /-->
-                                <asp:Button ID="Button2" runat="server" Enabled="false" CssClass="btn btn-danger" Style="width: 55%" Text="Cancelar" OnClick="ButCancelarPago_Click" />
+                                <asp:Button ID="Button2" runat="server" Enabled="false" CssClass="btn btn-danger" Style="width: 100%" Text="Cancelar" OnClick="ButCancelarPago_Click" />
                             </div>
                             <table>
                                 <tr>
@@ -730,7 +730,7 @@
                                         &nbsp;
                                     </td>
                                     <td>
-                                        <div class="panel panel-primary" id="DivPagar" style="display: block; border-style: solid;border-width: 1px;">
+                                        <div class="panel panel-primary"  runat="server" id="DivPagar" style="display: block; border-style: solid;border-width: 1px;">
                                             <div runat="server" class="panel-heading" style="font-size: larger; font-weight: bold;">Importe</div>
                                             <div class="panel-body" style="width:100%">
                                                 <table >
