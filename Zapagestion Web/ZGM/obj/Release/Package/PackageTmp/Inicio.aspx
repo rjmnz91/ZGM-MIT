@@ -385,6 +385,33 @@
                 </div>
             </div>
         </asp:Panel>
+        <asp:panel ID="pnlActvidades" runat="server" CssClass="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <strong><center>Otras acciones</center></strong>
+                </div>
+                <div class="panel-body">
+                    <table>
+                        <tr>
+                            <%--<td style="width:70%; text-align:center">
+                                Cancelar Venta
+                            </td>--%>
+                            <td style="text-align:center">
+                                Buscar Transacciones
+                            </td>
+                        </tr>
+                        <tr>
+                            <%--<td style="width:70%; text-align:center">
+                                <asp:ImageButton ImageAlign="Middle" ImageUrl="~/img/Remove.png" Width="45px" Height="40px" runat="server" ID="btnCancelaVta" Text='Cancelar Venta' OnClick="btnCancelaVta_Click" />
+                            </td>--%>
+                            <td style="text-align:center">
+                                <asp:ImageButton ImageAlign="Middle" ImageUrl="~/img/buscar.png" Width="45px" Height="40px" runat="server" ID="btnBuscaTransac" Text=' <%$ Resources:Resource, Buscar%> ' OnClick="btnBuscaTransac_Click" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </asp:panel>
         <br />
         <asp:SqlDataSource ID="AVE_ArticuloDetalleObtener" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
             SelectCommand="SELECT 

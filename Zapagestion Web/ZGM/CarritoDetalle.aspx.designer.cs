@@ -274,6 +274,24 @@ namespace AVE {
         protected global::System.Web.UI.WebControls.Button showPago;
         
         /// <summary>
+        /// Control Divfinalizar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Divfinalizar;
+        
+        /// <summary>
+        /// Control btn.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn;
+        
+        /// <summary>
         /// Control btnBorrarCarrito.
         /// </summary>
         /// <remarks>
@@ -427,6 +445,15 @@ namespace AVE {
         protected global::System.Web.UI.WebControls.Label labelDirectivo;
         
         /// <summary>
+        /// Control lblforma.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblforma;
+        
+        /// <summary>
         /// Control tipPagos.
         /// </summary>
         /// <remarks>
@@ -470,33 +497,6 @@ namespace AVE {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Shoelover;
-        
-        /// <summary>
-        /// Control Divfinalizar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Divfinalizar;
-        
-        /// <summary>
-        /// Control btn.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn;
-        
-        /// <summary>
-        /// Control Button2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
         
         /// <summary>
         /// Control Divpuntos.

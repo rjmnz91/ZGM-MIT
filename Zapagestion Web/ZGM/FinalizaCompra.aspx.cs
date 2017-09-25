@@ -28,8 +28,15 @@ namespace AVE
                         fVenta = (FinalizaVenta)Session["FVENTA"];
 
                         NumTicket.Text = fVenta.Ticket;
-                        NomCliente.Text = fVenta.cliente;
-                        Entrega.Text = fVenta.Entrega;
+                        if (fVenta.Entrega.Length > 0)
+                            NomCliente.Text = fVenta.cliente;
+                        else
+                            Label2.Visible = false;
+                        if (fVenta.Entrega.Length > 0)
+                            Entrega.Text = fVenta.Entrega;
+                        else
+                            Label7.Visible = false;
+                        
 
                         Session["FVENTA"] = null;
                         Session["objCliente"] = null;

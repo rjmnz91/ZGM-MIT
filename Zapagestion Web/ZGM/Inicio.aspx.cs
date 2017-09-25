@@ -69,7 +69,7 @@ namespace AVE
             if (uri.Contains('?'))
             {
                 String[] value = uri.Split('?');
-                if (!value[1].Contains("send"))
+                if (!value[1].Contains("send") && !value[1].Contains("Search"))
                 {
                     txtBuscar.Text = value[1];
                     if (chkToggleButton.Checked)
@@ -424,6 +424,16 @@ namespace AVE
             //pnlEmpty.Visible = false;
             //txtBuscar.Text = "";
             Response.Redirect(Constantes.Paginas.Inicio);
+        }
+
+        protected void btnBuscaTransac_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect(Constantes.Paginas.Inicio + "?Search");
+        }
+
+        protected void btnCancelaVta_Click(object sender, ImageClickEventArgs e)
+        {
+
         }
 
         //protected void BtnScanner_Click(object sender, ImageClickEventArgs e)

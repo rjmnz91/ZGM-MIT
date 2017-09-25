@@ -282,6 +282,16 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
         if(view.getId() == btn_start.getId()){
             if(!txt_amount.getText().toString().equals("") && !txt_reference.getText().toString().equals("")){
+                runOnUiThread(new Runnable() {
+
+                    @Override
+                    public void run() {
+                        txt_amount.setEnabled(false);
+                        txt_reference.setEnabled(false);
+                        spn_plazo.setEnabled(false);
+                        spn_merchant.setEnabled(false);
+                    }
+                });
                 if(reader.equals("VX600")){
                     setPaymentMode();
                 }

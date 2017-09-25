@@ -531,8 +531,8 @@ namespace AVE
                 string[] parameters = uri.Split('?');
                 string[] tempValues = parameters[1].Split('$');
                 amt = tempValues[0]; ccNum = tempValues[1]; appidLbl = tempValues[2]; merchPago = tempValues[3]; correo = tempValues[4];
-                pagoTarjeta();
                 Session["tipoPago"] = null;
+                pagoTarjeta();
             }
 
             try
@@ -586,7 +586,7 @@ namespace AVE
                     {
                         ScriptManager.RegisterStartupScript(this, typeof(Page), "Buscar", "alert('Error en la transacción\nPor favor intente nuevamente');", true);
                     }
-                    else
+                    else if(!uri.Contains("?"))
                     {
                     }
                     divPnlPagoCte.Visible = true;
@@ -1078,8 +1078,7 @@ namespace AVE
                 if (fTotal == 0 && fTotalPagar > 0)
                 {
                     Divfinalizar.Visible = true;
-                    DivPagar.Style.Remove("display");
-                    DivPagar.Style.Add("display", "none");
+                    showPago.Visible = false;
                     //  RadioButtonlTipoPago.CssClass = "ocul1";
                     //  RadioButton1.CssClass = "Ocultarcontrol";
                     //  RadioButton1.Visible = false;
@@ -1188,6 +1187,7 @@ namespace AVE
                 if (fTotal == 0 && fTotalPagar > 0)
                 {
                     Divfinalizar.Visible = true;
+                    showPago.Visible = false;
                     //RadioButtonlTipoPago.CssClass = "ocul1";
                     //RadioButton1.CssClass = "Ocultarcontrol";
                     //RadioButton1.Visible = false;
@@ -1199,6 +1199,9 @@ namespace AVE
                 if (fTotal == 0 && fTotalPagar == 0)
                 {
                     Divfinalizar.Visible = true;
+                    showPago.Visible = false;
+                    lblforma.Visible = false;
+                    DivPagar.Style.Add("display", "none");
                     //RadioButtonlTipoPago.CssClass = "ocul1";
                     //RadioButton1.CssClass = "Ocultarcontrol";
                     //RadioButton1.Visible = false;
@@ -1210,6 +1213,7 @@ namespace AVE
                 else if (fTotal > 0)
                 {
                     Divfinalizar.Visible = false;
+                    showPago.Visible = true;
                     btnEnviarPOS.Visible = true;
                     btnBorrarCarrito.Visible = true;
                     //RadioButton1.CssClass = "Ocultarcontrol";
@@ -1860,6 +1864,7 @@ namespace AVE
 
                         objPago.IdCarrito = idCarrito;
                         objPago.TipoPago = "NOTA EMPLEADO";
+                        Session["tipoPago"] = null;
                         objPago.TipoPagoDetalle = "";
                         objPago.NumTarjeta = "";
                         objPago.Importe = float.Parse(txtPago.Text, NumberStyles.Currency, CultureInfo.GetCultureInfo("es-MX"));
@@ -1896,7 +1901,7 @@ namespace AVE
                             Session["Email_Cliente"] = txtemail.Text;
                             Session["tipoPago"] = "Tarjeta";
                             this.btnBorrarCarrito.Enabled = false;
-                            Response.Redirect(Constantes.Paginas.Carrito + "$" + totPago + "=vta" + Session["IdCarrito"].ToString() + "=" + txtemail.Text);
+                            Response.Redirect(Constantes.Paginas.Carrito + "$" + totPago + "=vta" + Session["IdCarrito"].ToString() + "=" + txtemail.Text,false);
                         }
                         else
                             ;
@@ -1909,7 +1914,7 @@ namespace AVE
                         objPago.TipoPago = "EFECTIVO";
                         objPago.TipoPagoDetalle = "";
                         objPago.Importe = float.Parse(txtPago.Text, NumberStyles.Currency, CultureInfo.GetCultureInfo("es-MX"));
-
+                        Session["tipoPago"] = null;
                         objVenta.PagoCarritoEfectivo(objPago);
                         txtPago.Text = String.Empty;
                     }

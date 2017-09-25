@@ -524,7 +524,15 @@
                                     <asp:Button ID="showPago" runat="server" Text="Pagar" Width="125px" OnClientClick="showCte(); return false;"
                                        CssClass="btn btn-primary" />&nbsp;
                                 </td>
-                                <td style="width: 5%;">&nbsp;</td>
+                                <td style="width: 5%;">
+                                    <div runat="server" visible="false" id="Divfinalizar">
+                                    <button type="button" class="btn btn-success" style="width:100%" onclick="this.disabled='disabled';document.getElementById('<%= btn.ClientID %>').click();">Finalizar Venta</button>
+                                    <asp:Button ID="btn" runat="server" CssClass="btn btn-info" OnClick="ButFinalizarVenta_Click" Style="display: none;" />
+                                        </div>
+                                    <%--<asp:Button ID="Button2" runat="server" Enabled="false" CssClass="btn btn-danger" Style="width: 100%" Text="Cancelar" OnClick="ButCancelarPago_Click" />--%>
+                                    </div>
+
+                                </td>
                                 <td style="width: 20%;">
                                     <asp:Button runat="server" ID="btnBorrarCarrito" Text="Cancelar Venta" Width="125px" OnClientClick="return confirm('¿ Desea eliminar todos los productos del carrito ?\n\n RECUERDE QUE SI TIENE ALGUN PAGO BANCARIO EN ESTE CARRITO DEBE REALIZAR LA DEVOLUCION.');" OnClick="btnBorrarCarrito_Click" CssClass="btn btn-danger" />&nbsp;
                                 </td>
@@ -608,7 +616,7 @@
                             <table>
                                 <tr>
                                     <td style="text-align: right;">
-                                        <label style="font-weight: bold; font-size: small;">Forma de Pago:</label>&nbsp;
+                                        <asp:Label runat="server" ID="lblforma" style="font-weight: bold; font-size: small;">Forma de Pago:</asp:Label>&nbsp;
                                         <asp:DropDownList ID="tipPagos" runat="server">
                                             <asp:ListItem Value="T">Tarjeta Bancaria</asp:ListItem>
                                             <asp:ListItem Value="E">En Efectivo</asp:ListItem>
@@ -622,15 +630,6 @@
                                 <asp:Label ID="Nombre" runat="server" value=""></asp:Label><br />
                                 <asp:Label ID="Email" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label><br />
                                 <asp:Label ID="Shoelover" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
-                            </div>
-                            <div runat="server" visible="false" id="Divfinalizar" style="border-style: solid; padding: 2px; border-width: 1px; width:45%">
-
-                                <button type="button" class="btn btn-success" style="width:100%"
-                                    onclick="this.disabled='disabled';document.getElementById('<%= btn.ClientID %>').click();">
-                                    Finalizar Venta</button>
-                                <asp:Button ID="btn" runat="server" CssClass="btn btn-info" OnClick="ButFinalizarVenta_Click" Style="display: none;" />
-                                <!--input id="Button1" type="button" style="width:100%" disabled  value="Cancelar" onclick="return ValidarCancelPago()"   /-->
-                                <asp:Button ID="Button2" runat="server" Enabled="false" CssClass="btn btn-danger" Style="width: 100%" Text="Cancelar" OnClick="ButCancelarPago_Click" />
                             </div>
                             <table>
                                 <tr>

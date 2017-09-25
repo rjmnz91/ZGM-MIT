@@ -616,6 +616,7 @@
     <Content Include="img\terminal.png" />
     <Content Include="img\traspasoentrada.png" />
     <Content Include="img\traspasos.png" />
+    <Content Include="img\warning.png" />
     <Content Include="img\wedoshoe.png" />
     <Content Include="ImprimirTicket.aspx" />
     <Content Include="js\calendar-es.js" />

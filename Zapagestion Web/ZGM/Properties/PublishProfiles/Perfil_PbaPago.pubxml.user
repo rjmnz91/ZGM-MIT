@@ -46,7 +46,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:12:07</publishTime>
     </File>
     <File Include="bin/AVE.dll">
-      <publishTime>09/25/2017 10:12:55</publishTime>
+      <publishTime>09/25/2017 17:41:21</publishTime>
     </File>
     <File Include="bin/AVEGestorPromociones.dll">
       <publishTime>08/15/2017 11:36:19</publishTime>
@@ -196,7 +196,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:11:42</publishTime>
     </File>
     <File Include="CarritoDetalle.aspx">
-      <publishTime>09/22/2017 19:01:41</publishTime>
+      <publishTime>09/25/2017 17:07:11</publishTime>
     </File>
     <File Include="CarritoDetalleHERMES.aspx">
       <publishTime>06/23/2017 16:10:12</publishTime>
@@ -349,13 +349,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/14/2017 12:35:24</publishTime>
     </File>
     <File Include="Error.aspx">
-      <publishTime>09/21/2017 17:19:28</publishTime>
+      <publishTime>09/25/2017 13:44:11</publishTime>
     </File>
     <File Include="fBuscar.aspx">
       <publishTime>06/23/2017 16:11:47</publishTime>
     </File>
     <File Include="FinalizaCompra.aspx">
-      <publishTime>08/04/2017 18:33:09</publishTime>
+      <publishTime>09/25/2017 17:41:15</publishTime>
     </File>
     <File Include="FinalizaCompraHERMES.aspx">
       <publishTime>06/23/2017 16:10:05</publishTime>
@@ -522,6 +522,9 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <File Include="img/traspasos.png">
       <publishTime>06/23/2017 16:08:16</publishTime>
     </File>
+    <File Include="img/warning.png">
+      <publishTime>09/25/2017 11:54:27</publishTime>
+    </File>
     <File Include="img/wedoshoe.png">
       <publishTime>06/23/2017 16:08:14</publishTime>
     </File>
@@ -529,7 +532,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:10:11</publishTime>
     </File>
     <File Include="Inicio.aspx">
-      <publishTime>09/22/2017 13:42:52</publishTime>
+      <publishTime>09/25/2017 13:24:15</publishTime>
     </File>
     <File Include="InventarioDetalle.aspx">
       <publishTime>06/23/2017 16:08:30</publishTime>

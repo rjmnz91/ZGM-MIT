@@ -722,6 +722,7 @@ C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\ZGM\bin\ru\Aja
 C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\ZGM\bin\tr-TR\AjaxControlToolkit.resources.dll
 C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\ZGM\bin\zh-CHS\AjaxControlToolkit.resources.dll
 C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\ZGM\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\ZGM\obj\Debug\AVE.csprojResolveAssemblyReference.cache
 C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\ZGM\obj\Debug\AVE.csproj.ResolveComReference.cache
 C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\ZGM\obj\Debug\RdlCompile.cache
 C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\ZGM\obj\Debug\RdlCompile.compiled
