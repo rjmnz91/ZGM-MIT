@@ -20,8 +20,6 @@ public class BeanData implements BeanControllerData {
 
 		/*Retail*/
         if(retail){
-
-
             user = "9249GGCA1";
             pwd = "JUNIO2017";
             branch = "0113";

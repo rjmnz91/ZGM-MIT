@@ -62,6 +62,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     private TextView labelPropina;
     private EditText txt_reference;
     private Button btn_start;
+    private Button btn_cancel;
     private ArrayList<String> list;
     private ArrayList<String> listPropina;
     private String reader;
@@ -132,11 +133,13 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         txt_reference = (EditText) findViewById(R.id.txt_reference);
         txtFirma = (TextView) findViewById(R.id.txtFirma);
         btn_start = (Button) findViewById(R.id.btn_start);
+        btn_cancel = (Button) findViewById(R.id.btn_cancel);
 
         myController = new MitController(pagosMit.this);
         myController.setURL(data.getServer());
 
         btn_start.setOnClickListener(this);
+        btn_cancel.setOnClickListener(this);
 
         labelConnected = (TextView)findViewById(R.id.labelConnected);
 
@@ -290,6 +293,8 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                         txt_reference.setEnabled(false);
                         spn_plazo.setEnabled(false);
                         spn_merchant.setEnabled(false);
+                        btn_start.setEnabled(false);
+                        btn_cancel.setEnabled(false);
                     }
                 });
                 if(reader.equals("VX600")){
@@ -310,6 +315,12 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             }
             else
                 Toast.makeText(pagosMit.this, "Campos vacios", Toast.LENGTH_LONG).show();
+        }else if(view.getId() == btn_cancel.getId()) {
+            String newUrl = Common.getHomeURL()+"/Inicio.aspx";
+            Common.setURL(newUrl);
+            Intent intent = new Intent(pagosMit.this, Main.class);
+            setResult(Activity.RESULT_OK, intent);
+            finish();
         }else if(view.getId() == btn.getId()){
             if (!signView.Empty()) {
                 try {
@@ -421,8 +432,14 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 		 		alertDialog.setPositiveButton(msj_boton, null);
 		 		alertDialog.show();*/
 
+                //finish();
+                //startActivity(new Intent(pagosMit.this, Result.class).putExtra("error",mensaje));
+
+                String newUrl = Common.getHomeURL() + "/Error.aspx?Inicio.aspx?"+mensaje ;
+                Common.setURL(newUrl);
+                Intent intent = new Intent(pagosMit.this, Main.class);
+                setResult(Activity.RESULT_OK, intent);
                 finish();
-                startActivity(new Intent(pagosMit.this, Result.class).putExtra("error",	mensaje));
             }
         });
 
@@ -533,6 +550,11 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             i.putExtra("beanResponseSell", beanResponseSell);
             finish();
             startActivity(i);*/
+            String newUrl = Common.getHomeURL() + "/Error.aspx?Inicio.aspx?denied?"+beanResponseSell.getDescription() ;
+            Common.setURL(newUrl);
+            Intent intent = new Intent(pagosMit.this, Main.class);
+            setResult(Activity.RESULT_OK, intent);
+            finish();
         }
         else if(beanResponseSell.getResponse().equals("error")){
             progressDialog.dismiss();
@@ -544,12 +566,22 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             i.putExtra("beanResponseSell", beanResponseSell);
             finish();
             startActivity(i);*/
+            String newUrl = Common.getHomeURL() + "/Error.aspx?Inicio.aspx?errorTransaccion?"+beanResponseSell.getDescription();
+            Common.setURL(newUrl);
+            Intent intent = new Intent(pagosMit.this, Main.class);
+            setResult(Activity.RESULT_OK, intent);
+            finish();
         }
         else{
             /*Intent i = new Intent(pagosMit.this, Result.class);
             i.putExtra("error", "Error en la transacci?n");
             finish();
             startActivity(i);*/
+            String newUrl = Common.getHomeURL() + "/Error.aspx?Inicio.aspx?errorTransaccion" ;
+            Common.setURL(newUrl);
+            Intent intent = new Intent(pagosMit.this, Main.class);
+            setResult(Activity.RESULT_OK, intent);
+            finish();
         }
     }
 

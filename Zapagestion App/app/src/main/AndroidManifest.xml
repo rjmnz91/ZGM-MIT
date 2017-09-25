@@ -70,22 +70,27 @@
             android:label="@string/title_activity_main"
             android:screenOrientation="sensorLandscape"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".Main2Activity"
-            android:launchMode="singleTask"/>
+        <activity
+            android:name=".Main2Activity"
+            android:launchMode="singleTask" />
         <activity
             android:name=".pagoDetail"
             android:launchMode="singleInstance"
             android:screenOrientation="sensorPortrait" />
         <activity android:name="com.mitec.controller.PermissionActivity" />
         <activity android:name=".Result" />
-        <activity android:name=".Opciones"
-            android:screenOrientation="sensorPortrait"
-            android:launchMode="singleInstance"/>
+        <activity
+            android:name=".Opciones"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorPortrait" />
         <activity android:name=".SetEmail" />
         <activity android:name=".Signature" />
-        <activity android:name=".pagosMit"
-            android:screenOrientation="sensorPortrait"
-            android:launchMode="singleInstance"/>
+        <activity
+            android:name=".pagosMit"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorPortrait" />
+        <activity android:name=".search"
+            android:screenOrientation="sensorPortrait" />
     </application>
 
 </manifest>

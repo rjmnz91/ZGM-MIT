@@ -139,6 +139,8 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
                         {
                         }else if(!url.contains("Settings")) {
 
+                        }else if(!url.contains("Search")){
+
                         }else{
                             view.loadUrl(Common.getURL());
                         }
@@ -154,6 +156,9 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
                             Intent i = new Intent(getApplicationContext(),Main2Activity.class);
                             startActivityForResult(i,100);
 
+                        }else if(url.contains("Search")){
+                            Intent i = new Intent(getApplicationContext(),search.class);
+                            startActivity(i);
                         }else if(url.contains("vta")){
                             StringTokenizer tokens = new StringTokenizer(url,"$");
                             String first = tokens.nextToken();
