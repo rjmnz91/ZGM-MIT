@@ -13,6 +13,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -52,7 +53,7 @@ import com.example.rodrigosanchez.zgm.R;
 import com.example.rodrigosanchez.zgm.BeanData;
 
 
-public class pagosMit extends AppCompatActivity implements View.OnClickListener,  MitControllerListener{
+public class pagosMit extends AppCompatActivity implements View.OnClickListener,  MitControllerListener, AdapterView.OnItemSelectedListener{
 
     private EditText txt_amount;
     private Spinner spn_merchant;
@@ -66,7 +67,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     private ArrayList<String> list;
     private ArrayList<String> listPropina;
     private String reader;
-    private String plazo;
+    String plazo = "";
     private MitController myController;
     private BeanData data;
     private ProgressDialog progressDialog;
@@ -92,6 +93,9 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     private String tipoMit;
     private Button btn_ok;
     private TextView txtFirma;
+    String months = "";
+    String correoComercio = "";
+    DatabaseHandler dbh;
     FingerPathView signView;
     Button btnClean;
     Button btn;
@@ -121,7 +125,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     }
 
     private void init() {
-
+        dbh = new DatabaseHandler(getApplicationContext());
         data = new BeanData();
         signView = (FingerPathView) findViewById(R.id.sign_view);
         btn = (Button) findViewById(R.id.btn_ok);
@@ -143,27 +147,13 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
         labelConnected = (TextView)findViewById(R.id.labelConnected);
 
-        spn_plazo.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
-                plazo = parent.getSelectedItem().toString();
-                if(plazo.equals("3M"))
-                    merchant="157490";
-                else if(plazo.equals("6M"))
-                    merchant="157491";
-                else
-                    merchant="184541";
-            }
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
 
-            }
-        });
+        spn_plazo.setOnItemSelectedListener(this);
+
 
         company = data.getCompany();
         branch = data.getBranch();
         user = data.getUser();
-        merchant = data.getMerchant();
         password = data.getPwd();
         operationType = "32";
         country = "MEX";
@@ -185,6 +175,8 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             turno = intent.getStringExtra("turno");
         }
 
+        correoComercio = dbh.getCorreo();
+
         isDeviceSelected = false;
         runOnUiThread(new Runnable() {
             @Override
@@ -202,7 +194,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     private void initSignature(BeanResponseSell beanResponseSell, String idMitTransaction){
         cad = idMitTransaction;
         folio = beanResponseSell.getFoliocpagos();
-		signView.init(cad, signView);
+        signView.init(cad, signView);
     }
 
     @Override
@@ -219,9 +211,10 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         validationTypeReader();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onBackPressed(){
-        finish();
+        myController.deviceDissconect();             finish();
         android.os.Process.killProcess(android.os.Process.myPid());
 
     }
@@ -246,7 +239,6 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         list.add("Walker BT");
         list.add("QPOS BT");
 
-
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spn_merchant.setAdapter(adapter);
@@ -259,34 +251,29 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                 if(reader.equals("Walker")){
                     myController.setDevice(PaymentDevice.WALKER);
                 }
-
                 else if(reader.equals("QPOS BT")){
                     myController.setDevice(PaymentDevice.QPOS_BT);
                     new ConnectDevice().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-
                 }
                 else if(reader.equals("Walker BT")){
                     myController.setDevice(PaymentDevice.WALKER_BT);
                     new ConnectDevice().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
                 }
-
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> arg0) {
-
             }
-
         });
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onClick(View view) {
 
         if(view.getId() == btn_start.getId()){
             if(!txt_amount.getText().toString().equals("") && !txt_reference.getText().toString().equals("")){
                 runOnUiThread(new Runnable() {
-
                     @Override
                     public void run() {
                         txt_amount.setEnabled(false);
@@ -295,6 +282,8 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                         spn_merchant.setEnabled(false);
                         btn_start.setEnabled(false);
                         btn_cancel.setEnabled(false);
+                        btn_start.setBackgroundColor(Color.parseColor("#c5c6c9"));
+                        btn_cancel.setBackgroundColor(Color.parseColor("#c5c6c9"));
                     }
                 });
                 if(reader.equals("VX600")){
@@ -320,20 +309,20 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             Common.setURL(newUrl);
             Intent intent = new Intent(pagosMit.this, Main.class);
             setResult(Activity.RESULT_OK, intent);
-            finish();
+            myController.deviceDissconect();             finish();
         }else if(view.getId() == btn.getId()){
             if (!signView.Empty()) {
                 try {
                     if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.GINGERBREAD_MR1) {
                         myController.uploadSignWithImage(image, folio);
                     } else {
-                        progressDialog.setTitle("Firma tu comprobante");
+                        progressDialog.setTitle("Firma tu comprante");
                         progressDialog.setMessage("Enviando firma");
                         progressDialog.setCancelable(false);
                         progressDialog.show();
                         image = signView.setCodeImage(findViewById(R.id.sign_view));
                         myController.uploadSignWithImage(image, folio);
-                        myController.sndEmailWithAddress(email, "", folio, data.getUser(),
+                        myController.sndEmailWithAddress(email, correoComercio, folio, data.getUser(),
                                 data.getPwd(), data.getCompany(),
                                 data.getBranch(), "MEX");
                         //new procesando().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
@@ -342,15 +331,25 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                         Common.setURL(newUrl);
                         Intent intent = new Intent(pagosMit.this, Main.class);
                         setResult(Activity.RESULT_OK, intent);
-                        finish();
+                        myController.deviceDissconect();             finish();
                     }
                 }catch (TimeoutException te){}
                 catch (Exception e){}
             } else {
-                Toast.makeText(getApplicationContext(),"Es necesaria la firma para procesar la transacción",Toast.LENGTH_LONG);
+                Toast.makeText(getApplicationContext(),"Es necesaria la firma para procesar la transacción",Toast.LENGTH_LONG).show();
             }
 
         }
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+            plazo = adapterView.getSelectedItem().toString();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
     }
 
     private class procesando extends AsyncTask<Void, Void, Void> {
@@ -410,10 +409,22 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 		/*amount = txt_amount.getText().toString();
 		usrTrx = user;
 		refPay = txt_reference.getText().toString().trim();*/
+        //myController.setReset(true);
+        if(plazo!="")
+            if(plazo.contains("3M")) {
+                merchant = "157490";
+                months = "3";
+            }else if(plazo.contains("6M")) {
+                merchant = "157491";
+                months = "6";
+            }else
+                merchant = data.getMerchant();
+        if(months!="")
+            myController.setMonthsToPay(months);
+        else
+            ;
         myController.setReset(true);
-        myController.sndEmvDirectSellWithAmount(amount, company, branch,
-                user, password, usrTrx, merchant, refPay, operationType,
-                country, currency, "");
+        myController.sndEmvDirectSellWithAmount(amount, company, branch,user, password, usrTrx, merchant, refPay, operationType,country, currency, "");
 
         //myController.getDeviceInfo();
     }
@@ -423,6 +434,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     public void MessageBox(final String titulo, final String mensaje, final String msj_boton,
                            final Activity activity) {
         runOnUiThread(new Runnable() {
+            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void run() {
 		    	/*AlertDialog.Builder alertDialog;
@@ -439,7 +451,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                 Common.setURL(newUrl);
                 Intent intent = new Intent(pagosMit.this, Main.class);
                 setResult(Activity.RESULT_OK, intent);
-                finish();
+                myController.deviceDissconect();             finish();
             }
         });
 
@@ -479,12 +491,11 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                 System.out.println("setMit error obj " + obj.getDescripcion());
                 progressDialog.dismiss();
                 MessageBox("Error", obj.getDescripcion(), "Ok", pagosMit.this);
-
             }
         });
-
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void setResult(BeanResponseSell beanResponseSell, String idMitTransaction) {
 
@@ -495,9 +506,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
         if(beanResponseSell.getResponse().equals("approved")){
             progressDialog.dismiss();
-
             /**/
-
             String response = "Response " +  beanResponseSell.getResponse() + "\n";
             response += "Folio " +  beanResponseSell.getFoliocpagos() + "\n";
             response += "Date " +  beanResponseSell.getDate() + "\n";
@@ -506,7 +515,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
             if(beanResponseSell.getCp() != null && beanResponseSell.getCp().equals("1")) {
                 try {
-                    myController.sndEmailWithAddress(email, "", beanResponseSell.getFoliocpagos(), data.getUser(),
+                    myController.sndEmailWithAddress(email, correoComercio, beanResponseSell.getFoliocpagos(), data.getUser(),
                             data.getPwd(), data.getCompany(),
                             data.getBranch(), "MEX");
                 } catch (TimeoutException te) {
@@ -517,18 +526,35 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                 Common.setURL(newUrl);
                 Intent intent = new Intent(pagosMit.this, Main.class);
                 setResult(Activity.RESULT_OK, intent);
-                finish();
+                myController.deviceDissconect();             finish();
             }
             else {
-                tarjeta = beanResponseSell.getCc_number();
-                tipoMit = beanResponseSell.getAppidlabel();
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        btn.setVisibility(View.VISIBLE);
-                        signView.setVisibility(View.VISIBLE);
+                if(beanResponseSell.getStQPS().equals("1")){
+                    try {
+                        myController.sndEmailWithAddress(email, correoComercio, beanResponseSell.getFoliocpagos(), data.getUser(),
+                                data.getPwd(), data.getCompany(),
+                                data.getBranch(), "MEX");
+                    } catch (TimeoutException te) {
+                        te.printStackTrace();
                     }
-                });
+                    String newUrl = Common.getHomeURL() + "/CarritoDetalle.aspx?" + amount + "$" + beanResponseSell.getCc_number() + "$" + beanResponseSell.getAppidlabel()
+                            + "$" + merchant + "$" + email;
+                    Common.setURL(newUrl);
+                    Intent intent = new Intent(pagosMit.this, Main.class);
+                    setResult(Activity.RESULT_OK, intent);
+                    myController.deviceDissconect();             finish();
+                }
+                else {
+                    tarjeta = beanResponseSell.getCc_number();
+                    tipoMit = beanResponseSell.getAppidlabel();
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            btn.setVisibility(View.VISIBLE);
+                            signView.setVisibility(View.VISIBLE);
+                        }
+                    });
+                }
             }
 
             /*Intent i = new Intent(pagosMit.this, Result.class);
@@ -554,6 +580,8 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             Common.setURL(newUrl);
             Intent intent = new Intent(pagosMit.this, Main.class);
             setResult(Activity.RESULT_OK, intent);
+            myController.deviceDissconect();
+            beanResponseSell.setCp("");
             finish();
         }
         else if(beanResponseSell.getResponse().equals("error")){
@@ -570,7 +598,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             Common.setURL(newUrl);
             Intent intent = new Intent(pagosMit.this, Main.class);
             setResult(Activity.RESULT_OK, intent);
-            finish();
+            myController.deviceDissconect();             finish();
         }
         else{
             /*Intent i = new Intent(pagosMit.this, Result.class);
@@ -581,7 +609,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             Common.setURL(newUrl);
             Intent intent = new Intent(pagosMit.this, Main.class);
             setResult(Activity.RESULT_OK, intent);
-            finish();
+            myController.deviceDissconect();             finish();
         }
     }
 

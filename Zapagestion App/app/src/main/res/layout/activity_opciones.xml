@@ -1,61 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.rodrigosanchez.zgm.Opciones">
-
+    tools:context="com.example.rodrigosanchez.zgm.Opciones"
+    android:orientation="vertical">
     <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/imgLogo"
         app:srcCompat="@drawable/ninewest_s"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp" />
-
-    <EditText
-        android:id="@+id/txtUrl"
-        android:layout_width="372dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="http://"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="43dp"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
-
-    <Button
-        android:id="@+id/btnGuardar"
-        android:layout_width="157dp"
-        android:layout_height="48dp"
-        android:text="Guardar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="16dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:backgroundTint="#000000"
-        android:textColor="#ffffff"
-        tools:layout_editor_absoluteY="447dp"
-        tools:layout_editor_absoluteX="79dp" />
+        android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/txtUrlH"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="6dp"
-        android:text="URL: "
         android:textSize="16dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="70dp" />
-</android.support.constraint.ConstraintLayout>
+        android:text="URL: "/>
+
+    <EditText
+        android:id="@+id/txtUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="http://"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/txtCorreoH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo para comprobantes:"
+        android:textSize="16dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="ejemplo@piagui.com"
+        android:id="@+id/txtCorreo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="200dp"/>
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="Guardar"
+        android:backgroundTint="#000000"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>

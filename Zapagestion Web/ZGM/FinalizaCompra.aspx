@@ -21,12 +21,12 @@
         <div class="container">
             <br />
             <div class="alert alert-success" role="alert" style="text-align:center;">
-             <div style="font-weight:bold; font-size: 11px">
+             <div style="font-weight:bold; font-size: 12px">
                 <asp:Label runat="server" ID="Label8" Text="Ticket No: "></asp:Label>
                 <asp:Label runat="server" ID="NumTicket" Text=''></asp:Label>
             </div>
              <br />
-             <div style="font-weight:bold; font-size: 11px">
+             <div style="font-weight:bold; font-size: 12px">
                 <asp:Label runat="server" ID="Label2" Text="Cliente: "></asp:Label>
                 <asp:Label runat="server" ID="NomCliente" Text=''></asp:Label>
             </div>

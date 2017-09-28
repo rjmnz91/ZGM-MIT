@@ -17,6 +17,7 @@ public class Opciones extends AppCompatActivity implements View.OnClickListener{
 
     private Button btnSave;
     private EditText txtUrl;
+    private EditText txtCorreo;
     DatabaseHandler dbh;
 
 
@@ -26,16 +27,22 @@ public class Opciones extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.activity_opciones);
         dbh = new DatabaseHandler(getApplicationContext());
         txtUrl = (EditText) findViewById(R.id.txtUrl);
+        txtCorreo = (EditText) findViewById(R.id.txtCorreo);
         btnSave = (Button) findViewById(R.id.btnGuardar);
         //btnSave.setOnClickListener(this);
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String settings = dbh.getSettings();
+                String correoS = dbh.getCorreo();
                 if(settings.contains("http"))
                     dbh.updateSettings(txtUrl.getText().toString());
                 else
                     dbh.onInsert(txtUrl.getText().toString());
+                if(correoS.length()>0)
+                    dbh.updateCorreo(txtCorreo.getText().toString());
+                else
+                    dbh.onInsertCorreo(txtCorreo.getText().toString());
                 Common.setHomeURL(settings);
                 Toast.makeText(getApplicationContext(),"Configuración guardada correctamente",Toast.LENGTH_LONG).show();
                 Intent main = new Intent(getApplicationContext(), SplashLoad.class);
@@ -51,6 +58,7 @@ public class Opciones extends AppCompatActivity implements View.OnClickListener{
             @Override
             public void run() {
                 txtUrl.setText(dbh.getSettings());
+                txtCorreo.setText(dbh.getCorreo());
             }
         });
     }
