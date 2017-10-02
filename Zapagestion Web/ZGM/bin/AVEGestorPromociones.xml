@@ -6,11 +6,7 @@ AVEGestorPromociones
 </name>
 </assembly>
 <members>
-<member name="M:AVEGestorPromociones.clsPromociones.Promocion_Calculo(System.Collections.Generic.IEnumerable{AVEGestorPromociones.GestorPromociones.Promocion})">
-	<sumary>
-METODO PARA EL CALULO DE LA PROMOCION *** PRUEBA DLL ***  
-</sumary>
-</member><member name="P:AVEGestorPromociones.My.Resources.Resources.ResourceManager">
+<member name="P:AVEGestorPromociones.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -23,6 +19,10 @@ METODO PARA EL CALULO DE LA PROMOCION *** PRUEBA DLL ***
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="M:AVEGestorPromociones.clsPromociones.Promocion_Calculo(System.Collections.Generic.IEnumerable{AVEGestorPromociones.GestorPromociones.Promocion})">
+	<sumary>
+METODO PARA EL CALULO DE LA PROMOCION *** PRUEBA DLL ***  
+</sumary>
 </member>
 </members>
 </doc>

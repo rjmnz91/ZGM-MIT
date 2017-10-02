@@ -1,8 +1,13 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UCDetallesProducto.ascx.cs" Inherits="AVE.controles.UCDetallesProducto" %>
- 
-    <table width="100%">
+<%@ Register Src="~/controles/UCCLiente9.ascx" TagPrefix="uc1" TagName="UCCLiente9" %>
+
+<%--<uc1:UCCLiente9 runat="server" ID="UCCLiente9" />--%>
+
+<table width="100%">
         <tr>
-            <td><asp:Label Style="text-transform:uppercase" ID="LtrProeveedor" runat="server" Text="<%$ Resources:Resource, Proveedor%>" CssClass="negrita"></asp:Label></td>
+            <td>
+                <asp:Label Style="text-transform:uppercase" ID="LtrProeveedor" runat="server" Text="<%$ Resources:Resource, Proveedor%>" CssClass="negrita"></asp:Label>
+            </td>
             <td><asp:Label Style="text-transform:uppercase" ID="lblProveedor" runat="server"></asp:Label></td>
         </tr>
       <%--  <tr>

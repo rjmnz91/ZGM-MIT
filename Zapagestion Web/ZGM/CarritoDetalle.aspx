@@ -613,17 +613,6 @@
                         <br />
                         <asp:Label runat="server" ID="labelDirectivo" Text='' Style="font-weight: bold; font-size: small"></asp:Label><br />
                         <div class="panel-body">
-                            <table>
-                                <tr>
-                                    <td style="text-align: right;">
-                                        <asp:Label runat="server" ID="lblforma" style="font-weight: bold; font-size: small;">Forma de Pago:</asp:Label>&nbsp;
-                                        <asp:DropDownList ID="tipPagos" runat="server">
-                                            <asp:ListItem Value="T">Tarjeta Bancaria</asp:ListItem>
-                                            <asp:ListItem Value="E">En Efectivo</asp:ListItem>
-                                        </asp:DropDownList>
-                                    </td>
-                                </tr>
-                            </table>
 
                             <div runat="server" visible="false" id="CLiente" style="display: inline-block; border-style: solid; float: right; padding: 2px; border-width: 1px">
                                 <label style="font-weight: bold">Nombre</label>
@@ -631,9 +620,23 @@
                                 <asp:Label ID="Email" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label><br />
                                 <asp:Label ID="Shoelover" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
                             </div>
+
                             <table>
                                 <tr>
                                     <td style="width:45%;">
+                                        
+                                        <div class="panel panel-primary"  runat="server" id="Div1" style="display: block; border-style: solid;border-width: 1px;">
+                                            <div runat="server" class="panel-heading" style="font-size: larger; font-weight: bold;">
+                                                <asp:Label runat="server" ID="lblforma" style="font-weight: bold;">Forma de Pago:</asp:Label>
+                                            </div>
+                                            <div class="panel-body" >
+                                                <label style="font-weight:bold; color:darkgreen; text-transform:uppercase">Elija su forma de pago:</label>
+                                                <asp:DropDownList ID="tipPagos" runat="server" CssClass="form-control">
+                                                    <asp:ListItem Value="T">Tarjeta Bancaria</asp:ListItem>
+                                                    <asp:ListItem Value="E">En Efectivo</asp:ListItem>
+                                                </asp:DropDownList>
+                                            </div>
+                                        </div>
                                         <%--<div runat="server" id="DivTajeta" style="display: none; border-style: solid; border-width: 1px; width:100%" class="panel panel-primary">
                                             <div runat="server" class="panel-heading" style="font-size: larger; font-weight: bold;">Pago con TC </div>
                                             <div class="panel-body" style="width:100%">
@@ -725,8 +728,9 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td style="width:1%;">
-                                        &nbsp;
+                                    <td style="text-align:left;">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     </td>
                                     <td>
                                         <div class="panel panel-primary"  runat="server" id="DivPagar" style="display: block; border-style: solid;border-width: 1px;">

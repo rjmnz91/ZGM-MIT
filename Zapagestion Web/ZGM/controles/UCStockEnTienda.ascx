@@ -117,7 +117,7 @@
 
 <div class="container">
 
-<div class="barraNavegacion" style="font-weight: 700">
+    <div class="barraNavegacion" style="font-weight: 700">
     <asp:Button ID="btnMasTiendas" runat="server" CssClass="btn btn-default" Text="<%$ Resources:Resource, MasTiendas%>"
         Enabled="false" OnClick="btnMasTiendas_Click" Visible="False" />
     <asp:Button ID="btnFoto" runat="server" CssClass="btn btn-default" Text="<%$ Resources:Resource, Foto%>"
@@ -125,8 +125,8 @@
     <asp:Button ID="btnDetalles" runat="server" CssClass="btn btn-default" Text="<%$ Resources:Resource, Detalles%>"
         Enabled="false" OnClick="btnDetalles_Click" Visible="False" />
 </div>
-
-<div>
+    
+    <div>
     <asp:Button ID="Button2" runat="server" Text="Button" Style="display: none" OnClick="Button2_Click" CssClass="btn btn-default" />
     <asp:Button ID="Button3" runat="server" Text="Button" Style="display: none" OnClick="Button3_Click" CssClass="btn btn-default" />
     <asp:Button ID="ConfirmPedido" runat="server" Text="Button" Style="display: none" OnClick="ConfirmPedido_Click" CssClass="btn btn-default" />
@@ -136,8 +136,8 @@
     <asp:Button ID="btnSustitutivoMini" runat="server" Text="Sustitutos" Visible="false" OnClick="btnSustitutivoMini_Click" CssClass="btn btn-default" />
     <asp:Button ID="btnComplementos" runat="server" TabIndex="3" CssClass="btn btn-default" Text="Stocks de C/S" OnClick="btnComplementos_Click" Visible="false" CommandArgument="" />
 </div>
-
-<asp:SqlDataSource ID="AVE_StockEnTiendaComplementario" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+    
+    <asp:SqlDataSource ID="AVE_StockEnTiendaComplementario" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
     SelectCommand="dbo.AVE_StockEnTiendaCSObtener" SelectCommandType="StoredProcedure"
     DataSourceMode="DataSet">
     <SelectParameters>
@@ -146,8 +146,8 @@
         <asp:Parameter Name="Tipo" Type="Char" />
     </SelectParameters>
 </asp:SqlDataSource>
-
-<div runat="server" id="divComplementosMini" style="overflow: horizontal; border: solid 1px black;" visible="false">
+    
+    <div runat="server" id="divComplementosMini" style="overflow: horizontal; border: solid 1px black;" visible="false">
     <asp:Repeater runat="server" ID="repComplementos" DataSourceID="AVE_StockEnTiendaComplementario">
         <HeaderTemplate>
             <table style="width: auto;" cellpadding="10" cellspacing="0">
@@ -183,16 +183,16 @@
         </FooterTemplate>
     </asp:Repeater>
 </div>
-<br />
-<asp:SqlDataSource ID="AVE_StockEnTiendaSustitutivo" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>" SelectCommand="dbo.AVE_StockEnTiendaCSObtener" SelectCommandType="StoredProcedure" DataSourceMode="DataSet">
+    <br />
+    <asp:SqlDataSource ID="AVE_StockEnTiendaSustitutivo" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>" SelectCommand="dbo.AVE_StockEnTiendaCSObtener" SelectCommandType="StoredProcedure" DataSourceMode="DataSet">
     <SelectParameters>
         <asp:Parameter Name="IdArticulo" Type="String" />
         <asp:Parameter Name="IdTienda" Type="String" />
         <asp:Parameter Name="Tipo" Type="Char" />
     </SelectParameters>
 </asp:SqlDataSource>
-
-<div runat="server" id="divSustitutosMini" style="overflow: horizontal; border: solid 1px black;" visible="false">
+    
+    <div runat="server" id="divSustitutosMini" style="overflow: horizontal; border: solid 1px black;" visible="false">
     <asp:Repeater runat="server" ID="repSustitutosMini" DataSourceID="AVE_StockEnTiendaSustitutivo">
         <HeaderTemplate>
             <table style="width: auto;" cellpadding="10" cellspacing="0">
@@ -228,9 +228,9 @@
         </FooterTemplate>
     </asp:Repeater>
 </div>
-<br />
-
-<div class="panel panel-primary">
+    <br />
+    
+    <div class="panel panel-primary">
     <div class="panel-heading">
         <asp:Label ID="lblDescripcion" runat="server" BorderStyle="None" Font-Bold="True"></asp:Label>
     </div>
@@ -274,12 +274,12 @@
 				</tr>
 			</table>
 		</td>
-                <td colspan="2" class="auto-style2">
+                <td colspan="2" class="auto-style2" style="padding-left:3em;">
                     <div id="pnlModelo" style="text-align:center;">
 
 				<asp:Panel ID="PModelo" runat="server" Visible="false">
 				</asp:Panel>
-                <asp:DropDownList ID="ddlModelo" runat="server" CssClass="form-control" AutoPostBack="true" DataSourceID="SqlDataModColores" DataTextField="Color" DataValueField="idarticulo" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged"></asp:DropDownList>
+                <asp:DropDownList ID="ddlModelo" runat="server" CssClass="form-control" Width="115%" AutoPostBack="true" DataSourceID="SqlDataModColores" DataTextField="Color" DataValueField="idarticulo" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged"></asp:DropDownList>
 			</div>
 		</td>
             </tr>
@@ -313,7 +313,7 @@
                 <Columns>
                     <asp:TemplateField Visible="true" ItemStyle-CssClass="GridItem">
                         <ItemTemplate>
-                            <asp:Button runat="server" CommandName="select" ID="lnkSelect" Text=">" />
+                            <asp:Button ID="lnkSelect" runat="server" CommandName="select" CssClass="btn btn-primary" Font-Size="X-Small" Style="width: 50px;" Text="✚" />
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:BoundField DataField="Articulo" HeaderText="<%$ Resources:Resource, Articulo%>" ItemStyle-CssClass="GridItem" />
@@ -428,4 +428,4 @@
     </div>
 </div>
 
-    </div>
+</div>

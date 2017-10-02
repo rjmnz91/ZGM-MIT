@@ -202,9 +202,12 @@ namespace AVE
         cad1 = txtBuscar.Text.Split('*')[0].ToString();
         if (i > -1)
             cad2 = txtBuscar.Text.Split('*')[1].ToString();
-        
+
+        string usu = (string)HttpContext.Current.Session[Constantes.Session.Usuario];
+
         //Insertar estadística
-        Estadisticas.InsertarBusqueda(cad1, cad2, Contexto.Usuario, Contexto.IdTerminal);
+        //Estadisticas.InsertarBusqueda(cad1, cad2, Contexto.Usuario, Contexto.IdTerminal);
+            Estadisticas.InsertarBusqueda(cad1,cad2,usu,Contexto.IdTerminal);
 
         //Response.Redirect("StockEnTienda.aspx?Producto=" + cad1 + "&Talla=" + cad2);
         //Dirección a la que tiene qeu reenviar EleccionProducto

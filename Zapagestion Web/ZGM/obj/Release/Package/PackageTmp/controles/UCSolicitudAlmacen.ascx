@@ -20,8 +20,10 @@
         DataKeyNames="IdPedido" DataSourceID="SDSSolicitudes" 
         onrowdatabound="grdSolicitudes_RowDataBound" EnableModelValidation="True" 
          onselectedindexchanged="grdSolicitudes_SelectedIndexChanged">
+         <RowStyle BackColor="White" ForeColor="Black" />
+            <AlternatingRowStyle BackColor="PaleTurquoise" ForeColor="Black" />
         <Columns>
-            <asp:CommandField ButtonType="Button" SelectText="&gt;" ShowSelectButton="True" ItemStyle-CssClass="boton"  ControlStyle-Height="60px" ControlStyle-Width="40px"  />
+            <asp:CommandField ButtonType="Button" SelectText="✚" ShowSelectButton="True" ItemStyle-CssClass="btn btn-default"  ControlStyle-Height="60px" ControlStyle-Width="40px"  />
             <asp:BoundField DataField="IdPedido" HeaderText="<%$ Resources:Resource, IdPedido%>" SortExpression="IdPedido" />
             <asp:BoundField DataField="IdTienda" HeaderText=" <%$ Resources:Resource, Tienda%> " SortExpression="idTienda" />
             <asp:BoundField DataField="Proveedor" HeaderText="<%$ Resources:Resource, Proveedor%>" SortExpression="Proveedor" />
@@ -35,7 +37,7 @@
             <asp:BoundField DataField="Vendedor" HeaderText="<%$ Resources:Resource, Vendedor%>" SortExpression="Vendedor" />
             <asp:TemplateField HeaderText="<%$ Resources:Resource, Estado%>" SortExpression="EstadoSolicitudResource">
                     <ItemTemplate>
-                         <asp:DropDownList ID="ddlEstadoSolicitud" runat="server" Width="100px" OnSelectedIndexChanged="ddlEstadoSolicitud_SelectedIndexChanged" AutoPostBack="true"  >
+                         <asp:DropDownList ID="ddlEstadoSolicitud" runat="server" Width="100px" OnSelectedIndexChanged="ddlEstadoSolicitud_SelectedIndexChanged" AutoPostBack="true" CssClass="form-control" >
                          </asp:DropDownList>
                 </ItemTemplate>
             </asp:TemplateField>

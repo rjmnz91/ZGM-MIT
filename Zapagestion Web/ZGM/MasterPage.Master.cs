@@ -51,11 +51,16 @@ public partial class MasterPage : System.Web.UI.MasterPage
         HyperLink lblArt;
         int cantidad = Convert.ToInt32(articulos);
         lblArt = (HyperLink)navegacion2.FindControl("lblNumArt");
-        if (articulos =="0")
-            lblArt.Visible= false;
-
+        if (articulos == "0")
+        {
+            lblArt.Visible = false;
+            lnkCarrito.Visible = false;
+        }
         else
+        {
             lblArt.Visible = true;
+            lnkCarrito.Visible = true;
+        }
             lblArt.Text= articulos;
     }
     

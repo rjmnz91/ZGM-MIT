@@ -22,15 +22,6 @@ namespace AVE.controles {
         protected global::System.Web.UI.WebControls.Label error;
         
         /// <summary>
-        /// Control p_lbl_cliente.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel p_lbl_cliente;
-        
-        /// <summary>
         /// Control txt_id_tarjeta_c9.
         /// </summary>
         /// <remarks>
@@ -40,13 +31,13 @@ namespace AVE.controles {
         protected global::System.Web.UI.WebControls.TextBox txt_id_tarjeta_c9;
         
         /// <summary>
-        /// Control d_cliente.
+        /// Control p_lbl_cliente.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel d_cliente;
+        protected global::System.Web.UI.WebControls.Panel p_lbl_cliente;
         
         /// <summary>
         /// Control lbl_Nombre.

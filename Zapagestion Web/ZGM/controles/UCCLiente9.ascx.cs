@@ -72,7 +72,7 @@ namespace AVE.controles
         private void visibilidad(Boolean b)
         {
             tab_beneficios.Visible = b;
-            d_cliente.Visible = b;
+            //d_cliente.Visible = b;
             p_lbl_cliente.Visible = b;
         }
         protected void Button1_Click(object sender, EventArgs e)

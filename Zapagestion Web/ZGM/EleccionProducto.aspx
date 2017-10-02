@@ -254,8 +254,9 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row">
+    
+    <div class="container">
+        <div class="row">
                 <center>
                <div>
                 <div >
@@ -402,8 +403,9 @@
                 </asp:SqlDataSource>
             </div>
            </center>
-            </div>
-            <br />
+        </div>
+    </div>
+        <br />
     </form>
 </body>
 </html>

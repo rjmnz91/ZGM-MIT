@@ -274,12 +274,12 @@
 				</tr>
 			</table>
 		</td>
-                <td colspan="2" class="auto-style2">
+                <td colspan="2" class="auto-style2" style="padding-left:3em;">
                     <div id="pnlModelo" style="text-align:center;">
 
 				<asp:Panel ID="PModelo" runat="server" Visible="false">
 				</asp:Panel>
-                <asp:DropDownList ID="ddlModelo" runat="server" CssClass="form-control" AutoPostBack="true" DataSourceID="SqlDataModColores" DataTextField="Color" DataValueField="idarticulo" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged"></asp:DropDownList>
+                <asp:DropDownList ID="ddlModelo" runat="server" CssClass="form-control" Width="115%" AutoPostBack="true" DataSourceID="SqlDataModColores" DataTextField="Color" DataValueField="idarticulo" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged"></asp:DropDownList>
 			</div>
 		</td>
             </tr>
@@ -313,7 +313,7 @@
                 <Columns>
                     <asp:TemplateField Visible="true" ItemStyle-CssClass="GridItem">
                         <ItemTemplate>
-                            <asp:Button runat="server" CommandName="select" ID="lnkSelect" Text=">" />
+                            <asp:Button ID="lnkSelect" runat="server" CommandName="select" CssClass="btn btn-primary" Font-Size="X-Small" Style="width: 50px;" Text="✚" />
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:BoundField DataField="Articulo" HeaderText="<%$ Resources:Resource, Articulo%>" ItemStyle-CssClass="GridItem" />

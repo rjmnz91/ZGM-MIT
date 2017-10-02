@@ -528,11 +528,15 @@ namespace AVE
             if (Session["tipoPago"] != null)
             {
                 string uri = HttpContext.Current.Request.Url.AbsoluteUri;
+                if(!uri.Contains("vta")){
                 string[] parameters = uri.Split('?');
                 string[] tempValues = parameters[1].Split('$');
                 amt = tempValues[0]; ccNum = tempValues[1]; appidLbl = tempValues[2]; merchPago = tempValues[3]; correo = tempValues[4];
                 Session["tipoPago"] = null;
                 pagoTarjeta();
+                }else{
+                    ;
+                }
             }
 
             try
@@ -1838,7 +1842,7 @@ namespace AVE
             //    cboPlazoAmex_SelectedIndexChanged(this, e);
                
             //Response.Redirect(Constantes.Paginas.Carrito + "$totArt=" + totArt + "&totPago=" + totPago + "&mit=" + mit + "&mitV=" + mitCard + "&merchId=" + merchId + "&merchVal=" + merchVal);
-            Response.Redirect(Constantes.Paginas.Carrito + "$" + totPago + "=vta" + Session["IdCarrito"].ToString()+"="+txtemail.Text);
+            Response.Redirect(Constantes.Paginas.Carrito + "?" + totPago + "=vta" + Session["IdCarrito"].ToString()+"="+txtemail.Text);
         }
 
         protected void ButPagar_Click(object sender, EventArgs e)
@@ -1901,7 +1905,7 @@ namespace AVE
                             Session["Email_Cliente"] = txtemail.Text;
                             Session["tipoPago"] = "Tarjeta";
                             this.btnBorrarCarrito.Enabled = false;
-                            Response.Redirect(Constantes.Paginas.Carrito + "$" + totPago + "=vta" + Session["IdCarrito"].ToString() + "=" + txtemail.Text,false);
+                            Response.Redirect(Constantes.Paginas.Carrito + "?" + totPago + "=vta" + Session["IdCarrito"].ToString() + "=" + txtemail.Text,false);
                         }
                         else
                             ;
