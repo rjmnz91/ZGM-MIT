@@ -304,7 +304,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <panel runat="server" ActiveTabIndex="0" ID="TabArticulos" CssClass="">
+                                    <panel runat="server" ActiveTabIndex="0" ID="TabArticulos" CssClass="col-">
                                         <div ID="tabArticulo0" runat="server" HeaderText="articulo 1">
                                             <div>
                                                 <uc1:UCEleccionProducto runat="server" ID="EP0" />

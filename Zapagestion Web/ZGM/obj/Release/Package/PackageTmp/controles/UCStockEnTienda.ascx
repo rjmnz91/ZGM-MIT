@@ -115,9 +115,10 @@
 
 </script>
 
-<div class="container">
 
-<div class="barraNavegacion" style="font-weight: 700">
+<div class="container">
+    <div style="width:80%">
+        <div class="barraNavegacion" style="font-weight: 700">
     <asp:Button ID="btnMasTiendas" runat="server" CssClass="btn btn-default" Text="<%$ Resources:Resource, MasTiendas%>"
         Enabled="false" OnClick="btnMasTiendas_Click" Visible="False" />
     <asp:Button ID="btnFoto" runat="server" CssClass="btn btn-default" Text="<%$ Resources:Resource, Foto%>"
@@ -125,8 +126,8 @@
     <asp:Button ID="btnDetalles" runat="server" CssClass="btn btn-default" Text="<%$ Resources:Resource, Detalles%>"
         Enabled="false" OnClick="btnDetalles_Click" Visible="False" />
 </div>
-
-<div>
+   
+        <div>
     <asp:Button ID="Button2" runat="server" Text="Button" Style="display: none" OnClick="Button2_Click" CssClass="btn btn-default" />
     <asp:Button ID="Button3" runat="server" Text="Button" Style="display: none" OnClick="Button3_Click" CssClass="btn btn-default" />
     <asp:Button ID="ConfirmPedido" runat="server" Text="Button" Style="display: none" OnClick="ConfirmPedido_Click" CssClass="btn btn-default" />
@@ -136,8 +137,8 @@
     <asp:Button ID="btnSustitutivoMini" runat="server" Text="Sustitutos" Visible="false" OnClick="btnSustitutivoMini_Click" CssClass="btn btn-default" />
     <asp:Button ID="btnComplementos" runat="server" TabIndex="3" CssClass="btn btn-default" Text="Stocks de C/S" OnClick="btnComplementos_Click" Visible="false" CommandArgument="" />
 </div>
-
-<asp:SqlDataSource ID="AVE_StockEnTiendaComplementario" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+    
+        <asp:SqlDataSource ID="AVE_StockEnTiendaComplementario" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
     SelectCommand="dbo.AVE_StockEnTiendaCSObtener" SelectCommandType="StoredProcedure"
     DataSourceMode="DataSet">
     <SelectParameters>
@@ -146,8 +147,8 @@
         <asp:Parameter Name="Tipo" Type="Char" />
     </SelectParameters>
 </asp:SqlDataSource>
-
-<div runat="server" id="divComplementosMini" style="overflow: horizontal; border: solid 1px black;" visible="false">
+    
+        <div runat="server" id="divComplementosMini" style="overflow: horizontal; border: solid 1px black;" visible="false">
     <asp:Repeater runat="server" ID="repComplementos" DataSourceID="AVE_StockEnTiendaComplementario">
         <HeaderTemplate>
             <table style="width: auto;" cellpadding="10" cellspacing="0">
@@ -183,16 +184,16 @@
         </FooterTemplate>
     </asp:Repeater>
 </div>
-<br />
-<asp:SqlDataSource ID="AVE_StockEnTiendaSustitutivo" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>" SelectCommand="dbo.AVE_StockEnTiendaCSObtener" SelectCommandType="StoredProcedure" DataSourceMode="DataSet">
+        <br />
+        <asp:SqlDataSource ID="AVE_StockEnTiendaSustitutivo" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>" SelectCommand="dbo.AVE_StockEnTiendaCSObtener" SelectCommandType="StoredProcedure" DataSourceMode="DataSet">
     <SelectParameters>
         <asp:Parameter Name="IdArticulo" Type="String" />
         <asp:Parameter Name="IdTienda" Type="String" />
         <asp:Parameter Name="Tipo" Type="Char" />
     </SelectParameters>
 </asp:SqlDataSource>
-
-<div runat="server" id="divSustitutosMini" style="overflow: horizontal; border: solid 1px black;" visible="false">
+    
+        <div runat="server" id="divSustitutosMini" style="overflow: horizontal; border: solid 1px black;" visible="false">
     <asp:Repeater runat="server" ID="repSustitutosMini" DataSourceID="AVE_StockEnTiendaSustitutivo">
         <HeaderTemplate>
             <table style="width: auto;" cellpadding="10" cellspacing="0">
@@ -228,80 +229,83 @@
         </FooterTemplate>
     </asp:Repeater>
 </div>
-<br />
+        <br />
 
-<div class="panel panel-primary">
-    <div class="panel-heading">
-        <asp:Label ID="lblDescripcion" runat="server" BorderStyle="None" Font-Bold="True"></asp:Label>
-    </div>
-    <div class="panel-body" id="PnlFoto">
-        <center>
+        <div class="col-lg-2 col-sm-2 col-md-2"></div>
+        <div class="col-lg-8 col-sm-8 col-md-8">
+            <div class="panel panel-primary">
+        <div class="panel-heading">
+            <asp:Label ID="lblDescripcion" runat="server" BorderStyle="None" Font-Bold="True"></asp:Label>
+        </div>
+        <div class="panel-body" id="PnlFoto">
+        
+        
         <table>
             <tr>
                 <td>
-			<asp:Image ID="FotoArticulo" runat="server" Style="width: 250px;" />
-		</td>
+                    <asp:Image ID="FotoArticulo" runat="server" Style="width: 250px;" />
+                </td>
                 <td>
-			<table>
-				<tr>
-					<td>
-						<asp:Label ID="lblPrecio" runat="server" Font-Bold="true" Text="Precio: "></asp:Label>
-					</td>
-					<td style="text-align:right">
-						<asp:Label ID="lblPrecioDescuento" runat="server" Font-Bold="true" Visible="false"></asp:Label>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						
-					</td>
-					<td style="text-align:right">
-						<asp:Label style="text-transform:uppercase;" runat="server" ID="lblPorcentajeDescuento" Visible="false" Font-Bold="true"></asp:Label>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						
-					</td>
-					<td style="text-align:right">
-						<asp:Label ID="lblPrecioValor" runat="server" Font-Bold="true" Style="text-align:right;"></asp:Label>
-					</td>
-				</tr>
-				<tr >
-                    <td colspan=2>
-					    <UCD:UCDetallesProducto ID="Detalle" runat="server" />
-                    </td>
-				</tr>
-			</table>
-		</td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <asp:Label ID="lblPrecio" runat="server" Font-Bold="true" Text="Precio: "></asp:Label>
+                                    </td>
+                                    <td style="text-align:right">
+                                        <asp:Label ID="lblPrecioDescuento" runat="server" Font-Bold="true" Visible="false"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    </td>
+                                    <td style="text-align:right">
+                                        <asp:Label style="text-transform:uppercase;" runat="server" ID="lblPorcentajeDescuento" Visible="false" Font-Bold="true"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    </td>
+                                    <td style="text-align:right">
+                                        <asp:Label ID="lblPrecioValor" runat="server" Font-Bold="true" Style="text-align:right;"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td colspan=2>
+                                        <UCD:UCDetallesProducto ID="Detalle" runat="server" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
                 <td colspan="2" class="auto-style2" style="padding-left:3em;">
                     <div id="pnlModelo" style="text-align:center;">
-
-				<asp:Panel ID="PModelo" runat="server" Visible="false">
-				</asp:Panel>
-                <asp:DropDownList ID="ddlModelo" runat="server" CssClass="form-control" Width="115%" AutoPostBack="true" DataSourceID="SqlDataModColores" DataTextField="Color" DataValueField="idarticulo" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged"></asp:DropDownList>
-			</div>
-		</td>
+                        <asp:Panel ID="PModelo" runat="server" Visible="false">
+                        </asp:Panel>
+                        <asp:DropDownList ID="ddlModelo" runat="server" CssClass="form-control" Width="115%" AutoPostBack="true" DataSourceID="SqlDataModColores" DataTextField="Color" DataValueField="idarticulo" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged">
+                        </asp:DropDownList>
+                    </div>
+                </td>
             </tr>
         </table>
-        </center>
-        <asp:SqlDataSource ID="AVE_ArticuloFotoObtener" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    SelectCommand="dbo.AVE_ArticuloFotoObtener" SelectCommandType="StoredProcedure"
-                    DataSourceMode="DataSet">
-                    <SelectParameters>
-                        <asp:Parameter Name="IdArticulo" Type="int32" />
-                    </SelectParameters>
-                </asp:SqlDataSource>
-        <asp:SqlDataSource ID="AVE_ArticuloFotoByIdArticulo" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    SelectCommand="dbo.AVE_ArticuloFotoObtener" SelectCommandType="StoredProcedure"
-                    DataSourceMode="DataSet">
-                    <SelectParameters>
-                        <asp:Parameter Name="IdArticulo" Type="int32" />
-                    </SelectParameters>
-                </asp:SqlDataSource>
-        <asp:Button ID="btnPrecio" runat="server" Text="+" OnClick="btnPrecio_Click" CssClass="btn btn-default" Visible="false" />
 
-        <div class="row">
+        <asp:Button ID="btnPrecio" runat="server" Text="+" OnClick="btnPrecio_Click" CssClass="btn btn-default" Visible="false" />
+        
+        <asp:SqlDataSource ID="AVE_ArticuloFotoObtener" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        SelectCommand="dbo.AVE_ArticuloFotoObtener" SelectCommandType="StoredProcedure"
+                        DataSourceMode="DataSet">
+                        <SelectParameters>
+                            <asp:Parameter Name="IdArticulo" Type="int32" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+        
+        <asp:SqlDataSource ID="AVE_ArticuloFotoByIdArticulo" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        SelectCommand="dbo.AVE_ArticuloFotoObtener" SelectCommandType="StoredProcedure"
+                        DataSourceMode="DataSet">
+                        <SelectParameters>
+                            <asp:Parameter Name="IdArticulo" Type="int32" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+
+        <div class="row" style="width:65%">
             <table>
                 <tr>
                     <td style="width:10%"></td>
@@ -324,7 +328,7 @@
                     <td style="width:10%"></td>
                 </tr>
             </table>
-            
+        
             <br />
             <div id="DivRoot">
                 <%--<div style="overflow: hidden; background-color:antiquewhite" id="DivHeaderRow" >
@@ -349,83 +353,85 @@
         </div>
 
         <div class="row">
-            <asp:Panel ID="PnlTallaje" runat="server">
-            </asp:Panel>
-            <asp:Panel ID="PnlSolicitar" runat="server">
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            </asp:Panel>
-        </div>
+                <asp:Panel ID="PnlTallaje" runat="server">
+                </asp:Panel>
+                <asp:Panel ID="PnlSolicitar" runat="server">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                </asp:Panel>
+            </div>
 
         <div style="float: left; width: 100%;">
 
-                <asp:HiddenField ID="hiddenTallas" runat="server" />
-                <asp:HiddenField ID="hiddenTallasNo" runat="server" OnValueChanged="hiddenTallasNo_ValueChanged" />
+                    <asp:HiddenField ID="hiddenTallas" runat="server" />
+                    <asp:HiddenField ID="hiddenTallasNo" runat="server" OnValueChanged="hiddenTallasNo_ValueChanged" />
 
-                <asp:SqlDataSource ID="AVE_StockEnTiendaObtener" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    SelectCommand="dbo.AVE_StockEnTiendaObtener" SelectCommandType="StoredProcedure">
-                    <SelectParameters>
-                        <asp:Parameter Name="IdArticulo" Type="String" />
-                        <asp:Parameter Name="IdTienda" Type="String" />
-                    </SelectParameters>
-                </asp:SqlDataSource>
-                <asp:SqlDataSource ID="SqlDataTallajes" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    SelectCommand="AVE_TallajeArticulo" SelectCommandType="StoredProcedure">
-                    <SelectParameters>
-                        <asp:Parameter Name="IdArticulo" Type="int32" />
-                    </SelectParameters>
-                </asp:SqlDataSource>
-                <asp:SqlDataSource ID="SqlDataModColores" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    SelectCommand="AVE_ColorModFabricante" SelectCommandType="StoredProcedure">
-                    <SelectParameters>
-                        <asp:Parameter Name="IdArticulo" Type="int32" />
-                    </SelectParameters>
-                </asp:SqlDataSource>
-                <asp:SqlDataSource ID="SDSPedido" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    InsertCommand="AVE_PedidosCrear" InsertCommandType="StoredProcedure" OnInserted="SDSPedido_Inserted">
-                    <InsertParameters>
-                        <asp:Parameter Name="IdArticulo" Type="Int32" />
-                        <asp:Parameter Name="Talla" Type="String" />
-                        <asp:Parameter Name="Unidades" Type="Int16" />
-                        <asp:Parameter Name="Precio" Type="Decimal" />
-                        <asp:Parameter Name="IdEmpleado" Type="Int32" />
-                        <asp:Parameter Name="Usuario" Type="String" />
-                        <asp:Parameter Name="IdTienda" Type="String" />
-                        <asp:Parameter Name="Stock" Type="Int16" />
-                        <asp:Parameter Name="IdTerminal" Type="Int16" />
-                        <asp:Parameter Name="IdPedido" Type="Int32" Direction="ReturnValue" />
-                    </InsertParameters>
-                </asp:SqlDataSource>
-                <asp:SqlDataSource ID="AnadirCarrito" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    InsertCommand="AVE_InsertaCarrito" InsertCommandType="StoredProcedure"
-                    OnInserted="AnadirCarrito_Inserted">
-                    <InsertParameters>
-                        <asp:Parameter Name="Usuario" Type="String" />
-                        <asp:Parameter Name="IdCliente" Type="Int32" />
-                        <asp:Parameter Name="Maquina" Type="String" />
-                        <asp:Parameter Name="EstadoCarrito" Type="Int32" />
-                        <asp:Parameter Name="IdCarrit" Type="Int32" Direction="ReturnValue" />
-                    </InsertParameters>
-                </asp:SqlDataSource>
-                <asp:SqlDataSource ID="AnadirDetalleCarrito" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    InsertCommand="AVE_GuardaDetalleCarrito" InsertCommandType="StoredProcedure">
-                    <InsertParameters>
-                        <asp:Parameter Name="IdArticulo" Type="Int32" />
-                        <asp:Parameter Name="IdCarrito" Type="Int32" />
-                        <asp:Parameter Name="IdPedido" Type="Int32" />
-                        <asp:Parameter Name="Talla" Type="String" />
-                        <asp:Parameter Name="Cantidad" Type="Int32" />
-                    </InsertParameters>
-                </asp:SqlDataSource>
-                <asp:SqlDataSource ID="SDSTieneCS" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
-                    SelectCommand="AVE_ProductoTieneCS" SelectCommandType="StoredProcedure" DataSourceMode="DataSet">
-                    <SelectParameters>
-                        <asp:Parameter Name="IdArticulo" Type="int32" />
-                    </SelectParameters>
-                </asp:SqlDataSource>
-            </div>
+                    <asp:SqlDataSource ID="AVE_StockEnTiendaObtener" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        SelectCommand="dbo.AVE_StockEnTiendaObtener" SelectCommandType="StoredProcedure">
+                        <SelectParameters>
+                            <asp:Parameter Name="IdArticulo" Type="String" />
+                            <asp:Parameter Name="IdTienda" Type="String" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                    <asp:SqlDataSource ID="SqlDataTallajes" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        SelectCommand="AVE_TallajeArticulo" SelectCommandType="StoredProcedure">
+                        <SelectParameters>
+                            <asp:Parameter Name="IdArticulo" Type="int32" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                    <asp:SqlDataSource ID="SqlDataModColores" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        SelectCommand="AVE_ColorModFabricante" SelectCommandType="StoredProcedure">
+                        <SelectParameters>
+                            <asp:Parameter Name="IdArticulo" Type="int32" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                    <asp:SqlDataSource ID="SDSPedido" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        InsertCommand="AVE_PedidosCrear" InsertCommandType="StoredProcedure" OnInserted="SDSPedido_Inserted">
+                        <InsertParameters>
+                            <asp:Parameter Name="IdArticulo" Type="Int32" />
+                            <asp:Parameter Name="Talla" Type="String" />
+                            <asp:Parameter Name="Unidades" Type="Int16" />
+                            <asp:Parameter Name="Precio" Type="Decimal" />
+                            <asp:Parameter Name="IdEmpleado" Type="Int32" />
+                            <asp:Parameter Name="Usuario" Type="String" />
+                            <asp:Parameter Name="IdTienda" Type="String" />
+                            <asp:Parameter Name="Stock" Type="Int16" />
+                            <asp:Parameter Name="IdTerminal" Type="Int16" />
+                            <asp:Parameter Name="IdPedido" Type="Int32" Direction="ReturnValue" />
+                        </InsertParameters>
+                    </asp:SqlDataSource>
+                    <asp:SqlDataSource ID="AnadirCarrito" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        InsertCommand="AVE_InsertaCarrito" InsertCommandType="StoredProcedure"
+                        OnInserted="AnadirCarrito_Inserted">
+                        <InsertParameters>
+                            <asp:Parameter Name="Usuario" Type="String" />
+                            <asp:Parameter Name="IdCliente" Type="Int32" />
+                            <asp:Parameter Name="Maquina" Type="String" />
+                            <asp:Parameter Name="EstadoCarrito" Type="Int32" />
+                            <asp:Parameter Name="IdCarrit" Type="Int32" Direction="ReturnValue" />
+                        </InsertParameters>
+                    </asp:SqlDataSource>
+                    <asp:SqlDataSource ID="AnadirDetalleCarrito" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        InsertCommand="AVE_GuardaDetalleCarrito" InsertCommandType="StoredProcedure">
+                        <InsertParameters>
+                            <asp:Parameter Name="IdArticulo" Type="Int32" />
+                            <asp:Parameter Name="IdCarrito" Type="Int32" />
+                            <asp:Parameter Name="IdPedido" Type="Int32" />
+                            <asp:Parameter Name="Talla" Type="String" />
+                            <asp:Parameter Name="Cantidad" Type="Int32" />
+                        </InsertParameters>
+                    </asp:SqlDataSource>
+                    <asp:SqlDataSource ID="SDSTieneCS" runat="server" ConnectionString="<%$ ConnectionStrings:MC_TDAConnectionString %>"
+                        SelectCommand="AVE_ProductoTieneCS" SelectCommandType="StoredProcedure" DataSourceMode="DataSet">
+                        <SelectParameters>
+                            <asp:Parameter Name="IdArticulo" Type="int32" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                </div>
 
-
+        </div>
+    </div>
+        </div>
+        <div class="col-lg-2 col-sm-2 col-md-2"></div>
     </div>
 </div>
 
-    </div>

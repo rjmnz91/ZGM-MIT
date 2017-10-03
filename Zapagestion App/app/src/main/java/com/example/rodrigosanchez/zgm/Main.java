@@ -43,6 +43,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
 
 
     private ProgressBar progressBar;
+    private ProgressDialog pd;
     private WebView webView;
     public static String codeBar = "";
 
@@ -105,6 +106,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
         progressBar = (ProgressBar)findViewById(R.id.pBar);
+        pd = new ProgressDialog(this);
         setContentView(R.layout.activity_main);
         ibtnRefresh = (ImageButton) findViewById(R.id.ibtnRefresh);
         ibtnRefresh.setOnClickListener(this);
@@ -117,77 +119,87 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
         });
 
         webView.setWebViewClient(new WebViewClient() {
-                    public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
-                        view.loadUrl("blank");
-                        view.setVisibility(View.GONE);
-                        ibtnRefresh.setVisibility(View.VISIBLE);
-                    }
+            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                view.loadUrl("blank");
+                view.setVisibility(View.GONE);
+                ibtnRefresh.setVisibility(View.VISIBLE);
+            }
 
-                    @Override
-                    public void onPageStarted(WebView view, String url, Bitmap favicon) {
-                        progressBar.setVisibility(View.VISIBLE);
-                        super.onPageStarted(view, url, favicon);
-                    }
+            @Override
+            public void onPageStarted(WebView view, String url, Bitmap favicon) {
+                pd.setTitle("Cargando Página");
+                pd.setMessage("Espere por favor...");
+                pd.setCancelable(false);
+                pd.show();
+                super.onPageStarted(view, url, favicon);
+            }
 
-                    @Override
-                    public void onLoadResource(WebView view, String url) {
-                        showPB();
-                        url = url.replace("%24","$");
-                        url = url.replace("%2f","/");
-                        url = url.replace("%40","@");
-                        if(!url.contains("sendScanReader"))
-                        {
-                        }else if(!url.contains("Settings")) {
+            @Override
+            public void onLoadResource(WebView view, String url) {
+                url = url.replace("%24","$");
+                url = url.replace("%2f","/");
+                url = url.replace("%40","@");
+                if(!url.contains("sendScanReader"))
+                {
+                }else if(!url.contains("Settings")) {
 
-                        }else if(!url.contains("Search")){
+                }else if(!url.contains("Search")){
 
-                        }else{
-                            view.loadUrl(Common.getURL());
-                        }
-                    }
+                }else{
+                    view.loadUrl(Common.getURL());
+                    if(pd.isShowing())
+                        pd.dismiss();
+                }
+            }
 
-                    @Override
-                    public void onPageFinished(WebView view, String url) {
-                        //Toast.makeText(getApplicationContext(),"Carga Finalizada",Toast.LENGTH_LONG).show();
-                        hidePB();
-                        if(url.contains("sendScanReader"))
-                        {
-                            hidePB();
-                            Intent i = new Intent(getApplicationContext(),Main2Activity.class);
-                            startActivityForResult(i,100);
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                //Toast.makeText(getApplicationContext(),"Carga Finalizada",Toast.LENGTH_LONG).show();
+                if(pd.isShowing())
+                    pd.dismiss();
+                if(url.contains("sendScanReader"))
+                {
+                    Intent i = new Intent(getApplicationContext(),Main2Activity.class);
+                    //pd.dismiss();
+                    startActivityForResult(i,100);
 
-                        }else if(url.contains("Search")){
-                            Intent i = new Intent(getApplicationContext(),search.class);
-                            startActivity(i);
-                        }else if(url.contains("vta")){
-                            StringTokenizer tokens = new StringTokenizer(url,"$");
-                            String first = tokens.nextToken();
-                            String second = tokens.nextToken();
+                }else if(url.contains("Search")){
+                    Intent i = new Intent(getApplicationContext(),search.class);
+                    //pd.dismiss();
+                    startActivity(i);
+                }else if(url.contains("vta")){
+                    StringTokenizer tokens = new StringTokenizer(url,"$");
+                    String first = tokens.nextToken();
+                    String second = tokens.nextToken();
 
-                            StringTokenizer tokenValues = new StringTokenizer(second,"=");
-                            //total a pagar durante la transaccion
-                             String ttlPago = tokenValues.nextToken();
-                            // referencia
-                             String reference = tokenValues.nextToken();
-                            // email
-                            String email = tokenValues.nextToken();
+                    StringTokenizer tokenValues = new StringTokenizer(second,"=");
+                    //total a pagar durante la transaccion
+                    String ttlPago = tokenValues.nextToken();
+                    // referencia
+                    String reference = tokenValues.nextToken();
+                    // email
+                    String email = tokenValues.nextToken();
 
-                            Intent i = new Intent(getApplicationContext(),pagosMit.class);
-                            i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                            i.putExtra("ttlPago",ttlPago);
-                            i.putExtra("vtaRef",reference);
-                            i.putExtra("correo",email);
-                            //view.loadUrl(Common.getHomeURL());
-                            hidePB();
-                            startActivityForResult(i,100);
-                        }
-                        else{
-                            hidePB();
-                            Common.setURL(url);
-                        }
-                        super.onPageFinished(view, url);
-                        hidePB();
-                    }
+                    Intent i = new Intent(getApplicationContext(),pagosMit.class);
+                    i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    i.putExtra("ttlPago",ttlPago);
+                    i.putExtra("vtaRef",reference);
+                    i.putExtra("correo",email);
+                    //view.loadUrl(Common.getHomeURL());
+                    //pd.dismiss();
+                    startActivityForResult(i,100);
+                }
+                else{
+                    if(pd.isShowing())
+                        pd.dismiss();
+                    Common.setURL(url);
+                }
+                if(pd.isShowing())
+                    pd.dismiss();
+                super.onPageFinished(view, url);
+                if(pd.isShowing())
+                    pd.dismiss();
+            }
         });
 
         webView.getSettings().setJavaScriptEnabled(true);
@@ -284,26 +296,6 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
                 webView.setVisibility(view.VISIBLE);
                 break;
         }
-    }
-
-    public void showPB(){
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-
-                progressBar.setVisibility(View.VISIBLE);
-            }
-        });
-    }
-
-    public void  hidePB(){
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                //Toast.makeText(getApplicationContext(),"Funcion para ocultar PB",Toast.LENGTH_LONG).show();
-                progressBar.setVisibility(View.GONE);
-            }
-        });
     }
 }
 

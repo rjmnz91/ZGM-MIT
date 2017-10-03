@@ -72,9 +72,11 @@
             android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".Main2Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask" />
         <activity
             android:name=".pagoDetail"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleInstance"
             android:screenOrientation="sensorPortrait" />
         <activity android:name="com.mitec.controller.PermissionActivity" />
@@ -82,14 +84,17 @@
         <activity
             android:name=".Opciones"
             android:launchMode="singleInstance"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="sensorPortrait" />
         <activity android:name=".SetEmail" />
         <activity android:name=".Signature" />
         <activity
             android:name=".pagosMit"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleInstance"
             android:screenOrientation="sensorPortrait" />
         <activity android:name=".search"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="sensorPortrait" />
     </application>
 

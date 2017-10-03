@@ -27,10 +27,12 @@
         android:inputType="textPersonName"
         android:text="http://"
         />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" "/>
+
     <TextView
         android:id="@+id/txtCorreoH"
         android:layout_width="match_parent"
@@ -43,11 +45,30 @@
         android:inputType="textEmailAddress"
         android:hint="ejemplo@piagui.com"
         android:id="@+id/txtCorreo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dispositivo para cobro:"
+        android:id="@+id/txtDevice"
+        android:textSize="16dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_device"
+        android:entries="@array/PaymentDevices"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" "
         android:textSize="200dp"/>
+
     <Button
         android:id="@+id/btnGuardar"
         android:layout_width="160dp"

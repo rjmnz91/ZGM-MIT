@@ -56,7 +56,7 @@ import com.example.rodrigosanchez.zgm.BeanData;
 public class pagosMit extends AppCompatActivity implements View.OnClickListener,  MitControllerListener, AdapterView.OnItemSelectedListener{
 
     private EditText txt_amount;
-    private Spinner spn_merchant;
+    //private Spinner spn_merchant;
     private Spinner spn_propina;
     private Spinner spn_plazo;
     private TextView totalPropina;
@@ -64,6 +64,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     private EditText txt_reference;
     private Button btn_start;
     private Button btn_cancel;
+    private Button btn_Conect;
     private ArrayList<String> list;
     private ArrayList<String> listPropina;
     private String reader;
@@ -94,6 +95,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     private Button btn_ok;
     private TextView txtFirma;
     String months = "";
+    String Device = "";
     String correoComercio = "";
     DatabaseHandler dbh;
     FingerPathView signView;
@@ -130,9 +132,11 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         signView = (FingerPathView) findViewById(R.id.sign_view);
         btn = (Button) findViewById(R.id.btn_ok);
         btn.setOnClickListener(this);
+        btn_Conect = (Button) findViewById(R.id.btnConect);
+        btn_Conect.setOnClickListener(this);
         progressDialog = new ProgressDialog(this);
         txt_amount = (EditText) findViewById(R.id.txt_amount);
-        spn_merchant = (Spinner) findViewById(R.id.spn_merchant);
+        //spn_merchant = (Spinner) findViewById(R.id.spn_merchant);
         spn_plazo = (Spinner) findViewById(R.id.spn_plazo);
         txt_reference = (EditText) findViewById(R.id.txt_reference);
         txtFirma = (TextView) findViewById(R.id.txtFirma);
@@ -161,7 +165,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
         accion = "0";
 
-        initReader();
+        //initReader();
 
         Intent intent = getIntent();
         if (intent != null) {
@@ -176,6 +180,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         }
 
         correoComercio = dbh.getCorreo();
+        Device = dbh.getDevice();
 
         isDeviceSelected = false;
         runOnUiThread(new Runnable() {
@@ -208,7 +213,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     protected void onResume(){
         super.onResume();
 
-        validationTypeReader();
+        //validationTypeReader();
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
@@ -223,7 +228,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     protected void onDestroy(){
         super.onDestroy();
         System.out.println("Se destruye venta");
-        if(reader.equals("VX600"))
+        if(Device.equals("VX600"))
             myController.deviceDissconect();
 
         //else
@@ -233,6 +238,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             progressDialog.dismiss();
     }
 
+    /*
     private void initReader(){
         list = new ArrayList<String>();
         list.add("Walker");
@@ -243,7 +249,9 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spn_merchant.setAdapter(adapter);
     }
+    */
 
+    /*
     private void validationTypeReader(){
         spn_merchant.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
@@ -266,6 +274,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             }
         });
     }
+    */
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -279,18 +288,18 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                         txt_amount.setEnabled(false);
                         txt_reference.setEnabled(false);
                         spn_plazo.setEnabled(false);
-                        spn_merchant.setEnabled(false);
+                        //spn_merchant.setEnabled(false);
                         btn_start.setEnabled(false);
                         btn_cancel.setEnabled(false);
                         btn_start.setBackgroundColor(Color.parseColor("#c5c6c9"));
                         btn_cancel.setBackgroundColor(Color.parseColor("#c5c6c9"));
                     }
                 });
-                if(reader.equals("VX600")){
+                if(Device.equals("VX600")){
                     setPaymentMode();
                 }
                 else{
-                    if(reader.equals("NomadWP2") || reader.equals("QPOS BT") || reader.equals("Walker BT")){
+                    if(Device.equals("NomadWP2") || Device.equals("QPOS BT") || Device.equals("Walker BT")){
                         if(isDeviceSelected)
                             sndProcess();
                         else
@@ -310,6 +319,23 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             Intent intent = new Intent(pagosMit.this, Main.class);
             setResult(Activity.RESULT_OK, intent);
             myController.deviceDissconect();             finish();
+        }else if(view.getId() == btn_Conect.getId()){
+            if(Device.equals("QPOS BT")){
+                myController.setDevice(PaymentDevice.QPOS_BT);
+                new ConnectDevice().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        btn_start.setEnabled(true);
+                        btn_start.setBackgroundResource(android.R.color.holo_green_dark);
+                        btn_Conect.setVisibility(View.INVISIBLE);
+                    }
+                });
+            }
+            else if(Device.equals("Walker BT")){
+                myController.setDevice(PaymentDevice.WALKER_BT);
+                new ConnectDevice().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+            }
         }else if(view.getId() == btn.getId()){
             if (!signView.Empty()) {
                 try {
@@ -654,7 +680,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
     @Override
     public void onDeviceUnplugged(String msg) {
-        if(reader.equals("NomadWP2") || reader.equals("QPOS BT") || reader.equals("Walker BT")){
+        if(Device.equals("NomadWP2") || Device.equals("QPOS BT") || Device.equals("Walker BT")){
             if(msg.equalsIgnoreCase("Desconectado")){
                 labelConnected.setTextColor(Color.parseColor("#e60000"));
                 isDeviceSelected = false;

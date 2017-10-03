@@ -238,6 +238,15 @@ namespace AVE.controles {
         protected global::System.Web.UI.WebControls.DropDownList ddlModelo;
         
         /// <summary>
+        /// Control btnPrecio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPrecio;
+        
+        /// <summary>
         /// Control AVE_ArticuloFotoObtener.
         /// </summary>
         /// <remarks>
@@ -254,15 +263,6 @@ namespace AVE.controles {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource AVE_ArticuloFotoByIdArticulo;
-        
-        /// <summary>
-        /// Control btnPrecio.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPrecio;
         
         /// <summary>
         /// Control GridView2.

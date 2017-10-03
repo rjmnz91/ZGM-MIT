@@ -611,16 +611,35 @@
                         <asp:Button ID="BtnCliente" runat="server" Text="..." OnClick="BCliente_Click" OnClientClick="mostrar_procesar();" CssClass="btn btn-toolbar" />
                         <asp:ImageButton runat="server" ID="imgCliente9" Width="5%" ImageUrl="~/img/c9.png" OnClientClick="rellenaNine();return false;" /><br />
                         <br />
+                        <div runat="server" visible="false" id="CLiente" style="display: inline-block; border-style: solid; float: right; padding: 2px; border-width: 1px" class="panel panel-primary">
+                                <div runat="server" class="panel-heading" style="font-size: larger; font-weight: bold;">
+                                    <asp:Label runat="server" ID="Label9" style="font-weight: bold;">CLIENTE</asp:Label>
+                                </div>
+                                <div class="panel-body" >
+                                    <table>
+                                    <tr>
+                                        <td style="font-weight:bold">Nombre: </td>
+                                        <td>
+                                            <asp:Label ID="Nombre" runat="server" value=""></asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight:bold">Email: </td>
+                                        <td>
+                                            <asp:Label ID="Email" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <asp:Label ID="Shoelover" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </div>
+                            </div>
                         <asp:Label runat="server" ID="labelDirectivo" Text='' Style="font-weight: bold; font-size: small"></asp:Label><br />
                         <div class="panel-body">
-
-                            <div runat="server" visible="false" id="CLiente" style="display: inline-block; border-style: solid; float: right; padding: 2px; border-width: 1px">
-                                <label style="font-weight: bold">Nombre</label>
-                                <asp:Label ID="Nombre" runat="server" value=""></asp:Label><br />
-                                <asp:Label ID="Email" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label><br />
-                                <asp:Label ID="Shoelover" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
-                            </div>
-
+                            <br />
                             <table>
                                 <tr>
                                     <td style="width:45%;">

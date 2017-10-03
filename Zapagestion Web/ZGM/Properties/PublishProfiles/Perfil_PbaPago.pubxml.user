@@ -46,7 +46,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:12:07</publishTime>
     </File>
     <File Include="bin/AVE.dll">
-      <publishTime>02/10/2017 13:36:36</publishTime>
+      <publishTime>10/03/2017 10:45:29</publishTime>
     </File>
     <File Include="bin/AVEGestorPromociones.dll">
       <publishTime>08/15/2017 11:36:19</publishTime>
@@ -232,13 +232,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:08:34</publishTime>
     </File>
     <File Include="controles/UCCLiente9.ascx">
-      <publishTime>02/10/2017 13:15:37</publishTime>
+      <publishTime>10/02/2017 13:15:37</publishTime>
     </File>
     <File Include="controles/UCDetallesProducto.ascx">
-      <publishTime>02/10/2017 13:29:23</publishTime>
+      <publishTime>10/03/2017 10:45:25</publishTime>
     </File>
     <File Include="controles/UCEleccionProducto.ascx">
-      <publishTime>02/10/2017 11:28:14</publishTime>
+      <publishTime>10/02/2017 17:12:04</publishTime>
     </File>
     <File Include="controles/UCModalConfirm.ascx">
       <publishTime>06/23/2017 16:08:47</publishTime>
@@ -250,10 +250,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:08:34</publishTime>
     </File>
     <File Include="controles/UCSolicitudAlmacen.ascx">
-      <publishTime>02/10/2017 11:30:38</publishTime>
+      <publishTime>10/02/2017 11:30:38</publishTime>
     </File>
     <File Include="controles/UCStockEnTienda.ascx">
-      <publishTime>02/10/2017 13:28:43</publishTime>
+      <publishTime>10/03/2017 11:06:26</publishTime>
     </File>
     <File Include="ConversionMoneda.aspx">
       <publishTime>06/23/2017 16:10:05</publishTime>
@@ -346,7 +346,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:11:38</publishTime>
     </File>
     <File Include="EleccionProducto.aspx">
-      <publishTime>10/02/2017 13:41:36</publishTime>
+      <publishTime>10/03/2017 11:06:38</publishTime>
     </File>
     <File Include="Error.aspx">
       <publishTime>09/25/2017 13:44:11</publishTime>
