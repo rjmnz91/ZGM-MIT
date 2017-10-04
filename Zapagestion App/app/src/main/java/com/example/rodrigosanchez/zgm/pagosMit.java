@@ -439,16 +439,10 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         if(plazo!="")
             if(plazo.contains("3M")) {
                 merchant = "157490";
-                months = "3";
             }else if(plazo.contains("6M")) {
                 merchant = "157491";
-                months = "6";
             }else
                 merchant = data.getMerchant();
-        if(months!="")
-            myController.setMonthsToPay(months);
-        else
-            ;
         myController.setReset(true);
         myController.sndEmvDirectSellWithAmount(amount, company, branch,user, password, usrTrx, merchant, refPay, operationType,country, currency, "");
 
@@ -548,7 +542,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                     te.printStackTrace();
                 }
                 String newUrl = Common.getHomeURL() + "/CarritoDetalle.aspx?" + amount + "$" + beanResponseSell.getCc_number() + "$" + beanResponseSell.getAppidlabel()
-                        + "$" + merchant + "$" + email;
+                        + "$" + merchant + "$" + email + "$" + beanResponseSell.getAuth() + "$" + beanResponseSell.getFoliocpagos();
                 Common.setURL(newUrl);
                 Intent intent = new Intent(pagosMit.this, Main.class);
                 setResult(Activity.RESULT_OK, intent);
@@ -564,7 +558,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                         te.printStackTrace();
                     }
                     String newUrl = Common.getHomeURL() + "/CarritoDetalle.aspx?" + amount + "$" + beanResponseSell.getCc_number() + "$" + beanResponseSell.getAppidlabel()
-                            + "$" + merchant + "$" + email;
+                            + "$" + merchant + "$" + email + "$" + beanResponseSell.getAuth() + "$" + beanResponseSell.getFoliocpagos();
                     Common.setURL(newUrl);
                     Intent intent = new Intent(pagosMit.this, Main.class);
                     setResult(Activity.RESULT_OK, intent);

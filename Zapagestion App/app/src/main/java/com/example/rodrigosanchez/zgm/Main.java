@@ -120,6 +120,10 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
 
         webView.setWebViewClient(new WebViewClient() {
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                pd.setTitle("Cargando Página");
+                pd.setMessage("Espere por favor...");
+                pd.setCancelable(false);
+                pd.show();
                 view.loadUrl("blank");
                 view.setVisibility(View.GONE);
                 ibtnRefresh.setVisibility(View.VISIBLE);
@@ -168,7 +172,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener{
                     //pd.dismiss();
                     startActivity(i);
                 }else if(url.contains("vta")){
-                    StringTokenizer tokens = new StringTokenizer(url,"$");
+                    StringTokenizer tokens = new StringTokenizer(url,"?");
                     String first = tokens.nextToken();
                     String second = tokens.nextToken();
 

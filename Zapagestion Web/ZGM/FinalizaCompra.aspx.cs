@@ -36,7 +36,6 @@ namespace AVE
                             Entrega.Text = fVenta.Entrega;
                         else
                             Label7.Visible = false;
-                        
 
                         Session["FVENTA"] = null;
                         Session["objCliente"] = null;
@@ -52,6 +51,7 @@ namespace AVE
             }
         }
 
+        
         protected void cmdImprimirTicket_Click(object sender, EventArgs e)
         {
 

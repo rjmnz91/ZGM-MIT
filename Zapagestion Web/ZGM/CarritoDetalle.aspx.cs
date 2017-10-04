@@ -23,7 +23,7 @@ namespace AVE
     {
         // MJM 27/05/2014 LOG
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        string amt = "", ccNum = "", appidLbl = "", merchPago = "", correo = "";
+        string amt = "", ccNum = "", appidLbl = "", merchPago = "", correo = "", auth = "", operation = "";
         //
 
         DLLGestionVenta.ProcesarVenta objVenta;
@@ -531,7 +531,9 @@ namespace AVE
                 if(!uri.Contains("vta")){
                 string[] parameters = uri.Split('?');
                 string[] tempValues = parameters[1].Split('$');
-                amt = tempValues[0]; ccNum = tempValues[1]; appidLbl = tempValues[2]; merchPago = tempValues[3]; correo = tempValues[4];
+                amt = tempValues[0]; ccNum = tempValues[1]; appidLbl = tempValues[2]; merchPago = tempValues[3]; correo = tempValues[4]; auth = tempValues[5]; operation = tempValues[6];
+                Payment.setAuth(auth);
+                Payment.setOperation(operation);
                 Session["tipoPago"] = null;
                 pagoTarjeta();
                 }else{
@@ -1952,14 +1954,6 @@ namespace AVE
 
             objPago = new Carrito_Pago();
 
-            //objPago.IdCarrito = idCarrito;
-            //objPago.TipoPago = "TARJETA";
-            //objPago.TipoPagoDetalle = appidLbl;
-            //objPago.Importe = float.Parse(amt, NumberStyles.Currency, CultureInfo.GetCultureInfo("es-MX"));
-            //getdatosEncriptadosMPOS(amt, ccNum, appidLbl, merchPago, correo);
-            //objVenta.PagoCarrito(objPago);
-            //txtPago.Text = String.Empty;
-
                 objPago.IdCarrito = idCarrito;
                 objPago.TipoPago = System.Configuration.ConfigurationManager.AppSettings["TarjetaTipo"].ToString();
             //    objPago.TipoPagoDetalle = lstTarjetas.SelectedItem.Text;
@@ -1969,8 +1963,9 @@ namespace AVE
                 objPago.Importe = float.Parse(amt, NumberStyles.Currency, CultureInfo.GetCultureInfo("es-MX"));
 
                 objVenta.PagoCarrito(objPago);
-                txtPago.Text = String.Empty;
         }
+
+        
 
         /*
         protected void ButPagar_Click(object sender, EventArgs e)
@@ -2399,6 +2394,9 @@ namespace AVE
                 Session["FVENTA"] = obFventa;
                 Session["ClienteNine"] = null;
                 Session["objCliente"] = null;
+
+                string auth = Payment.getAuth();
+                string operation = Payment.getOperation();
 
                 //   ModalPopupExtenderProcess.Visible = false;
 

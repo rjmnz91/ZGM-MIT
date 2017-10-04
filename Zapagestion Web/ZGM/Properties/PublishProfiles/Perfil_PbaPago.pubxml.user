@@ -46,7 +46,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:12:07</publishTime>
     </File>
     <File Include="bin/AVE.dll">
-      <publishTime>10/03/2017 10:45:29</publishTime>
+      <publishTime>10/04/2017 16:24:16</publishTime>
     </File>
     <File Include="bin/AVEGestorPromociones.dll">
       <publishTime>08/15/2017 11:36:19</publishTime>
@@ -196,7 +196,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/23/2017 16:11:42</publishTime>
     </File>
     <File Include="CarritoDetalle.aspx">
-      <publishTime>09/29/2017 17:08:42</publishTime>
+      <publishTime>04/10/2017 13:29:32</publishTime>
     </File>
     <File Include="CarritoDetalleHERMES.aspx">
       <publishTime>06/23/2017 16:10:12</publishTime>
@@ -253,7 +253,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>10/02/2017 11:30:38</publishTime>
     </File>
     <File Include="controles/UCStockEnTienda.ascx">
-      <publishTime>10/03/2017 11:06:26</publishTime>
+      <publishTime>03/10/2017 18:23:58</publishTime>
     </File>
     <File Include="ConversionMoneda.aspx">
       <publishTime>06/23/2017 16:10:05</publishTime>

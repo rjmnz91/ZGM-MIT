@@ -380,6 +380,7 @@
     <Compile Include="OrdenInventarioDetalle.aspx.designer.cs">
       <DependentUpon>OrdenInventarioDetalle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Payment.cs" />
     <Compile Include="Pedidos.aspx.cs">
       <DependentUpon>Pedidos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

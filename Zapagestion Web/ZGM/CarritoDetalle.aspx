@@ -609,14 +609,24 @@
 
 
                         <asp:Button ID="BtnCliente" runat="server" Text="..." OnClick="BCliente_Click" OnClientClick="mostrar_procesar();" CssClass="btn btn-toolbar" />
-                        <asp:ImageButton runat="server" ID="imgCliente9" Width="5%" ImageUrl="~/img/c9.png" OnClientClick="rellenaNine();return false;" /><br />
-                        <br />
-                        <div runat="server" visible="false" id="CLiente" style="display: inline-block; border-style: solid; float: right; padding: 2px; border-width: 1px" class="panel panel-primary">
+                        <asp:ImageButton runat="server" ID="imgCliente9" Width="5%" ImageUrl="~/img/c9.png" OnClientClick="rellenaNine();return false;" />
+                        
+                        <asp:Label runat="server" ID="labelDirectivo" Text='' Style="font-weight: bold; font-size: small"></asp:Label><br />
+                        <div class="panel-body">
+                            <table>
+                                <tr>
+                                    <td >
+                                        <div runat="server" visible="false" id="CLiente" style="display: block; border-style: solid;border-width: 1px;" class="panel panel-primary">
                                 <div runat="server" class="panel-heading" style="font-size: larger; font-weight: bold;">
                                     <asp:Label runat="server" ID="Label9" style="font-weight: bold;">CLIENTE</asp:Label>
                                 </div>
                                 <div class="panel-body" >
                                     <table>
+                                        <tr>
+                                        <td colspan="2" style="text-transform:uppercase; text-align:center; font-weight:bold;">
+                                            <asp:Label ID="Shoelover" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td style="font-weight:bold">Nombre: </td>
                                         <td>
@@ -629,18 +639,11 @@
                                             <asp:Label ID="Email" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td colspan="2">
-                                            <asp:Label ID="Shoelover" runat="server" value="" CssClass="RellenoCarrito1"></asp:Label>
-                                        </td>
-                                    </tr>
                                 </table>
                                 </div>
                             </div>
-                        <asp:Label runat="server" ID="labelDirectivo" Text='' Style="font-weight: bold; font-size: small"></asp:Label><br />
-                        <div class="panel-body">
-                            <br />
-                            <table>
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td style="width:45%;">
                                         
@@ -752,7 +755,7 @@
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     </td>
                                     <td>
-                                        <div class="panel panel-primary"  runat="server" id="DivPagar" style="display: block; border-style: solid;border-width: 1px;">
+                                        <div class="panel panel-primary"  runat="server" id="DivPagar" style="display: block; border-style: solid;border-width:1px;">
                                             <div runat="server" class="panel-heading" style="font-size: larger; font-weight: bold;">Importe</div>
                                             <div class="panel-body" style="width:100%">
                                                 <table >

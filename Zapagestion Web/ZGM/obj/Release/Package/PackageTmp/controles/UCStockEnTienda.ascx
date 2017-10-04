@@ -234,10 +234,10 @@
         <div class="col-lg-2 col-sm-2 col-md-2"></div>
         <div class="col-lg-8 col-sm-8 col-md-8">
             <div class="panel panel-primary">
-        <div class="panel-heading">
+                <div class="panel-heading">
             <asp:Label ID="lblDescripcion" runat="server" BorderStyle="None" Font-Bold="True"></asp:Label>
         </div>
-        <div class="panel-body" id="PnlFoto">
+                <div class="panel-body" id="PnlFoto">
         
         
         <table>
@@ -429,7 +429,7 @@
                 </div>
 
         </div>
-    </div>
+            </div>
         </div>
         <div class="col-lg-2 col-sm-2 col-md-2"></div>
     </div>

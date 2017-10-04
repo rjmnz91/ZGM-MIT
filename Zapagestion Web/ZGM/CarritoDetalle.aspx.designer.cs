@@ -436,6 +436,15 @@ namespace AVE {
         protected global::System.Web.UI.WebControls.ImageButton imgCliente9;
         
         /// <summary>
+        /// Control labelDirectivo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelDirectivo;
+        
+        /// <summary>
         /// Control CLiente.
         /// </summary>
         /// <remarks>
@@ -454,6 +463,15 @@ namespace AVE {
         protected global::System.Web.UI.WebControls.Label Label9;
         
         /// <summary>
+        /// Control Shoelover.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Shoelover;
+        
+        /// <summary>
         /// Control Nombre.
         /// </summary>
         /// <remarks>
@@ -470,24 +488,6 @@ namespace AVE {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Email;
-        
-        /// <summary>
-        /// Control Shoelover.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Shoelover;
-        
-        /// <summary>
-        /// Control labelDirectivo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label labelDirectivo;
         
         /// <summary>
         /// Control Div1.
