@@ -255,7 +255,7 @@
                 </div>
             </div>
     
-    <div class="container">
+    
         <div class="row">
                 <center>
                <div>
@@ -404,7 +404,7 @@
             </div>
            </center>
         </div>
-    </div>
+    
         <br />
     </form>
 </body>

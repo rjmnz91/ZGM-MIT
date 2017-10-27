@@ -92,6 +92,8 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     private String email;
     private String tarjeta;
     private String tipoMit;
+    private String auth;
+    private String operation;
     private Button btn_ok;
     private TextView txtFirma;
     String months = "";
@@ -145,7 +147,6 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
         myController = new MitController(pagosMit.this);
         myController.setURL(data.getServer());
-
         btn_start.setOnClickListener(this);
         btn_cancel.setOnClickListener(this);
 
@@ -219,9 +220,9 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onBackPressed(){
-        myController.deviceDissconect();             finish();
+        myController.deviceDissconect();
+        finish();
         android.os.Process.killProcess(android.os.Process.myPid());
-
     }
 
     @Override
@@ -237,44 +238,6 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         if(progressDialog != null)
             progressDialog.dismiss();
     }
-
-    /*
-    private void initReader(){
-        list = new ArrayList<String>();
-        list.add("Walker");
-        list.add("Walker BT");
-        list.add("QPOS BT");
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spn_merchant.setAdapter(adapter);
-    }
-    */
-
-    /*
-    private void validationTypeReader(){
-        spn_merchant.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
-                reader = parent.getSelectedItem().toString();
-                if(reader.equals("Walker")){
-                    myController.setDevice(PaymentDevice.WALKER);
-                }
-                else if(reader.equals("QPOS BT")){
-                    myController.setDevice(PaymentDevice.QPOS_BT);
-                    new ConnectDevice().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-                }
-                else if(reader.equals("Walker BT")){
-                    myController.setDevice(PaymentDevice.WALKER_BT);
-                    new ConnectDevice().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-            }
-        });
-    }
-    */
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -299,7 +262,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                     setPaymentMode();
                 }
                 else{
-                    if(Device.equals("NomadWP2") || Device.equals("QPOS BT") || Device.equals("Walker BT")){
+                    if(Device.equals("NomadWP2") || Device.equals("QPOS BT") || Device.equalsIgnoreCase("Walker BT")){
                         if(isDeviceSelected)
                             sndProcess();
                         else
@@ -318,7 +281,9 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
             Common.setURL(newUrl);
             Intent intent = new Intent(pagosMit.this, Main.class);
             setResult(Activity.RESULT_OK, intent);
-            myController.deviceDissconect();             finish();
+            myController.deviceDissconect();
+            myController = null;
+            finish();
         }else if(view.getId() == btn_Conect.getId()){
             if(Device.equals("QPOS BT")){
                 myController.setDevice(PaymentDevice.QPOS_BT);
@@ -332,9 +297,17 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                     }
                 });
             }
-            else if(Device.equals("Walker BT")){
+            else if(Device.equalsIgnoreCase("Walker BT")){
                 myController.setDevice(PaymentDevice.WALKER_BT);
                 new ConnectDevice().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        btn_start.setEnabled(true);
+                        btn_start.setBackgroundResource(android.R.color.holo_green_dark);
+                        btn_Conect.setVisibility(View.INVISIBLE);
+                    }
+                });
             }
         }else if(view.getId() == btn.getId()){
             if (!signView.Empty()) {
@@ -353,11 +326,13 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                                 data.getBranch(), "MEX");
                         //new procesando().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
                         String newUrl = Common.getHomeURL()+"/CarritoDetalle.aspx?"+amount+"$"+tarjeta+"$"+tipoMit+"$"+
-                                merchant+"$"+email;
+                                merchant+"$"+email+ "$" + auth + "$" + operation;
                         Common.setURL(newUrl);
                         Intent intent = new Intent(pagosMit.this, Main.class);
                         setResult(Activity.RESULT_OK, intent);
-                        myController.deviceDissconect();             finish();
+                        myController.deviceDissconect();
+                        myController = null;
+                        finish();
                     }
                 }catch (TimeoutException te){}
                 catch (Exception e){}
@@ -443,7 +418,6 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                 merchant = "157491";
             }else
                 merchant = data.getMerchant();
-        myController.setReset(true);
         myController.sndEmvDirectSellWithAmount(amount, company, branch,user, password, usrTrx, merchant, refPay, operationType,country, currency, "");
 
         //myController.getDeviceInfo();
@@ -469,9 +443,12 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
                 String newUrl = Common.getHomeURL() + "/Error.aspx?Inicio.aspx?"+mensaje ;
                 Common.setURL(newUrl);
+
                 Intent intent = new Intent(pagosMit.this, Main.class);
                 setResult(Activity.RESULT_OK, intent);
-                myController.deviceDissconect();             finish();
+                myController.deviceDissconect();
+                myController = null;
+                finish();
             }
         });
 
@@ -526,6 +503,8 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
         if(beanResponseSell.getResponse().equals("approved")){
             progressDialog.dismiss();
+            auth = beanResponseSell.getAuth();
+            operation = beanResponseSell.getFoliocpagos();
             /**/
             String response = "Response " +  beanResponseSell.getResponse() + "\n";
             response += "Folio " +  beanResponseSell.getFoliocpagos() + "\n";
@@ -546,7 +525,9 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                 Common.setURL(newUrl);
                 Intent intent = new Intent(pagosMit.this, Main.class);
                 setResult(Activity.RESULT_OK, intent);
-                myController.deviceDissconect();             finish();
+                myController.deviceDissconect();
+                myController = null;
+                finish();
             }
             else {
                 if(beanResponseSell.getStQPS().equals("1")){
@@ -560,6 +541,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                     String newUrl = Common.getHomeURL() + "/CarritoDetalle.aspx?" + amount + "$" + beanResponseSell.getCc_number() + "$" + beanResponseSell.getAppidlabel()
                             + "$" + merchant + "$" + email + "$" + beanResponseSell.getAuth() + "$" + beanResponseSell.getFoliocpagos();
                     Common.setURL(newUrl);
+                    myController.setReset(true);
                     Intent intent = new Intent(pagosMit.this, Main.class);
                     setResult(Activity.RESULT_OK, intent);
                     myController.deviceDissconect();             finish();
@@ -576,26 +558,9 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
                     });
                 }
             }
-
-            /*Intent i = new Intent(pagosMit.this, Result.class);
-            i.putExtra("cad_sign", idMitTransaction);
-            i.putExtra("response", response);
-            i.putExtra("folio", beanResponseSell.getFoliocpagos());
-            i.putExtra("beanResponseSell", beanResponseSell);
-            i.putExtra("correo",email);
-            finish();
-            startActivity(i);*/
         }
         else if(beanResponseSell.getResponse().equals("denied")){
             progressDialog.dismiss();
-            /*Intent i = new Intent(pagosMit.this, Result.class);
-            if(beanResponseSell.getDescription().equals(""))
-                i.putExtra("error", "Transacci?n declinada");
-            else
-                i.putExtra("error", beanResponseSell.getDescription());
-            i.putExtra("beanResponseSell", beanResponseSell);
-            finish();
-            startActivity(i);*/
             String newUrl = Common.getHomeURL() + "/Error.aspx?Inicio.aspx?denied?"+beanResponseSell.getDescription() ;
             Common.setURL(newUrl);
             Intent intent = new Intent(pagosMit.this, Main.class);
@@ -606,30 +571,23 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
         }
         else if(beanResponseSell.getResponse().equals("error")){
             progressDialog.dismiss();
-            /*Intent i = new Intent(pagosMit.this, Result.class);
-            if(beanResponseSell.getDescription().equals(""))
-                i.putExtra("error", "Error en la transacci?n");
-            else
-                i.putExtra("error", beanResponseSell.getDescription());
-            i.putExtra("beanResponseSell", beanResponseSell);
-            finish();
-            startActivity(i);*/
             String newUrl = Common.getHomeURL() + "/Error.aspx?Inicio.aspx?errorTransaccion?"+beanResponseSell.getDescription();
             Common.setURL(newUrl);
             Intent intent = new Intent(pagosMit.this, Main.class);
             setResult(Activity.RESULT_OK, intent);
-            myController.deviceDissconect();             finish();
+            myController.deviceDissconect();
+            myController = null;
+            finish();
         }
         else{
-            /*Intent i = new Intent(pagosMit.this, Result.class);
-            i.putExtra("error", "Error en la transacci?n");
-            finish();
-            startActivity(i);*/
+
             String newUrl = Common.getHomeURL() + "/Error.aspx?Inicio.aspx?errorTransaccion" ;
             Common.setURL(newUrl);
             Intent intent = new Intent(pagosMit.this, Main.class);
             setResult(Activity.RESULT_OK, intent);
-            myController.deviceDissconect();             finish();
+            myController.deviceDissconect();
+            myController = null;
+            finish();
         }
     }
 
@@ -674,7 +632,7 @@ public class pagosMit extends AppCompatActivity implements View.OnClickListener,
 
     @Override
     public void onDeviceUnplugged(String msg) {
-        if(Device.equals("NomadWP2") || Device.equals("QPOS BT") || Device.equals("Walker BT")){
+        if(Device.equals("NomadWP2") || Device.equals("QPOS BT") || Device.equalsIgnoreCase("Walker BT")){
             if(msg.equalsIgnoreCase("Desconectado")){
                 labelConnected.setTextColor(Color.parseColor("#e60000"));
                 isDeviceSelected = false;

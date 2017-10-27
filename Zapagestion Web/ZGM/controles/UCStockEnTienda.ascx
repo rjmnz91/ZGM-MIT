@@ -116,7 +116,7 @@
 </script>
 
 
-<div class="container">
+<div >
     <div style="width:80%">
         <div class="barraNavegacion" style="font-weight: 700">
     <asp:Button ID="btnMasTiendas" runat="server" CssClass="btn btn-default" Text="<%$ Resources:Resource, MasTiendas%>"

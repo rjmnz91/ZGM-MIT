@@ -97,6 +97,8 @@ namespace AVE
                     txtCelArt.Text = entrega.TelfMovil;
                     txtTelArt.Text = entrega.TelfFijo;
                     txtObservacionesArt.Text = entrega.Referencia;
+                    
+                    PanelEntregasArt.Visible = true;
                 }
             }
             catch (Exception ex)
@@ -531,7 +533,8 @@ namespace AVE
                 if(!uri.Contains("vta")){
                 string[] parameters = uri.Split('?');
                 string[] tempValues = parameters[1].Split('$');
-                amt = tempValues[0]; ccNum = tempValues[1]; appidLbl = tempValues[2]; merchPago = tempValues[3]; correo = tempValues[4]; auth = tempValues[5]; operation = tempValues[6];
+                amt = tempValues[0]; ccNum = tempValues[1]; appidLbl = tempValues[2]; merchPago = tempValues[3]; correo = tempValues[4]; 
+                    auth = tempValues[5]; operation = tempValues[6];
                 Payment.setAuth(auth);
                 Payment.setOperation(operation);
                 Session["tipoPago"] = null;
@@ -594,6 +597,13 @@ namespace AVE
                     }
                     else if(!uri.Contains("?"))
                     {
+                        divPnlPagoCte.Attributes.CssStyle["display"] = "block";
+                        string total= TotPendiente.Text;
+                        total = total.Replace('$', ' ');
+                        total = total.Replace(',', ' ');
+                        total = total.Trim();
+                        ScriptManager.RegisterStartupScript(this, typeof(Page), "Buscar", "MostrarImporteAPagar();", true);
+                        ModalPopupExtender1.Show();
                     }
                     divPnlPagoCte.Visible = true;
                     
@@ -2948,10 +2958,10 @@ namespace AVE
 
             ImageButton imgbtn = (ImageButton)sender;
             GridViewRow rgv = (GridViewRow)imgbtn.NamingContainer;
-
+            divPnlPagoCte.Visible = true;
             idCarritoDetalle = int.Parse(gvCarrito.DataKeys[rgv.RowIndex].Values["id_carrito_detalle"].ToString());
             BorrarDatosEntrega();
-            CargaEntregaArt();
+            CargaEntregaArt();           
             ModalPopupExtender1.Show();
         }
 
