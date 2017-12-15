@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rodrigosanchez.zgm_mit.Opciones">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/ninewest_s" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Configuración Avanzada"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtServiceH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URL: "
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/txtService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="https://" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <LinearLayout
+            android:id="@+id/contentInfo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/company"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtCompanyH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Compañia:"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/txtCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Id de la compañia..."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" " />
+
+            <LinearLayout
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtBranchH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sucursal:"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/txtBranch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Id de Sucursal..."
+                    android:inputType="text" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtUsuarioH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introduza su usuario..."
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/txtPasswordH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraaseña:"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introduza su contraseña..."
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <LinearLayout
+            android:id="@+id/content2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="#000000"
+                android:text="Cancelar"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#000000"
+                android:text="Guardar"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

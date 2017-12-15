@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ZGM</string>
+    <string name="app_name">9WEST</string>
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
@@ -23,5 +23,33 @@
         <item>157490</item>
         <item>157491</item>
     </string-array>
+
+    <string-array name="PhoneCompanyDesc">
+        <item>Telcel</item>
+        <item>Movistar</item>
+        <item>Iusacell</item>
+        <item>Unefon</item>
+    </string-array>
+
+    <string-array name="PhoneCompanyValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="title_activity_main_drawer">mainDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_opciones">Opciones</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_activity_zapagestion">Zapagestion</string>
+    <string name="title_activity_payment_mit">PaymentMit</string>
 
 </resources>

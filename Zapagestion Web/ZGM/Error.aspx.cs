@@ -19,7 +19,10 @@ namespace AVE
                 int ArtiCarrito = CheckArticulosCarrito(Session["IdCarrito"].ToString());
                 var miMaster = (MasterPage)this.Master;
                 miMaster.MuestraArticulosCarrito(Convert.ToString(ArtiCarrito));
-
+                ImageButton carrito = (ImageButton)this.Master.FindControl("lnkCarrito");
+                HyperLink numCarrito = (HyperLink)this.Master.FindControl("lblNumArt");
+                carrito.Visible = false;
+                numCarrito.Visible = false;
                 string uri = HttpContext.Current.Request.Url.AbsoluteUri;
                 if (uri.Contains("denied"))
                 {
@@ -28,10 +31,10 @@ namespace AVE
                     cmdInicio.PostBackUrl = value[1];
                     value[1] = value[1].Replace("%20", " ");
                     value[1] = value[1].Replace("%C3%B3", "ó");
-                    value[1] = value[1].Replace("%C2%A1", "¡");
+                    value[1] = value[1].Replace("%C2%A1", "í");
                     value[3] = value[3].Replace("%20", " ");
                     value[3] = value[3].Replace("%C3%B3", "ó");
-                    value[3] = value[3].Replace("%C2%A1", "¡");
+                    value[3] = value[3].Replace("%C2%A1", "í");
                     errorMsg.Text = "Lo sentimos, la transaccion que ha intentado fue denegada, por favor intentelo nuevamente." + "<br/>" + "Si el problema persiste por favor consulte a su banco" + "<br/>" + value[3];
                 }
                 else if (uri.Contains("errorTransaccion"))
@@ -40,10 +43,10 @@ namespace AVE
                     cmdInicio.PostBackUrl = value[1];
                     value[1] = value[1].Replace("%20", " ");
                     value[1] = value[1].Replace("%C3%B3", "ó");
-                    value[1] = value[1].Replace("%C2%A1", "¡");
+                    value[1] = value[1].Replace("%C2%A1", "í");
                     value[3] = value[3].Replace("%20", " ");
                     value[3] = value[3].Replace("%C3%B3", "ó");
-                    value[3] = value[3].Replace("%C2%A1", "¡");
+                    value[3] = value[3].Replace("%C2%A1", "í");
                     errorMsg.Text = "Lo sentimos, hubo un error durante la transacción. Por favor intentelo nuevamente." + "<br/>" + value[3];
                 }
                 else if (Session["Error"] != null)
@@ -57,7 +60,7 @@ namespace AVE
                     cmdInicio.PostBackUrl = value[1];
                     value[2] = value[2].Replace("%20", " ");
                     value[2] = value[2].Replace("%C3%B3", "ó");
-                    value[2] = value[2].Replace("%C2%A1", "¡");
+                    value[2] = value[2].Replace("%C2%A1", "í");
                     errorMsg.Text = value[2];
                 }
             }

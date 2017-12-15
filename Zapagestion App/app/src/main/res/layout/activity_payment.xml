@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rodrigosanchez.zgm_mit.Payment">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/ninewest_s" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMontoH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monto a Pagar: "
+            android:gravity="center"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/txtMonto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:hint="Introduzca el monto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/txtReferenciaH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Referencia de transacción:"
+            android:gravity="center"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/txtReferencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introduzca el numero de referencia"
+            android:gravity="center"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/txtPlazo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione Plazo:"
+            android:gravity="center"
+            android:textSize="16dp" />
+
+
+        <Spinner
+            android:id="@+id/spn_plazo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/txtSMSH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número Celular:"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:visibility="invisible"/>
+
+
+        <EditText
+            android:id="@+id/txtNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introduza el número a 10 dígitos"
+            android:inputType="phone|number"
+            android:gravity="center"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/txtCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione su compañia de Telefono:"
+            android:textSize="16dp"
+            android:visibility="invisible"/>
+
+
+        <Spinner
+            android:id="@+id/spn_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/PhoneCompanyDesc"
+            android:gravity="center"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#000000"
+            android:text="Regresar"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/btnConect"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#000000"
+            android:text="Conectar"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#000000"
+            android:text="Leer Tarjeta"
+            android:textColor="#ffffff"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</LinearLayout>

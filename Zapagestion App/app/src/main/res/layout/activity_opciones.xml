@@ -2,80 +2,135 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.rodrigosanchez.zgm.Opciones"
-    android:orientation="vertical">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imgLogo"
-        app:srcCompat="@drawable/ninewest_s"
-        android:textAlignment="center"/>
+    android:orientation="vertical"
+    tools:context="com.example.rodrigosanchez.zgm_mit.Opciones">
 
-    <TextView
-        android:id="@+id/txtUrlH"
+    <LinearLayout
+        android:id="@+id/content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16dp"
-        android:text="URL: "/>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/txtUrl"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="http://"
-        />
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/ninewest_s" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=" "/>
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="Configuración"
+            android:textAlignment="center"
+            android:textSize="26dp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/txtCorreoH"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Correo para comprobantes:"
-        android:textSize="16dp"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:hint="ejemplo@piagui.com"
-        android:id="@+id/txtCorreo"/>
+        <TextView
+            android:id="@+id/txtUrlH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URL: "
+            android:textSize="16dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=" "/>
+        <EditText
+            android:id="@+id/txtUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="http://" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Dispositivo para cobro:"
-        android:id="@+id/txtDevice"
-        android:textSize="16dp"/>
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spn_device"
-        android:entries="@array/PaymentDevices"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=" "
-        android:textSize="200dp"/>
+        <TextView
+            android:id="@+id/txtCorreoH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo para comprobantes:"
+            android:textSize="16dp" />
 
-    <Button
-        android:id="@+id/btnGuardar"
-        android:layout_width="160dp"
-        android:layout_height="50dp"
-        android:text="Guardar"
-        android:backgroundTint="#000000"
-        android:textColor="#ffffff"
-        />
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ejemplo@piagui.com"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/txtDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dispositivo para cobro:"
+            android:textSize="16dp" />
+
+        <Spinner
+            android:id="@+id/spn_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/PaymentDevices" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/txtSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envio de SMS:"
+            android:textSize="16dp" />
+
+
+        <CheckBox
+            android:id="@+id/cbSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desactivado" />
+
+        <LinearLayout
+            android:id="@+id/content2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#000000"
+                android:text="Guardar"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/btnAvanzada"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="#000000"
+                android:text="Configuración Avanzada"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 
 </LinearLayout>

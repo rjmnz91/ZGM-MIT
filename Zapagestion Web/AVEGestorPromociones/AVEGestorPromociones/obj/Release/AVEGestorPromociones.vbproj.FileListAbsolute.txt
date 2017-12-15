@@ -50,3 +50,12 @@ C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestor
 C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.dll
 C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.xml
 C:\Users\Rodrigo Sanchez\Desktop\Zapagestion Movil\Responsive_ZGM v0.6\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.pdb
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\bin\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbprojResolveAssemblyReference.cache
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.Resources.resources
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.vbproj.GenerateResource.Cache
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.dll
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.xml
+C:\Users\Rodrigo Sanchez\Documents\GitHub\ZGM-MIT\Zapagestion Web\AVEGestorPromociones\AVEGestorPromociones\obj\Release\AVEGestorPromociones.pdb
